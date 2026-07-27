@@ -15,10 +15,9 @@ async function request(endpoint, options = {}) {
       throw new Error(data.message || "Something went wrong");
     }
 
-    return data;
+    return data.data;
   } catch (error) {
     console.error("API Error:", error.message);
-
     throw error;
   }
 }
@@ -29,17 +28,17 @@ async function request(endpoint, options = {}) {
 |--------------------------------------------------------------------------
 */
 
-// Get all available categories
 export function getCategories() {
-  return request("/categories");
+  return request("/game/categories");
 }
 
-// Get random word from category
-export function getRandomWord(category) {
-  return request(`/categories/${category}/random`);
+export function generateGame(payload) {
+  return request("/game/generate", {
+    method: "POST",
+    body: JSON.stringify(payload),
+  });
 }
 
-// Health check
 export function checkServer() {
   return request("/health");
 }

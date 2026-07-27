@@ -4,48 +4,58 @@ import { PlayerForm } from "../../components/forms";
 
 import useGame from "../../hooks/useGame";
 
-import { generateGame } from "../../utils/gameGenerator";
-
-// Temporary data (later fetched from backend)
-const words = [
-  {
-    word: "Titanic",
-    hint: "Ship",
-  },
-  {
-    word: "Avatar",
-    hint: "Blue",
-  },
-  {
-    word: "Batman",
-    hint: "Hero",
-  },
-  {
-    word: "Interstellar",
-    hint: "Space",
-  },
-];
+import { generateGame } from "../../services/api";
 
 function Players() {
   const navigate = useNavigate();
 
-  const { settings, setPlayers, setGame, setGameStarted } = useGame();
+  const {
+    settings,
+    setPlayers,
+    setGame,
+    setGameStarted,
+    setCurrentPlayerIndex,
+  } = useGame();
 
-  function handleSubmit(players) {
-    // Save player names
-    setPlayers(players);
+  async function handleSubmit(players) {
+    try {
+      // Save player names
+      setPlayers(players);
 
-    // Generate the game
-    const game = generateGame(settings, players, words);
+      console.log({
+        players,
+        category: settings.category,
+        impostersCount: settings.impostersCount,
+        useHint: settings.useHint,
+      });
 
-    // Save generated game
-    setGame(game);
+      // Generate game from the backend
+      const game = await generateGame({
+        players,
+        category: settings.category,
+        impostersCount: settings.impostersCount,
+        useHint: settings.useHint,
+      });
 
-    // Mark game as started
-    setGameStarted(true);
+      // Save generated game
+      setGame(game);
 
-    // Go to Reveal page
-    navigate("/reveal");
+      // Reset reveal progress
+      setCurrentPlayerIndex(0);
+
+      // Mark game as started
+      setGameStarted(true);
+
+      // Navigate to reveal page
+      navigate("/reveal");
+    } catch (error) {
+      console.error("Failed to generate game:", error);
+
+      alert(
+        error.response?.data?.message ||
+          "Unable to generate the game. Please try again."
+      );
+    }
   }
 
   return (

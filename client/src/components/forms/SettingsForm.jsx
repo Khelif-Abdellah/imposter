@@ -6,7 +6,7 @@ function SettingsForm({ categories = [], onSubmit }) {
   const [formData, setFormData] = useState({
     playersCount: 4,
     impostersCount: 1,
-    category: "",
+    category: "All",
     useHint: true,
   });
 
@@ -99,7 +99,7 @@ function SettingsForm({ categories = [], onSubmit }) {
           onChange={handleChange}
           options={[
             {
-              value: "",
+              value: "All",
               label: "Select a category",
             },
             ...categories.map((category) => ({

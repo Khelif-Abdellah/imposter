@@ -1,0 +1,7 @@
+const PLAYER_LIMITS = {
+  MIN_PLAYERS: 3,
+  MAX_PLAYERS: 20,
+  MAX_NAME_LENGTH: 25,
+};
+
+export { PLAYER_LIMITS };

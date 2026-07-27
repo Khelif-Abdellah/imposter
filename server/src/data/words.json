@@ -1,0 +1,173 @@
+{
+  "animals": [
+    {
+      "word": "Lion",
+      "hint": "King of the jungle"
+    },
+    {
+      "word": "Elephant",
+      "hint": "Largest land mammal"
+    },
+    {
+      "word": "Dolphin",
+      "hint": "Very intelligent sea animal"
+    },
+    {
+      "word": "Penguin",
+      "hint": "Bird that cannot fly"
+    },
+    {
+      "word": "Giraffe",
+      "hint": "Longest neck"
+    },
+    {
+      "word": "Tiger",
+      "hint": "Striped big cat"
+    },
+    {
+      "word": "Zebra",
+      "hint": "Black and white stripes"
+    },
+    {
+      "word": "Kangaroo",
+      "hint": "Jumps with a pouch"
+    },
+    {
+      "word": "Panda",
+      "hint": "Loves bamboo"
+    },
+    {
+      "word": "Owl",
+      "hint": "Active at night"
+    }
+  ],
+
+  "food": [
+    {
+      "word": "Pizza",
+      "hint": "Italian favorite"
+    },
+    {
+      "word": "Burger",
+      "hint": "Fast food sandwich"
+    },
+    {
+      "word": "Sushi",
+      "hint": "Japanese dish"
+    },
+    {
+      "word": "Pasta",
+      "hint": "Usually served with sauce"
+    },
+    {
+      "word": "Chocolate",
+      "hint": "Sweet dessert"
+    },
+    {
+      "word": "Apple",
+      "hint": "Keeps the doctor away"
+    },
+    {
+      "word": "Ice Cream",
+      "hint": "Cold dessert"
+    },
+    {
+      "word": "Steak",
+      "hint": "Cooked beef"
+    },
+    {
+      "word": "Popcorn",
+      "hint": "Movie snack"
+    },
+    {
+      "word": "Taco",
+      "hint": "Mexican street food"
+    }
+  ],
+
+  "movies": [
+    {
+      "word": "Titanic",
+      "hint": "Famous ship"
+    },
+    {
+      "word": "Avatar",
+      "hint": "Blue aliens"
+    },
+    {
+      "word": "Frozen",
+      "hint": "Let it go"
+    },
+    {
+      "word": "Joker",
+      "hint": "Batman villain"
+    },
+    {
+      "word": "Shrek",
+      "hint": "Green ogre"
+    },
+    {
+      "word": "Gladiator",
+      "hint": "Ancient Rome"
+    },
+    {
+      "word": "Interstellar",
+      "hint": "Space travel"
+    },
+    {
+      "word": "Cars",
+      "hint": "Lightning McQueen"
+    },
+    {
+      "word": "Coco",
+      "hint": "Day of the Dead"
+    },
+    {
+      "word": "Moana",
+      "hint": "Ocean adventure"
+    }
+  ],
+
+  "sports": [
+    {
+      "word": "Football",
+      "hint": "11 players"
+    },
+    {
+      "word": "Basketball",
+      "hint": "Played with hoops"
+    },
+    {
+      "word": "Tennis",
+      "hint": "Played with a racket"
+    },
+    {
+      "word": "Swimming",
+      "hint": "Water sport"
+    },
+    {
+      "word": "Volleyball",
+      "hint": "Net sport"
+    },
+    {
+      "word": "Boxing",
+      "hint": "Fighting sport"
+    },
+    {
+      "word": "Golf",
+      "hint": "Small white ball"
+    },
+    {
+      "word": "Cycling",
+      "hint": "Two wheels"
+    },
+    {
+      "word": "Baseball",
+      "hint": "Bat and ball"
+    },
+    {
+      "word": "Surfing",
+      "hint": "Ocean waves"
+    }
+  ]
+}
