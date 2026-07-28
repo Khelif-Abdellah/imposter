@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
 
 import { Button } from "../ui";
 import useGame from "../../hooks/useGame";
@@ -16,10 +17,11 @@ function ResultCard() {
       navigate("/");
     }
   }, [game, navigate]);
+
   useEffect(() => {
     const timer = setTimeout(() => {
       playGameEnd();
-    }, 400);
+    }, 500);
 
     return () => clearTimeout(timer);
   }, [playGameEnd]);
@@ -39,62 +41,308 @@ function ResultCard() {
   }
 
   return (
-    <div className="mx-auto w-full max-w-2xl rounded-3xl bg-slate-900 p-10 shadow-2xl">
-      {/* Header */}
-      <div className="text-center">
-        <h1 className="text-5xl font-black text-white">🎉 Game Over</h1>
+    <div className="relative min-h-screen overflow-hidden bg-linear-to-br from-slate-950 via-indigo-950 to-slate-950 px-4 py-10">
+      {/* Background Glow */}
+      <div className="absolute inset-0">
+        <div className="absolute left-1/2 top-1/4 h-72 w-72 -translate-x-1/2 rounded-full bg-indigo-500/20 blur-3xl" />
 
-        <p className="mt-3 text-slate-400">Time to reveal the truth!</p>
+        <div className="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-red-500/10 blur-3xl" />
       </div>
 
-      {/* Secret Word */}
-      <div className="mt-10 rounded-2xl border border-indigo-500 bg-slate-800 p-6 text-center">
-        <p className="text-sm uppercase tracking-widest text-indigo-400">
-          Secret Word
-        </p>
+      {/* Main Card */}
+      <motion.div
+        initial={{ opacity: 0, y: 40, scale: 0.95 }}
+        animate={{ opacity: 1, y: 0, scale: 1 }}
+        transition={{
+          duration: 0.6,
+          type: "spring",
+        }}
+        className="
+          relative mx-auto w-full max-w-3xl
+          rounded-3xl
+          border border-white/10
+          bg-white/5
+          p-6
+          shadow-2xl
+          backdrop-blur-xl
+          sm:p-10
+        "
+      >
+        {/* Header */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.3 }}
+          className="text-center"
+        >
+          <div className="mb-4 text-7xl">🎭</div>
 
-        <h2 className="mt-3 text-4xl font-black text-white">{game.word}</h2>
-      </div>
+          <h1
+            className="
+            bg-linear-to-r
+            from-white
+            via-indigo-200
+            to-white
+            bg-clip-text
+            text-5xl
+            font-black
+            text-transparent
+            sm:text-6xl
+            "
+          >
+            Game Over
+          </h1>
 
-      {/* Hint */}
-      {game.useHint && (
-        <div className="mt-6 rounded-2xl border border-slate-700 bg-slate-800 p-6 text-center">
-          <p className="text-sm uppercase tracking-widest text-indigo-400">
-            Hint
+          <p className="mt-3 text-lg text-slate-400">
+            The truth has finally been revealed...
+          </p>
+        </motion.div>
+
+        {/* Secret Word */}
+        <motion.div
+          initial={{
+            opacity: 0,
+            scale: 0.8,
+          }}
+          animate={{
+            opacity: 1,
+            scale: 1,
+          }}
+          transition={{
+            delay: 0.5,
+          }}
+          className="
+          mt-10
+          rounded-3xl
+          border
+          border-indigo-400/40
+          bg-indigo-500/10
+          p-8
+          text-center
+          shadow-lg
+          "
+        >
+          <p
+            className="
+            text-xs
+            uppercase
+            tracking-[0.3em]
+            text-indigo-300
+          "
+          >
+            Secret Word
           </p>
 
-          <h3 className="mt-3 text-2xl font-bold text-white">{game.hint}</h3>
-        </div>
-      )}
+          <motion.h2
+            initial={{
+              rotateX: 90,
+            }}
+            animate={{
+              rotateX: 0,
+            }}
+            transition={{
+              delay: 0.8,
+              duration: 0.5,
+            }}
+            className="
+            mt-4
+            text-5xl
+            font-black
+            text-white
+            "
+          >
+            {game.word}
+          </motion.h2>
+        </motion.div>
 
-      {/* Imposters */}
-      <div className="mt-6 rounded-2xl border border-red-500 bg-red-500/10 p-6">
-        <h2 className="text-center text-2xl font-black text-red-400">
-          {imposters.length > 1 ? "Imposters" : "Imposter"}
-        </h2>
-
-        <div className="mt-6 flex flex-wrap justify-center gap-3">
-          {imposters.map((player) => (
-            <span
-              key={player.id}
-              className="rounded-full bg-red-600 px-5 py-2 font-semibold text-white"
+        {/* Hint */}
+        {game.useHint && (
+          <motion.div
+            initial={{
+              opacity: 0,
+              y: 20,
+            }}
+            animate={{
+              opacity: 1,
+              y: 0,
+            }}
+            transition={{
+              delay: 1,
+            }}
+            className="
+            mt-6
+            rounded-3xl
+            border
+            border-white/10
+            bg-white/5
+            p-6
+            text-center
+            "
+          >
+            <p
+              className="
+            text-xs
+            uppercase
+            tracking-[0.3em]
+            text-indigo-300
+            "
             >
-              😈 {player.name}
-            </span>
-          ))}
-        </div>
-      </div>
+              Hint
+            </p>
 
-      {/* Actions */}
-      <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-        <Button fullWidth onClick={handlePlayAgain}>
-          🔄 Play Again
-        </Button>
+            <h3
+              className="
+            mt-3
+            text-2xl
+            font-bold
+            text-white
+            "
+            >
+              💡 {game.hint}
+            </h3>
+          </motion.div>
+        )}
 
-        <Button variant="secondary" fullWidth onClick={handleHome}>
-          🏠 Home
-        </Button>
-      </div>
+        {/* Imposters */}
+        <motion.div
+          initial={{
+            opacity: 0,
+            y: 30,
+          }}
+          animate={{
+            opacity: 1,
+            y: 0,
+          }}
+          transition={{
+            delay: 1.1,
+          }}
+          className="
+          mt-8
+          rounded-3xl
+          border
+          border-red-500/40
+          bg-red-500/10
+          p-6
+          "
+        >
+          <h2
+            className="
+          text-center
+          text-3xl
+          font-black
+          text-red-400
+          "
+          >
+            😈 {imposters.length > 1 ? "Imposters" : "Imposter"}
+          </h2>
+
+          <div
+            className="
+          mt-6
+          grid
+          gap-4
+          sm:grid-cols-2
+          "
+          >
+            {imposters.map((player, index) => (
+              <motion.div
+                key={player.id}
+                initial={{
+                  opacity: 0,
+                  scale: 0.8,
+                }}
+                animate={{
+                  opacity: 1,
+                  scale: 1,
+                }}
+                transition={{
+                  delay: 1.2 + index * 0.15,
+                }}
+                className="
+                flex
+                items-center
+                gap-4
+                rounded-2xl
+                bg-red-600/20
+                p-4
+                "
+              >
+                <div
+                  className="
+                flex
+                h-12
+                w-12
+                items-center
+                justify-center
+                rounded-full
+                bg-red-600
+                text-2xl
+                "
+                >
+                  😈
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <p className="font-bold text-white">{player.name}</p>
+
+                  <p className="text-sm text-red-200">The Imposter</p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+
+        {/* Buttons */}
+
+        <motion.div
+          initial={{
+            opacity: 0,
+            y: 20,
+          }}
+          animate={{
+            opacity: 1,
+            y: 0,
+          }}
+          transition={{
+            delay: 1.5,
+          }}
+          className="
+          mt-10
+          flex
+          flex-col
+          gap-4
+          sm:flex-row
+          "
+        >
+          <motion.div
+            whileHover={{
+              scale: 1.03,
+            }}
+            whileTap={{
+              scale: 0.95,
+            }}
+            className="flex-1"
+          >
+            <Button fullWidth onClick={handlePlayAgain}>
+              🔄 Play Again
+            </Button>
+          </motion.div>
+
+          <motion.div
+            whileHover={{
+              scale: 1.03,
+            }}
+            whileTap={{
+              scale: 0.95,
+            }}
+            className="flex-1"
+          >
+            <Button variant="secondary" fullWidth onClick={handleHome}>
+              🏠 Home
+            </Button>
+          </motion.div>
+        </motion.div>
+      </motion.div>
     </div>
   );
 }

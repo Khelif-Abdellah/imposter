@@ -1,4 +1,4 @@
-import { createContext, useContext, useMemo, useState } from "react";
+import { createContext, useContext, useEffect, useMemo, useState } from "react";
 
 const GameContext = createContext(null);
 
@@ -6,32 +6,28 @@ function GameProvider({ children }) {
   // ----------------------------
   // Settings
   // ----------------------------
-  const [settings, setSettings] = useState({
-    playersCount: 4,
-    impostersCount: 1,
-    category: "",
-    useHint: true,
-  });
+  const savedState = JSON.parse(localStorage.getItem("imposter-game")) || {};
 
-  // ----------------------------
-  // Players
-  // ----------------------------
-  const [players, setPlayers] = useState([]);
+  const [settings, setSettings] = useState(
+    savedState.settings || {
+      playersCount: 4,
+      impostersCount: 1,
+      category: "",
+      useHint: true,
+    }
+  );
 
-  // ----------------------------
-  // Generated Game
-  // ----------------------------
-  const [game, setGame] = useState(null);
+  const [players, setPlayers] = useState(savedState.players || []);
 
-  // ----------------------------
-  // Reveal Progress
-  // ----------------------------
-  const [currentPlayerIndex, setCurrentPlayerIndex] = useState(0);
+  const [game, setGame] = useState(savedState.game || null);
 
-  // ----------------------------
-  // Game Status
-  // ----------------------------
-  const [gameStarted, setGameStarted] = useState(false);
+  const [currentPlayerIndex, setCurrentPlayerIndex] = useState(
+    savedState.currentPlayerIndex || 0
+  );
+
+  const [gameStarted, setGameStarted] = useState(
+    savedState.gameStarted || false
+  );
 
   // ----------------------------
   // Reset Game
@@ -48,7 +44,22 @@ function GameProvider({ children }) {
       category: "",
       useHint: true,
     });
+
+    localStorage.removeItem("imposter-game");
   }
+
+  useEffect(() => {
+    localStorage.setItem(
+      "imposter-game",
+      JSON.stringify({
+        settings,
+        players,
+        game,
+        currentPlayerIndex,
+        gameStarted,
+      })
+    );
+  }, [settings, players, game, currentPlayerIndex, gameStarted]);
 
   const value = useMemo(
     () => ({

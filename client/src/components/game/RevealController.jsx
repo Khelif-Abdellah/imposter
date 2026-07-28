@@ -40,6 +40,7 @@ function RevealController() {
       />
 
       <FlipCard
+        key={currentPlayer.id ?? currentPlayerIndex}
         playerName={currentPlayer.name}
         role={currentPlayer.role}
         word={currentPlayer.word}
