@@ -1,5 +1,5 @@
 function validateSettings(settings) {
-  const { playersCount, impostersCount, category } = settings;
+  const { playersCount, impostersCount } = settings;
 
   if (!playersCount) {
     return {
@@ -33,13 +33,6 @@ function validateSettings(settings) {
     return {
       valid: false,
       error: "Imposters must be fewer than players.",
-    };
-  }
-
-  if (!category) {
-    return {
-      valid: false,
-      error: "Please choose a category.",
     };
   }
 

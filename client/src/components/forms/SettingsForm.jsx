@@ -6,11 +6,29 @@ function SettingsForm({ categories = [], onSubmit }) {
   const [formData, setFormData] = useState({
     playersCount: 4,
     impostersCount: 1,
-    category: "All",
+    categories: [],
     useHint: true,
   });
-
   const [error, setError] = useState("");
+  function toggleCategory(category) {
+    setFormData((prev) => {
+      const exists = prev.categories.includes(category);
+
+      if (exists) {
+        return {
+          ...prev,
+          categories: prev.categories.filter((c) => c !== category),
+        };
+      }
+
+      return {
+        ...prev,
+        categories: [...prev.categories, category],
+      };
+    });
+
+    setError("");
+  }
 
   function handleChange(event) {
     const { name, value, type, checked } = event.target;
@@ -37,8 +55,12 @@ function SettingsForm({ categories = [], onSubmit }) {
       return;
     }
 
+    const selectedCategories =
+      formData.categories.length > 0 ? formData.categories : categories;
+
     onSubmit({
       ...formData,
+      categories: selectedCategories,
       playersCount: Number(formData.playersCount),
       impostersCount: Number(formData.impostersCount),
     });
@@ -118,21 +140,36 @@ function SettingsForm({ categories = [], onSubmit }) {
             📂 Secret Word Category
           </label>
 
-          <Select
-            name="category"
-            value={formData.category}
-            onChange={handleChange}
-            options={[
-              {
-                value: "All",
-                label: "Random Category",
-              },
-              ...categories.map((category) => ({
-                value: category,
-                label: category,
-              })),
-            ]}
-          />
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+            {categories.map((category) => {
+              const selected = formData.categories.includes(category);
+
+              return (
+                <button
+                  key={category}
+                  type="button"
+                  onClick={() => toggleCategory(category)}
+                  className={`
+          rounded-xl
+          border
+          p-4
+          transition-all
+          duration-200
+          font-semibold
+
+          ${
+            selected
+              ? "border-indigo-500 bg-indigo-600 text-white shadow-lg shadow-indigo-600/30"
+              : "border-slate-700 bg-slate-800 text-slate-300 hover:border-indigo-400 hover:bg-slate-700"
+          }
+        `}
+                >
+                  {selected ? "✓ " : ""}
+                  {category}
+                </button>
+              );
+            })}
+          </div>
         </div>
 
         {/* Hint */}
