@@ -47,98 +47,157 @@ function SettingsForm({ categories = [], onSubmit }) {
   return (
     <form
       onSubmit={handleSubmit}
-      className="mx-auto flex w-full max-w-xl flex-col gap-6 rounded-2xl bg-slate-900 p-8 shadow-xl"
+      className="
+        mx-auto
+        w-full
+        max-w-2xl
+        rounded-3xl
+        border
+        border-slate-800
+        bg-slate-900/80
+        backdrop-blur-xl
+        p-6
+        shadow-2xl
+        sm:p-10
+      "
     >
-      <h2 className="text-center text-3xl font-bold text-white">
-        Game Settings
-      </h2>
+      {/* Header */}
+      <div className="mb-10 text-center">
+        <p className="text-sm font-semibold uppercase tracking-[0.35em] text-indigo-400">
+          Game Setup
+        </p>
 
-      {/* Number of Players */}
-      <div>
-        <label className="mb-2 block text-sm font-medium text-slate-300">
-          Number of Players
-        </label>
+        <h2 className="mt-3 text-4xl font-black text-white">
+          Configure Your Match
+        </h2>
 
-        <Select
-          name="playersCount"
-          value={formData.playersCount}
-          onChange={handleChange}
-          options={Array.from({ length: 17 }, (_, index) => ({
-            value: index + 4,
-            label: `${index + 4} Players`,
-          }))}
-        />
+        <p className="mx-auto mt-4 max-w-md leading-7 text-slate-400">
+          Choose your game settings before revealing the secret word.
+        </p>
       </div>
 
-      {/* Number of Imposters */}
-      <div>
-        <label className="mb-2 block text-sm font-medium text-slate-300">
-          Number of Imposters
-        </label>
+      {/* Form */}
+      <div className="space-y-8">
+        {/* Players */}
+        <div className="space-y-3">
+          <label className="block text-sm font-semibold tracking-wide text-slate-300">
+            👥 Number of Players
+          </label>
 
-        <Select
-          name="impostersCount"
-          value={formData.impostersCount}
-          onChange={handleChange}
-          options={Array.from({ length: 5 }, (_, index) => ({
-            value: index + 1,
-            label: `${index + 1} Imposter${index > 0 ? "s" : ""}`,
-          }))}
-        />
-      </div>
-
-      {/* Category */}
-      <div>
-        <label className="mb-2 block text-sm font-medium text-slate-300">
-          Category
-        </label>
-
-        <Select
-          name="category"
-          value={formData.category}
-          onChange={handleChange}
-          options={[
-            {
-              value: "All",
-              label: "Select a category",
-            },
-            ...categories.map((category) => ({
-              value: category,
-              label: category,
-            })),
-          ]}
-        />
-      </div>
-
-      {/* Hint */}
-      <div className="flex items-center justify-between rounded-xl border border-slate-700 p-4">
-        <div>
-          <p className="font-medium text-white">Give a Hint to the Imposter</p>
-
-          <p className="text-sm text-slate-400">
-            The imposter will receive a hint instead of the secret word.
-          </p>
+          <Select
+            name="playersCount"
+            value={formData.playersCount}
+            onChange={handleChange}
+            options={Array.from({ length: 17 }, (_, index) => ({
+              value: index + 4,
+              label: `${index + 4} Players`,
+            }))}
+          />
         </div>
 
-        <input
-          type="checkbox"
-          name="useHint"
-          checked={formData.useHint}
-          onChange={handleChange}
-          className="h-5 w-5 accent-indigo-600"
-        />
+        {/* Imposters */}
+        <div className="space-y-3">
+          <label className="block text-sm font-semibold tracking-wide text-slate-300">
+            🕵 Number of Imposters
+          </label>
+
+          <Select
+            name="impostersCount"
+            value={formData.impostersCount}
+            onChange={handleChange}
+            options={Array.from({ length: 5 }, (_, index) => ({
+              value: index + 1,
+              label: `${index + 1} Imposter${index ? "s" : ""}`,
+            }))}
+          />
+        </div>
+
+        {/* Category */}
+        <div className="space-y-3">
+          <label className="block text-sm font-semibold tracking-wide text-slate-300">
+            📂 Secret Word Category
+          </label>
+
+          <Select
+            name="category"
+            value={formData.category}
+            onChange={handleChange}
+            options={[
+              {
+                value: "All",
+                label: "Random Category",
+              },
+              ...categories.map((category) => ({
+                value: category,
+                label: category,
+              })),
+            ]}
+          />
+        </div>
+
+        {/* Hint */}
+        <div
+          className="
+            flex
+            items-center
+            justify-between
+            gap-6
+            rounded-2xl
+            border
+            border-slate-700
+            bg-slate-800/40
+            p-6
+          "
+        >
+          <div>
+            <h3 className="font-semibold text-white">💡 Enable Hint</h3>
+
+            <p className="mt-2 text-sm leading-6 text-slate-400">
+              The imposter receives a small clue instead of the secret word.
+            </p>
+          </div>
+
+          <input
+            type="checkbox"
+            name="useHint"
+            checked={formData.useHint}
+            onChange={handleChange}
+            className="
+              h-6
+              w-6
+              cursor-pointer
+              accent-indigo-600
+            "
+          />
+        </div>
+
+        {/* Error */}
+        {error && (
+          <div
+            className="
+              rounded-xl
+              border
+              border-red-500/30
+              bg-red-500/10
+              px-4
+              py-3
+              text-center
+              text-sm
+              font-medium
+              text-red-400
+            "
+          >
+            {error}
+          </div>
+        )}
+
+        {/* Button */}
+        <div className="pt-2">
+          <Button type="submit" fullWidth className="py-4 text-lg font-bold">
+            Continue →
+          </Button>
+        </div>
       </div>
-
-      {/* Error */}
-      {error && (
-        <p className="rounded-lg bg-red-500/10 p-3 text-center text-red-400">
-          {error}
-        </p>
-      )}
-
-      <Button type="submit" fullWidth>
-        Next
-      </Button>
     </form>
   );
 }

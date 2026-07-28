@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
+
 import Layout from "../components/layout/Layout";
 import Home from "../pages/Home/Home";
 import Settings from "../pages/Settings/Settings";
-
 import Players from "../pages/Players/Players";
 import Reveal from "../pages/Reveal/Reveal";
 import Discussion from "../pages/Discussion/Discussion";

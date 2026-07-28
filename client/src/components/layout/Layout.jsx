@@ -1,17 +1,29 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
+
 import Header from "./Header";
 import Footer from "./Footer";
+import AudioToggle from "../audio/AudioToggle";
+import PageTransition from "../animations/PageTransition";
 
 function Layout() {
+  const location = useLocation();
+
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="flex min-h-screen flex-col">
       <Header />
 
-      <main className="flex-1">
-        <Outlet />
+      <main className="relative flex-1 overflow-hidden">
+        <AnimatePresence mode="wait" initial={false}>
+          <PageTransition key={location.pathname}>
+            <Outlet />
+          </PageTransition>
+        </AnimatePresence>
       </main>
 
       <Footer />
+
+      <AudioToggle />
     </div>
   );
 }

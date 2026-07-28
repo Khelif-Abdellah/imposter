@@ -3,17 +3,26 @@ import { useNavigate } from "react-router-dom";
 
 import { Button } from "../ui";
 import useGame from "../../hooks/useGame";
+import useAudio from "../../hooks/useAudio";
 
 function ResultCard() {
   const navigate = useNavigate();
 
   const { game, resetGame } = useGame();
+  const { playGameEnd } = useAudio();
 
   useEffect(() => {
     if (!game) {
       navigate("/");
     }
   }, [game, navigate]);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      playGameEnd();
+    }, 400);
+
+    return () => clearTimeout(timer);
+  }, [playGameEnd]);
 
   if (!game) return null;
 

@@ -1,11 +1,15 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Button } from "../ui";
+import useAudio from "../../hooks/useAudio";
 
 function FlipCard({ playerName, role, word, hint, useHint, onNext }) {
   const [revealed, setRevealed] = useState(false);
+  const { playFlip } = useAudio();
 
   function handleReveal() {
+    playFlip();
+
     setRevealed(true);
   }
 
