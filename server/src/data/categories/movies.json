@@ -1,0 +1,192 @@
+[
+  ["Titanic", "تيتانيك", "Famous sinking ship", "السفينة الشهيرة التي غرقت"],
+  ["Avatar", "أفاتار", "Blue people on Pandora", "شعب أزرق على كوكب باندورا"],
+  ["The Avengers", "المنتقمون", "Marvel superhero team", "فريق أبطال مارفل"],
+  [
+    "Iron Man",
+    "الرجل الحديدي",
+    "Genius billionaire hero",
+    "بطل عبقري يرتدي درعًا"
+  ],
+  [
+    "Spider-Man",
+    "سبايدر مان",
+    "Hero who shoots webs",
+    "بطل يطلق خيوط العنكبوت"
+  ],
+  ["Batman", "باتمان", "Dark Knight of Gotham", "فارس جوثام المظلم"],
+  ["Superman", "سوبرمان", "Man of Steel", "رجل الفولاذ"],
+  [
+    "Wonder Woman",
+    "المرأة المعجزة",
+    "Amazon warrior princess",
+    "أميرة أمازونية محاربة"
+  ],
+  [
+    "The Dark Knight",
+    "فارس الظلام",
+    "Batman faces the Joker",
+    "باتمان يواجه الجوكر"
+  ],
+  ["Joker", "الجوكر", "Batman's greatest enemy", "أشهر أعداء باتمان"],
+  ["Frozen", "فروزن", "Let It Go", "فيلم أغنية دعها تذهب"],
+  ["Moana", "موانا", "Ocean adventure", "مغامرة في المحيط"],
+  ["Coco", "كوكو", "Day of the Dead", "عيد الموتى"],
+  ["Toy Story", "قصة لعبة", "Living toys", "ألعاب تنبض بالحياة"],
+  ["Finding Nemo", "البحث عن نيمو", "Lost clownfish", "سمكة مهرج ضائعة"],
+  [
+    "Finding Dory",
+    "البحث عن دوري",
+    "Forgetful blue fish",
+    "سمكة زرقاء كثيرة النسيان"
+  ],
+  ["Cars", "سيارات", "Lightning McQueen", "لايتنينغ ماكوين"],
+  [
+    "Inside Out",
+    "قلبًا وقالبًا",
+    "Emotions inside a girl",
+    "المشاعر داخل فتاة"
+  ],
+  ["The Lion King", "الأسد الملك", "Simba's journey", "رحلة سيمبا"],
+  ["Shrek", "شريك", "Green ogre", "غول أخضر"],
+  [
+    "Kung Fu Panda",
+    "كونغ فو باندا",
+    "Panda martial artist",
+    "باندا يتعلم الكونغ فو"
+  ],
+  [
+    "How to Train Your Dragon",
+    "كيف تروض تنينك",
+    "Boy and dragon friendship",
+    "صداقة بين فتى وتنين"
+  ],
+  ["Minions", "المينيونز", "Small yellow helpers", "شخصيات صفراء صغيرة"],
+  ["Despicable Me", "أنا الحقير", "Gru and his minions", "غرو والمينيونز"],
+  ["Up", "فوق", "Flying house with balloons", "منزل يطير بالبالونات"],
+  ["Ratatouille", "راتاتوي", "Cooking rat", "فأر يحب الطبخ"],
+  [
+    "The Incredibles",
+    "الخارقون",
+    "Superhero family",
+    "عائلة من الأبطال الخارقين"
+  ],
+  ["Soul", "روح", "Life after death", "رحلة الروح"],
+  ["Luca", "لوكا", "Sea monster boy", "فتى وحش بحري"],
+  ["Encanto", "إنكانتو", "Magical family", "عائلة سحرية"],
+  ["Harry Potter", "هاري بوتر", "Young wizard", "ساحر شاب"],
+  ["Fantastic Beasts", "الوحوش المذهلة", "Magical creatures", "مخلوقات سحرية"],
+  [
+    "The Lord of the Rings",
+    "سيد الخواتم",
+    "One Ring adventure",
+    "مغامرة الخاتم الواحد"
+  ],
+  ["The Hobbit", "الهوبيت", "Bilbo's journey", "رحلة بيلبو"],
+  ["Star Wars", "حرب النجوم", "Jedi versus Sith", "الجيداي ضد السيث"],
+  ["Rogue One", "روغ ون", "Star Wars mission", "مهمة في عالم حرب النجوم"],
+  ["The Matrix", "الماتريكس", "Virtual reality world", "عالم افتراضي"],
+  ["Inception", "الاستهلال", "Dream inside dreams", "أحلام داخل أحلام"],
+  ["Interstellar", "بين النجوم", "Space exploration", "استكشاف الفضاء"],
+  [
+    "The Martian",
+    "المريخي",
+    "Astronaut stranded on Mars",
+    "رائد فضاء عالق على المريخ"
+  ],
+  ["Gravity", "الجاذبية", "Astronaut survival", "النجاة في الفضاء"],
+  ["Dune", "الكثيب", "Desert planet", "كوكب صحراوي"],
+  ["Gladiator", "المصارع", "Ancient Roman warrior", "محارب روماني"],
+  ["Braveheart", "قلب شجاع", "Scottish freedom fighter", "محارب اسكتلندي"],
+  ["300", "300", "Spartan warriors", "محاربو إسبرطة"],
+  ["Troy", "طروادة", "Ancient Greek war", "حرب الإغريق"],
+  ["The Godfather", "العراب", "Mafia family", "عائلة مافيا"],
+  ["Scarface", "سكارفيس", "Famous crime boss", "زعيم عصابة"],
+  ["Goodfellas", "رفاق جيدون", "Mobster story", "قصة رجال العصابات"],
+  ["Pulp Fiction", "خيال رخيص", "Nonlinear crime film", "فيلم جريمة غير خطي"],
+  ["John Wick", "جون ويك", "Legendary assassin", "قاتل محترف"],
+  ["Mission: Impossible", "مهمة مستحيلة", "Secret agent", "عميل سري"],
+  ["James Bond", "جيمس بوند", "Agent 007", "العميل 007"],
+  ["Casino Royale", "كازينو رويال", "James Bond origin", "بداية جيمس بوند"],
+  ["Fast & Furious", "سريع وغاضب", "Street racing", "سباقات الشوارع"],
+  ["Top Gun", "توب غان", "Fighter pilots", "طيارون مقاتلون"],
+  ["Mad Max", "ماد ماكس", "Post-apocalyptic world", "عالم ما بعد الدمار"],
+  [
+    "Jurassic Park",
+    "حديقة الديناصورات",
+    "Dinosaurs return",
+    "عودة الديناصورات"
+  ],
+  [
+    "Jurassic World",
+    "عالم الديناصورات",
+    "Modern dinosaur park",
+    "حديقة ديناصورات حديثة"
+  ],
+  ["King Kong", "كينغ كونغ", "Giant gorilla", "غوريلا عملاقة"],
+  ["Godzilla", "غودزيلا", "Giant monster", "وحش عملاق"],
+  ["Jaws", "الفك المفترس", "Deadly shark", "قرش قاتل"],
+  ["The Conjuring", "الشعوذة", "Haunted house", "منزل مسكون"],
+  ["Annabelle", "أنابيل", "Haunted doll", "دمية مسكونة"],
+  ["The Nun", "الراهبة", "Demonic nun", "راهبة شيطانية"],
+  ["It", "إت", "Scary clown", "مهرج مرعب"],
+  ["The Exorcist", "طارد الأرواح", "Demonic possession", "مس شيطاني"],
+  ["Saw", "سو", "Deadly traps", "فخاخ قاتلة"],
+  ["Scream", "الصرخة", "Masked killer", "قاتل مقنع"],
+  ["Home Alone", "وحيد في المنزل", "Boy defends his house", "طفل يحمي منزله"],
+  ["The Mask", "القناع", "Magical green mask", "قناع سحري"],
+  ["Forrest Gump", "فورست غامب", "Life journey", "رحلة حياة"],
+  ["Cast Away", "المنبوذ", "Stranded on an island", "عالق في جزيرة"],
+  ["The Terminal", "المطار", "Lives in an airport", "يعيش في المطار"],
+  [
+    "The Pursuit of Happyness",
+    "السعي وراء السعادة",
+    "Never give up",
+    "عدم الاستسلام"
+  ],
+  ["La La Land", "لا لا لاند", "Love and music", "الحب والموسيقى"],
+  ["The Notebook", "المفكرة", "Romantic love story", "قصة حب رومانسية"],
+  ["A Quiet Place", "مكان هادئ", "Silence means survival", "الصمت يعني النجاة"],
+  [
+    "The Hunger Games",
+    "ألعاب الجوع",
+    "Fight for survival",
+    "القتال من أجل البقاء"
+  ],
+  ["Maze Runner", "عداء المتاهة", "Escape the maze", "الهروب من المتاهة"],
+  ["Divergent", "دايفرجنت", "Divided society", "مجتمع منقسم"],
+  ["Black Panther", "النمر الأسود", "King of Wakanda", "ملك واكاندا"],
+  ["Doctor Strange", "دكتور سترينج", "Master of magic", "ساحر قوي"],
+  ["Thor", "ثور", "God of Thunder", "إله الرعد"],
+  ["Captain America", "كابتن أمريكا", "Super soldier", "جندي خارق"],
+  ["Hulk", "هالك", "Green giant hero", "البطل الأخضر العملاق"],
+  ["Ant-Man", "الرجل النملة", "Can shrink in size", "يستطيع التصغير"],
+  ["Deadpool", "ديدبول", "Funny antihero", "بطل ساخر"],
+  ["Venom", "فينوم", "Alien symbiote", "كائن فضائي متطفل"],
+  ["Logan", "لوغان", "Wolverine's final story", "القصة الأخيرة لوولفرين"],
+  ["X-Men", "إكس مان", "Mutant superheroes", "أبطال متحولون"],
+  [
+    "Ice Age",
+    "العصر الجليدي",
+    "Animals in the ice age",
+    "حيوانات العصر الجليدي"
+  ],
+  ["Rio", "ريو", "Blue macaw adventure", "مغامرة ببغاء أزرق"],
+  ["Sing", "غنِّ", "Animal singing contest", "مسابقة غناء للحيوانات"],
+  ["Zootopia", "زوتوبيا", "City of animals", "مدينة الحيوانات"],
+  [
+    "The Secret Life of Pets",
+    "الحياة السرية للحيوانات الأليفة",
+    "Pets when owners leave",
+    "ما تفعله الحيوانات عند غياب أصحابها"
+  ],
+  ["Bolt", "بولت", "Super dog", "كلب يعتقد أنه بطل خارق"],
+  [
+    "Monsters, Inc.",
+    "شركة المرعبين المحدودة",
+    "Friendly monsters",
+    "وحوش لطيفة"
+  ],
+  ["Monsters University", "جامعة المرعبين", "Monster college", "جامعة الوحوش"],
+  ["Big Hero 6", "الأبطال الستة", "Robot healthcare friend", "روبوت صديق"]
+]

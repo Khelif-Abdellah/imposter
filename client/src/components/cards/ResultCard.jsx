@@ -133,26 +133,54 @@ function ResultCard() {
             Secret Word
           </p>
 
-          <motion.h2
+          <motion.div
             initial={{
               rotateX: 90,
+              opacity: 0,
             }}
             animate={{
               rotateX: 0,
+              opacity: 1,
             }}
             transition={{
               delay: 0.8,
               duration: 0.5,
             }}
             className="
-            mt-4
-            text-5xl
-            font-black
-            text-white
-            "
+    mt-4
+    flex
+    flex-col
+    items-center
+    gap-3
+  "
           >
-            {game.word}
-          </motion.h2>
+            {/* English */}
+            <h2
+              className="
+      max-w-full
+      wrap-break-word
+      text-3xl
+      font-black
+      text-white
+      sm:text-5xl
+    "
+            >
+              {game.word.en}
+            </h2>
+
+            {/* Arabic */}
+            <p
+              dir="rtl"
+              className="
+      text-2xl
+      font-bold
+      text-indigo-200
+      sm:text-3xl
+    "
+            >
+              {game.word.ar}
+            </p>
+          </motion.div>
         </motion.div>
 
         {/* Hint */}
@@ -161,45 +189,86 @@ function ResultCard() {
             initial={{
               opacity: 0,
               y: 20,
+              scale: 0.95,
             }}
             animate={{
               opacity: 1,
               y: 0,
+              scale: 1,
             }}
             transition={{
               delay: 1,
+              duration: 0.4,
             }}
             className="
-            mt-6
-            rounded-3xl
-            border
-            border-white/10
-            bg-white/5
-            p-6
-            text-center
-            "
+      mt-6
+      rounded-3xl
+      border
+      border-amber-400/20
+      bg-amber-400/5
+      p-6
+      text-center
+      shadow-lg
+    "
           >
+            {/* Header */}
+            <div className="flex items-center justify-center gap-2">
+              <div
+                className="
+          flex
+          h-9
+          w-9
+          items-center
+          justify-center
+          rounded-full
+          bg-amber-400/10
+          text-xl
+        "
+              >
+                💡
+              </div>
+
+              <p
+                className="
+          text-xs
+          uppercase
+          tracking-[0.35em]
+          text-amber-300
+        "
+              >
+                Hint
+              </p>
+            </div>
+
+            {/* English Hint */}
             <p
               className="
-            text-xs
-            uppercase
-            tracking-[0.3em]
-            text-indigo-300
-            "
+        mx-auto
+        mt-5
+        max-w-xl
+        text-xl
+        font-bold
+        leading-relaxed
+        text-white
+      "
             >
-              Hint
+              {game.hint.en}
             </p>
 
-            <h3
+            {/* Arabic Hint */}
+            <p
+              dir="rtl"
               className="
-            mt-3
-            text-2xl
-            font-bold
-            text-white
-            "
+        mx-auto
+        mt-3
+        max-w-xl
+        text-lg
+        leading-relaxed
+        text-amber-100/70
+      "
             >
-              💡 {game.hint}
-            </h3>
+              {game.hint.ar}
+            </p>
           </motion.div>
         )}
 

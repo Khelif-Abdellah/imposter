@@ -1,0 +1,241 @@
+[
+  ["Space", "الفضاء", "The vast area beyond Earth", "الفضاء الواسع خارج الأرض"],
+  ["Universe", "الكون", "Everything that exists", "كل ما هو موجود"],
+  ["Galaxy", "مجرة", "A collection of stars", "مجموعة ضخمة من النجوم"],
+  ["Milky Way", "درب التبانة", "Our home galaxy", "المجرة التي نعيش فيها"],
+  [
+    "Solar System",
+    "النظام الشمسي",
+    "The Sun and its planets",
+    "الشمس والكواكب التي تدور حولها"
+  ],
+  ["Sun", "الشمس", "The star at the center", "النجم في مركز النظام الشمسي"],
+  ["Planet", "كوكب", "Orbits a star", "يدور حول نجم"],
+  ["Earth", "الأرض", "Our home planet", "كوكبنا"],
+  ["Mercury", "عطارد", "Closest planet to the Sun", "أقرب كوكب إلى الشمس"],
+  ["Venus", "الزهرة", "Hottest planet", "أشد الكواكب حرارة"],
+  ["Mars", "المريخ", "Known as the Red Planet", "يعرف بالكوكب الأحمر"],
+  ["Jupiter", "المشتري", "Largest planet", "أكبر كواكب المجموعة الشمسية"],
+  ["Saturn", "زحل", "Famous for its rings", "يشتهر بحلقاته"],
+  ["Uranus", "أورانوس", "Rotates on its side", "يدور على جانبه"],
+  ["Neptune", "نبتون", "Farthest major planet", "أبعد الكواكب الرئيسية"],
+  ["Moon", "القمر", "Earth's natural satellite", "القمر التابع للأرض"],
+  ["Satellite", "قمر صناعي", "Orbits a planet", "يدور حول كوكب"],
+  ["Star", "نجم", "Produces light and heat", "ينتج الضوء والحرارة"],
+  ["Constellation", "كوكبة", "Pattern of stars", "مجموعة نجوم تشكل شكلاً"],
+  ["Comet", "مذنب", "Ice and dust object", "جسم من الجليد والغبار"],
+  ["Asteroid", "كويكب", "Rocky object in space", "جسم صخري في الفضاء"],
+  ["Meteor", "شهاب", "Burns in Earth's atmosphere", "يحترق في الغلاف الجوي"],
+  ["Meteorite", "نيزك", "Reaches Earth's surface", "يصل إلى سطح الأرض"],
+  ["Black Hole", "ثقب أسود", "Gravity is extremely strong", "جاذبيته هائلة"],
+  ["Nebula", "سديم", "Cloud of gas and dust", "سحابة من الغاز والغبار"],
+  ["Supernova", "مستعر أعظم", "Exploding star", "انفجار نجم"],
+  ["Orbit", "مدار", "Path around an object", "المسار حول جسم"],
+  [
+    "Gravity",
+    "الجاذبية",
+    "Force that attracts objects",
+    "القوة التي تجذب الأجسام"
+  ],
+  ["Rocket", "صاروخ", "Launches into space", "ينطلق إلى الفضاء"],
+  [
+    "Spacecraft",
+    "مركبة فضائية",
+    "Vehicle for space travel",
+    "مركبة للسفر في الفضاء"
+  ],
+  [
+    "Space Shuttle",
+    "مكوك فضائي",
+    "Reusable spacecraft",
+    "مركبة فضائية قابلة لإعادة الاستخدام"
+  ],
+  [
+    "Space Station",
+    "محطة فضائية",
+    "Laboratory in orbit",
+    "مختبر يدور في الفضاء"
+  ],
+  [
+    "Astronaut",
+    "رائد فضاء",
+    "Person who travels to space",
+    "شخص يسافر إلى الفضاء"
+  ],
+  [
+    "Cosmonaut",
+    "رائد فضاء روسي",
+    "Russian space traveler",
+    "رائد فضاء من روسيا"
+  ],
+  ["Telescope", "تلسكوب", "Observes distant objects", "يراقب الأجسام البعيدة"],
+  [
+    "Hubble Telescope",
+    "تلسكوب هابل",
+    "Famous space telescope",
+    "أشهر تلسكوب فضائي"
+  ],
+  [
+    "James Webb Telescope",
+    "تلسكوب جيمس ويب",
+    "Advanced space telescope",
+    "تلسكوب فضائي متطور"
+  ],
+  ["Launch Pad", "منصة إطلاق", "Rocket starting point", "مكان انطلاق الصاروخ"],
+  ["Mission", "مهمة فضائية", "Journey into space", "رحلة إلى الفضاء"],
+  ["Space Suit", "بدلة فضاء", "Protects astronauts", "تحمي رواد الفضاء"],
+  [
+    "Oxygen Tank",
+    "خزان أكسجين",
+    "Provides breathable air",
+    "يوفر الهواء للتنفس"
+  ],
+  ["Lunar Module", "مركبة قمرية", "Lands on the Moon", "تهبط على القمر"],
+  ["Rover", "عربة جوالة", "Explores planets", "تستكشف الكواكب"],
+  [
+    "Space Probe",
+    "مسبار فضائي",
+    "Explores distant worlds",
+    "يستكشف الأجرام البعيدة"
+  ],
+  ["Alien", "كائن فضائي", "Life from another planet", "كائن من كوكب آخر"],
+  ["Extraterrestrial", "خارج الأرض", "Not from Earth", "ليس من الأرض"],
+  [
+    "Light Year",
+    "سنة ضوئية",
+    "Distance light travels in a year",
+    "المسافة التي يقطعها الضوء في سنة"
+  ],
+  ["Vacuum", "فراغ", "Almost no matter", "يكاد يخلو من المادة"],
+  ["Zero Gravity", "انعدام الجاذبية", "Weightless environment", "بيئة بلا وزن"],
+  [
+    "Eclipse",
+    "كسوف أو خسوف",
+    "One object blocks another",
+    "يحجب جرم سماوي آخر"
+  ],
+  ["Solar Eclipse", "كسوف الشمس", "Moon blocks the Sun", "يحجب القمر الشمس"],
+  [
+    "Lunar Eclipse",
+    "خسوف القمر",
+    "Earth blocks sunlight",
+    "تحجب الأرض ضوء الشمس"
+  ],
+  ["Aurora", "الشفق القطبي", "Colorful sky lights", "أضواء ملونة في السماء"],
+  [
+    "North Star",
+    "نجم الشمال",
+    "Helps with navigation",
+    "يساعد في تحديد الاتجاه"
+  ],
+  ["Big Dipper", "الدب الأكبر", "Famous star pattern", "كوكبة مشهورة"],
+  ["Andromeda", "أندروميدا", "Nearest major galaxy", "أقرب مجرة كبيرة"],
+  ["Pluto", "بلوتو", "Dwarf planet", "كوكب قزم"],
+  ["Dwarf Planet", "كوكب قزم", "Smaller than a planet", "أصغر من الكوكب"],
+  [
+    "Exoplanet",
+    "كوكب خارج المجموعة الشمسية",
+    "Planet around another star",
+    "كوكب يدور حول نجم آخر"
+  ],
+  ["Red Giant", "عملاق أحمر", "Large aging star", "نجم ضخم في نهاية عمره"],
+  ["White Dwarf", "قزم أبيض", "Small dense star", "نجم صغير شديد الكثافة"],
+  ["Neutron Star", "نجم نيوتروني", "Extremely dense star", "نجم شديد الكثافة"],
+  ["Pulsar", "نجم نابض", "Rotating neutron star", "نجم نيوتروني يدور بسرعة"],
+  ["Quasar", "كوازار", "Very bright galaxy center", "مركز مجرة شديد السطوع"],
+  ["Dark Matter", "المادة المظلمة", "Invisible matter", "مادة غير مرئية"],
+  ["Dark Energy", "الطاقة المظلمة", "Expands the universe", "تسبب تمدد الكون"],
+  ["Cosmos", "الكون", "Another word for the universe", "اسم آخر للكون"],
+  ["Rocket Engine", "محرك صاروخي", "Powers rockets", "يشغل الصواريخ"],
+  ["Booster", "معزز صاروخي", "Provides extra thrust", "يوفر قوة دفع إضافية"],
+  ["Docking", "الالتحام", "Connecting spacecraft", "اتصال مركبتين فضائيتين"],
+  [
+    "Spacewalk",
+    "سير في الفضاء",
+    "Astronaut outside spacecraft",
+    "خروج رائد الفضاء خارج المركبة"
+  ],
+  ["Command Module", "وحدة القيادة", "Controls the mission", "تتحكم في المهمة"],
+  ["Capsule", "كبسولة فضائية", "Carries astronauts", "تنقل رواد الفضاء"],
+  ["Fuel Tank", "خزان وقود", "Stores rocket fuel", "يخزن وقود الصاروخ"],
+  ["Launch", "إطلاق", "Rocket leaves Earth", "انطلاق الصاروخ"],
+  ["Landing", "هبوط", "Returning safely", "العودة بسلام"],
+  ["Orbiting", "الدوران", "Moving around a planet", "الحركة حول كوكب"],
+  [
+    "Docking Port",
+    "منفذ الالتحام",
+    "Connects spacecraft",
+    "يربط المركبات الفضائية"
+  ],
+  [
+    "Space Debris",
+    "حطام فضائي",
+    "Old objects in orbit",
+    "أجسام قديمة تدور في الفضاء"
+  ],
+  [
+    "International Space Station",
+    "محطة الفضاء الدولية",
+    "Largest space station",
+    "أكبر محطة فضائية"
+  ],
+  ["NASA", "ناسا", "American space agency", "وكالة الفضاء الأمريكية"],
+  [
+    "ESA",
+    "وكالة الفضاء الأوروبية",
+    "European space agency",
+    "وكالة الفضاء الأوروبية"
+  ],
+  ["SpaceX", "سبيس إكس", "Private space company", "شركة فضاء خاصة"],
+  [
+    "Blue Origin",
+    "بلو أوريجن",
+    "Space exploration company",
+    "شركة لاستكشاف الفضاء"
+  ],
+  ["Apollo", "أبولو", "Moon landing program", "برنامج الهبوط على القمر"],
+  ["Artemis", "أرتميس", "Modern Moon mission", "برنامج العودة إلى القمر"],
+  ["Voyager", "فوياجر", "Deep space probe", "مسبار إلى الفضاء العميق"],
+  ["Curiosity", "كيوريوسيتي", "Mars rover", "عربة استكشاف المريخ"],
+  [
+    "Perseverance",
+    "بيرسيفيرانس",
+    "Advanced Mars rover",
+    "عربة متطورة على المريخ"
+  ],
+  [
+    "Heliosphere",
+    "الغلاف الشمسي",
+    "Region influenced by the Sun",
+    "منطقة تتأثر بالشمس"
+  ],
+  [
+    "Solar Wind",
+    "الرياح الشمسية",
+    "Charged particles from the Sun",
+    "جسيمات مشحونة من الشمس"
+  ],
+  ["Crater", "فوهة", "Impact hole", "حفرة ناتجة عن اصطدام"],
+  ["Lava Plain", "سهل حممي", "Flat volcanic area", "منطقة بركانية مستوية"],
+  ["Ring", "حلقة", "Circles a planet", "تحيط بكوكب"],
+  [
+    "Astrobiology",
+    "علم الأحياء الفلكي",
+    "Study of life in space",
+    "دراسة الحياة خارج الأرض"
+  ],
+  [
+    "Space Tourism",
+    "السياحة الفضائية",
+    "Traveling to space for fun",
+    "السفر إلى الفضاء للترفيه"
+  ],
+  [
+    "Escape Velocity",
+    "سرعة الإفلات",
+    "Needed to leave a planet",
+    "السرعة اللازمة لمغادرة الكوكب"
+  ],
+  ["Event Horizon", "أفق الحدث", "Edge of a black hole", "حدود الثقب الأسود"],
+  ["Red Planet", "الكوكب الأحمر", "Nickname for Mars", "الاسم الشهير للمريخ"]
+]

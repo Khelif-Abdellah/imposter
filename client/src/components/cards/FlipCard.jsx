@@ -146,60 +146,128 @@ function FlipCard({ playerName, role, word, hint, useHint, onNext }) {
             WebkitBackfaceVisibility: "hidden",
           }}
           className="
-          absolute inset-0
-          overflow-hidden
-          rounded-4xl
-          border border-white/10
-          bg-linear-to-br
-          from-slate-900
-          via-slate-900
-          to-slate-800
-          shadow-[0_30px_80px_rgba(0,0,0,.45)]
-        "
+    absolute inset-0
+    overflow-hidden
+    rounded-4xl
+    border border-white/10
+    bg-linear-to-br
+    from-slate-900
+    via-slate-900
+    to-slate-800
+    shadow-[0_30px_80px_rgba(0,0,0,.45)]
+  "
         >
           {role === "imposter" ? (
-            <div className="relative flex h-full flex-col items-center justify-center px-8 text-center">
+            <div className="relative flex h-full flex-col items-center justify-center px-6 text-center">
               <div className="absolute top-0 h-64 w-64 rounded-full bg-red-500/20 blur-[90px]" />
 
-              <div className="text-8xl">💀</div>
+              <div className="text-7xl">💀</div>
 
-              <h2 className="mt-6 text-5xl font-black tracking-widest text-red-500">
+              <h2 className="mt-5 text-3xl font-black tracking-[0.25em] text-red-500">
                 IMPOSTER
               </h2>
 
               {useHint ? (
-                <div className="mt-10 w-full rounded-3xl border border-red-500/30 bg-red-500/10 p-6">
-                  <p className="text-xs uppercase tracking-[0.4em] text-red-300">
+                <div
+                  className="
+          mt-8
+          w-full
+          rounded-3xl
+          border border-red-500/30
+          bg-red-500/10
+          p-5
+        "
+                >
+                  <p className="text-xs uppercase tracking-[0.35em] text-red-300">
                     Hint
                   </p>
 
-                  <p className="mt-4 text-3xl font-black text-white">{hint}</p>
+                  <p
+                    className="
+            mt-3
+            text-xl
+            md:text-2xl
+            font-bold
+            text-white
+            wrap-break-word
+          "
+                  >
+                    {hint.en}
+                  </p>
+
+                  <p
+                    className="
+            mt-2
+            text-lg
+            text-red-200/80
+            wrap-break-word
+          "
+                  >
+                    {hint.ar}
+                  </p>
                 </div>
               ) : (
-                <p className="mt-10 text-slate-400">No hint available</p>
+                <p className="mt-8 text-sm text-slate-400">No hint available</p>
               )}
 
-              <p className="mt-8 text-slate-400">
+              <p className="mt-8 max-w-xs text-sm text-slate-400">
                 Blend in. Stay calm. Don't get caught.
               </p>
             </div>
           ) : (
-            <div className="relative flex h-full flex-col items-center justify-center px-8 text-center">
+            <div className="relative flex h-full flex-col items-center justify-center px-6 text-center">
               <div className="absolute top-0 h-64 w-64 rounded-full bg-cyan-500/20 blur-[90px]" />
 
-              <div className="text-8xl">🔐</div>
+              <div className="text-7xl">🔐</div>
 
-              <p className="mt-6 text-xs uppercase tracking-[0.45em] text-cyan-300">
+              <p
+                className="
+        mt-5
+        text-xs
+        uppercase
+        tracking-[0.4em]
+        text-cyan-300
+      "
+              >
                 Secret Word
               </p>
 
-              <div className="mt-10 rounded-3xl border border-cyan-500/30 bg-cyan-500/10 px-10 py-8">
-                <h2 className="text-5xl font-black tracking-wide text-white">
-                  {word}
+              <div
+                className="
+        mt-8
+        w-full
+        rounded-3xl
+        border border-cyan-500/30
+        bg-cyan-500/10
+        px-6
+        py-6
+      "
+              >
+                <h2
+                  className="
+          text-2xl
+          md:text-4xl
+          font-black
+          tracking-wide
+          text-white
+          wrap-break-word
+        "
+                >
+                  {word.en}
                 </h2>
+
+                <p
+                  className="
+          mt-3
+          text-xl
+          text-cyan-200
+        "
+                >
+                  {word.ar}
+                </p>
               </div>
 
-              <p className="mt-8 text-slate-400">
+              <p className="mt-8 max-w-xs text-sm text-slate-400">
                 Memorize it and keep it secret.
               </p>
             </div>
