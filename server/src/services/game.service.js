@@ -43,19 +43,28 @@ function getCategories() {
 
 function generateGame({
   players,
-  category,
+  categories,
   impostersCount,
   useHint,
 }) {
-  console.log("Received category:", JSON.stringify(category));
+  console.log("Received categories:", categories);
   console.log("Available categories:", Object.keys(wordsData));
-  // Validate category
-  if (!wordsData[category]) {
-    throw new Error("Invalid category.");
+
+  // Validate categories
+  if (!Array.isArray(categories) || categories.length === 0) {
+    throw new Error("At least one category is required.");
   }
 
-  // Pick a random word
-  const selectedWord = randomItem(wordsData[category]);
+  // Pick one random category
+  const selectedCategory = randomItem(categories);
+
+  // Validate selected category
+  if (!wordsData[selectedCategory]) {
+    throw new Error(`Invalid category: ${selectedCategory}`);
+  }
+
+  // Pick a random word from the selected category
+  const selectedWord = randomItem(wordsData[selectedCategory]);
 
   // Shuffle player names
   const shuffledPlayers = shuffle(players);
@@ -88,18 +97,12 @@ function generateGame({
       : "counterclockwise";
 
   return {
-    category,
-
+    category: selectedCategory,
     word: selectedWord.word,
-
     hint: selectedWord.hint,
-
     useHint,
-
     starter,
-
     direction,
-
     players: finalPlayers,
   };
 }

@@ -1,8 +1,7 @@
 import { Outlet, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-
 import Header from "./Header";
-import Footer from "./Footer";
+
 import AudioToggle from "../audio/AudioToggle";
 import PageTransition from "../animations/PageTransition";
 
@@ -20,8 +19,6 @@ function Layout() {
           </PageTransition>
         </AnimatePresence>
       </main>
-
-      <Footer />
 
       <AudioToggle />
     </div>

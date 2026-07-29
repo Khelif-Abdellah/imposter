@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-@import "./reset.css";
-@import "./variables.css";
-@import "./animations.css";
-
 body {
   min-height: 100vh;
 

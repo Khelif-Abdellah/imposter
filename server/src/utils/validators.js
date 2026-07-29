@@ -1,7 +1,7 @@
 import { PLAYER_LIMITS } from "../constants/validation.js";
 
 function validateGenerateGame(data) {
-  const { players, category, impostersCount } = data;
+  const { players, categories, impostersCount } = data;
 
   if (!Array.isArray(players)) {
     return {
@@ -53,10 +53,10 @@ function validateGenerateGame(data) {
     };
   }
 
-  if (!category) {
+  if (!categories) {
     return {
       valid: false,
-      error: "Category is required.",
+      error: "categories is required.",
     };
   }
 

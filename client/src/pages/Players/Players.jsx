@@ -24,7 +24,7 @@ function Players() {
 
       console.log({
         players,
-        category: settings.category,
+        categories: settings.categories,
         impostersCount: settings.impostersCount,
         useHint: settings.useHint,
       });
@@ -32,7 +32,7 @@ function Players() {
       // Generate game from the backend
       const game = await generateGame({
         players,
-        category: settings.category,
+        categories: settings.categories,
         impostersCount: settings.impostersCount,
         useHint: settings.useHint,
       });

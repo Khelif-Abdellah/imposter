@@ -12,7 +12,7 @@ function GameProvider({ children }) {
     savedState.settings || {
       playersCount: 4,
       impostersCount: 1,
-      category: "",
+      categories: [],
       useHint: true,
     }
   );
@@ -41,7 +41,7 @@ function GameProvider({ children }) {
     setSettings({
       playersCount: 4,
       impostersCount: 1,
-      category: "",
+      categories: "",
       useHint: true,
     });
 
