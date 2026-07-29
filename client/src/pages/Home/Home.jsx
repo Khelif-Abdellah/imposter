@@ -202,6 +202,7 @@ function Home() {
               <Button
                 variant="secondary"
                 className="w-full max-w-xs py-4 text-lg"
+                onClick={() => navigate("/how-to-play")}
               >
                 📖 How To Play
               </Button>

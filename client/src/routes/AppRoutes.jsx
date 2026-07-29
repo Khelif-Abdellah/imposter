@@ -7,6 +7,7 @@ import Players from "../pages/Players/Players";
 import Reveal from "../pages/Reveal/Reveal";
 import Discussion from "../pages/Discussion/Discussion";
 import Result from "../pages/Result/Result";
+import HowToPlay from "../pages/HowToPlay/HowToPlay";
 import NotFound from "../pages/NotFound/NotFound";
 
 function AppRoutes() {
@@ -20,6 +21,7 @@ function AppRoutes() {
         <Route path="reveal" element={<Reveal />} />
         <Route path="discussion" element={<Discussion />} />
         <Route path="result" element={<Result />} />
+        <Route path="/how-to-play" element={<HowToPlay />} />
 
         {/* 404 */}
         <Route path="*" element={<NotFound />} />
