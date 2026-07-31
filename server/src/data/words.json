@@ -6261,1008 +6261,6 @@
       }
     }
   ],
-  "famous_people": [
-    {
-      "word": {
-        "en": "Albert Einstein",
-        "ar": "ألبرت أينشتاين"
-      },
-      "hint": {
-        "en": "Theory of relativity",
-        "ar": "صاحب نظرية النسبية"
-      }
-    },
-    {
-      "word": {
-        "en": "Isaac Newton",
-        "ar": "إسحاق نيوتن"
-      },
-      "hint": {
-        "en": "Discovered gravity",
-        "ar": "اكتشف الجاذبية"
-      }
-    },
-    {
-      "word": {
-        "en": "Nikola Tesla",
-        "ar": "نيكولا تسلا"
-      },
-      "hint": {
-        "en": "Inventor and engineer",
-        "ar": "مخترع ومهندس"
-      }
-    },
-    {
-      "word": {
-        "en": "Thomas Edison",
-        "ar": "توماس إديسون"
-      },
-      "hint": {
-        "en": "Invented the light bulb",
-        "ar": "اخترع المصباح الكهربائي"
-      }
-    },
-    {
-      "word": {
-        "en": "Galileo Galilei",
-        "ar": "غاليليو غاليلي"
-      },
-      "hint": {
-        "en": "Astronomer",
-        "ar": "عالم فلك"
-      }
-    },
-    {
-      "word": {
-        "en": "Charles Darwin",
-        "ar": "تشارلز داروين"
-      },
-      "hint": {
-        "en": "Theory of evolution",
-        "ar": "صاحب نظرية التطور"
-      }
-    },
-    {
-      "word": {
-        "en": "Stephen Hawking",
-        "ar": "ستيفن هوكينغ"
-      },
-      "hint": {
-        "en": "Black holes scientist",
-        "ar": "عالم الثقوب السوداء"
-      }
-    },
-    {
-      "word": {
-        "en": "Marie Curie",
-        "ar": "ماري كوري"
-      },
-      "hint": {
-        "en": "Won two Nobel Prizes",
-        "ar": "حصلت على جائزتي نوبل"
-      }
-    },
-    {
-      "word": {
-        "en": "Leonardo da Vinci",
-        "ar": "ليوناردو دافنشي"
-      },
-      "hint": {
-        "en": "Painted Mona Lisa",
-        "ar": "رسم الموناليزا"
-      }
-    },
-    {
-      "word": {
-        "en": "Pablo Picasso",
-        "ar": "بابلو بيكاسو"
-      },
-      "hint": {
-        "en": "Spanish painter",
-        "ar": "رسام إسباني"
-      }
-    },
-    {
-      "word": {
-        "en": "William Shakespeare",
-        "ar": "ويليام شكسبير"
-      },
-      "hint": {
-        "en": "Famous playwright",
-        "ar": "كاتب مسرحي شهير"
-      }
-    },
-    {
-      "word": {
-        "en": "Jules Verne",
-        "ar": "جول فيرن"
-      },
-      "hint": {
-        "en": "Science fiction writer",
-        "ar": "كاتب خيال علمي"
-      }
-    },
-    {
-      "word": {
-        "en": "Victor Hugo",
-        "ar": "فيكتور هوغو"
-      },
-      "hint": {
-        "en": "Wrote Les Misérables",
-        "ar": "كتب البؤساء"
-      }
-    },
-    {
-      "word": {
-        "en": "Agatha Christie",
-        "ar": "أجاثا كريستي"
-      },
-      "hint": {
-        "en": "Mystery novelist",
-        "ar": "كاتبة روايات بوليسية"
-      }
-    },
-    {
-      "word": {
-        "en": "J.K. Rowling",
-        "ar": "ج. ك. رولينغ"
-      },
-      "hint": {
-        "en": "Created Harry Potter",
-        "ar": "مؤلفة هاري بوتر"
-      }
-    },
-    {
-      "word": {
-        "en": "George Orwell",
-        "ar": "جورج أورويل"
-      },
-      "hint": {
-        "en": "Wrote 1984",
-        "ar": "كتب رواية 1984"
-      }
-    },
-    {
-      "word": {
-        "en": "Mark Twain",
-        "ar": "مارك توين"
-      },
-      "hint": {
-        "en": "American writer",
-        "ar": "كاتب أمريكي"
-      }
-    },
-    {
-      "word": {
-        "en": "Ernest Hemingway",
-        "ar": "إرنست همنغواي"
-      },
-      "hint": {
-        "en": "Nobel Prize winner",
-        "ar": "حائز على نوبل"
-      }
-    },
-    {
-      "word": {
-        "en": "Oscar Wilde",
-        "ar": "أوسكار وايلد"
-      },
-      "hint": {
-        "en": "Irish writer",
-        "ar": "كاتب أيرلندي"
-      }
-    },
-    {
-      "word": {
-        "en": "Homer",
-        "ar": "هوميروس"
-      },
-      "hint": {
-        "en": "Ancient Greek poet",
-        "ar": "شاعر يوناني قديم"
-      }
-    },
-    {
-      "word": {
-        "en": "Michael Jackson",
-        "ar": "مايكل جاكسون"
-      },
-      "hint": {
-        "en": "King of Pop",
-        "ar": "ملك البوب"
-      }
-    },
-    {
-      "word": {
-        "en": "Elvis Presley",
-        "ar": "إلفيس بريسلي"
-      },
-      "hint": {
-        "en": "King of Rock",
-        "ar": "ملك الروك"
-      }
-    },
-    {
-      "word": {
-        "en": "Freddie Mercury",
-        "ar": "فريدي ميركوري"
-      },
-      "hint": {
-        "en": "Lead singer of Queen",
-        "ar": "مغني فرقة كوين"
-      }
-    },
-    {
-      "word": {
-        "en": "Madonna",
-        "ar": "مادونا"
-      },
-      "hint": {
-        "en": "Queen of Pop",
-        "ar": "ملكة البوب"
-      }
-    },
-    {
-      "word": {
-        "en": "Taylor Swift",
-        "ar": "تايلور سويفت"
-      },
-      "hint": {
-        "en": "Singer-songwriter",
-        "ar": "مغنية وكاتبة أغاني"
-      }
-    },
-    {
-      "word": {
-        "en": "Beyoncé",
-        "ar": "بيونسيه"
-      },
-      "hint": {
-        "en": "Global pop star",
-        "ar": "نجمة غناء عالمية"
-      }
-    },
-    {
-      "word": {
-        "en": "Adele",
-        "ar": "أديل"
-      },
-      "hint": {
-        "en": "British singer",
-        "ar": "مغنية بريطانية"
-      }
-    },
-    {
-      "word": {
-        "en": "Ed Sheeran",
-        "ar": "إد شيران"
-      },
-      "hint": {
-        "en": "Singer with guitar",
-        "ar": "مغنٍ يعزف الجيتار"
-      }
-    },
-    {
-      "word": {
-        "en": "Drake",
-        "ar": "دريك"
-      },
-      "hint": {
-        "en": "Canadian rapper",
-        "ar": "مغني راب كندي"
-      }
-    },
-    {
-      "word": {
-        "en": "Eminem",
-        "ar": "إيمينيم"
-      },
-      "hint": {
-        "en": "Famous rapper",
-        "ar": "مغني راب مشهور"
-      }
-    },
-    {
-      "word": {
-        "en": "Cristiano Ronaldo",
-        "ar": "كريستيانو رونالدو"
-      },
-      "hint": {
-        "en": "Portuguese football legend",
-        "ar": "أسطورة كرة قدم برتغالية"
-      }
-    },
-    {
-      "word": {
-        "en": "Lionel Messi",
-        "ar": "ليونيل ميسي"
-      },
-      "hint": {
-        "en": "Argentinian football legend",
-        "ar": "أسطورة كرة قدم أرجنتينية"
-      }
-    },
-    {
-      "word": {
-        "en": "Pelé",
-        "ar": "بيليه"
-      },
-      "hint": {
-        "en": "Brazilian football icon",
-        "ar": "أيقونة كرة القدم البرازيلية"
-      }
-    },
-    {
-      "word": {
-        "en": "Diego Maradona",
-        "ar": "دييغو مارادونا"
-      },
-      "hint": {
-        "en": "Argentine football legend",
-        "ar": "أسطورة كرة القدم الأرجنتينية"
-      }
-    },
-    {
-      "word": {
-        "en": "Zinedine Zidane",
-        "ar": "زين الدين زيدان"
-      },
-      "hint": {
-        "en": "French football star",
-        "ar": "نجم كرة قدم فرنسي"
-      }
-    },
-    {
-      "word": {
-        "en": "Kylian Mbappé",
-        "ar": "كيليان مبابي"
-      },
-      "hint": {
-        "en": "French footballer",
-        "ar": "لاعب كرة قدم فرنسي"
-      }
-    },
-    {
-      "word": {
-        "en": "Neymar",
-        "ar": "نيمار"
-      },
-      "hint": {
-        "en": "Brazilian footballer",
-        "ar": "لاعب كرة قدم برازيلي"
-      }
-    },
-    {
-      "word": {
-        "en": "LeBron James",
-        "ar": "ليبرون جيمس"
-      },
-      "hint": {
-        "en": "Basketball superstar",
-        "ar": "نجم كرة سلة"
-      }
-    },
-    {
-      "word": {
-        "en": "Michael Jordan",
-        "ar": "مايكل جوردان"
-      },
-      "hint": {
-        "en": "Basketball legend",
-        "ar": "أسطورة كرة السلة"
-      }
-    },
-    {
-      "word": {
-        "en": "Roger Federer",
-        "ar": "روجر فيدرر"
-      },
-      "hint": {
-        "en": "Swiss tennis champion",
-        "ar": "بطل تنس سويسري"
-      }
-    },
-    {
-      "word": {
-        "en": "Usain Bolt",
-        "ar": "يوسين بولت"
-      },
-      "hint": {
-        "en": "Fastest man",
-        "ar": "أسرع رجل في العالم"
-      }
-    },
-    {
-      "word": {
-        "en": "Muhammad Ali",
-        "ar": "محمد علي"
-      },
-      "hint": {
-        "en": "Boxing legend",
-        "ar": "أسطورة الملاكمة"
-      }
-    },
-    {
-      "word": {
-        "en": "Mike Tyson",
-        "ar": "مايك تايسون"
-      },
-      "hint": {
-        "en": "Heavyweight boxer",
-        "ar": "ملاكم الوزن الثقيل"
-      }
-    },
-    {
-      "word": {
-        "en": "Serena Williams",
-        "ar": "سيرينا ويليامز"
-      },
-      "hint": {
-        "en": "Tennis champion",
-        "ar": "بطلة تنس"
-      }
-    },
-    {
-      "word": {
-        "en": "Novak Djokovic",
-        "ar": "نوفاك دجوكوفيتش"
-      },
-      "hint": {
-        "en": "Serbian tennis star",
-        "ar": "نجم تنس صربي"
-      }
-    },
-    {
-      "word": {
-        "en": "Rafael Nadal",
-        "ar": "رافاييل نادال"
-      },
-      "hint": {
-        "en": "Spanish tennis legend",
-        "ar": "أسطورة التنس الإسبانية"
-      }
-    },
-    {
-      "word": {
-        "en": "Lewis Hamilton",
-        "ar": "لويس هاميلتون"
-      },
-      "hint": {
-        "en": "Formula One champion",
-        "ar": "بطل فورمولا 1"
-      }
-    },
-    {
-      "word": {
-        "en": "Michael Schumacher",
-        "ar": "مايكل شوماخر"
-      },
-      "hint": {
-        "en": "Formula One legend",
-        "ar": "أسطورة فورمولا 1"
-      }
-    },
-    {
-      "word": {
-        "en": "Tiger Woods",
-        "ar": "تايغر وودز"
-      },
-      "hint": {
-        "en": "Golf champion",
-        "ar": "بطل غولف"
-      }
-    },
-    {
-      "word": {
-        "en": "Simone Biles",
-        "ar": "سيمون بايلز"
-      },
-      "hint": {
-        "en": "Gymnastics champion",
-        "ar": "بطلة جمباز"
-      }
-    },
-    {
-      "word": {
-        "en": "Barack Obama",
-        "ar": "باراك أوباما"
-      },
-      "hint": {
-        "en": "44th US President",
-        "ar": "الرئيس الأمريكي الرابع والأربعون"
-      }
-    },
-    {
-      "word": {
-        "en": "Abraham Lincoln",
-        "ar": "أبراهام لينكولن"
-      },
-      "hint": {
-        "en": "Ended slavery in the US",
-        "ar": "أنهى العبودية في أمريكا"
-      }
-    },
-    {
-      "word": {
-        "en": "Nelson Mandela",
-        "ar": "نيلسون مانديلا"
-      },
-      "hint": {
-        "en": "South African leader",
-        "ar": "زعيم جنوب إفريقيا"
-      }
-    },
-    {
-      "word": {
-        "en": "Mahatma Gandhi",
-        "ar": "المهاتما غاندي"
-      },
-      "hint": {
-        "en": "Leader of Indian independence",
-        "ar": "قائد استقلال الهند"
-      }
-    },
-    {
-      "word": {
-        "en": "Winston Churchill",
-        "ar": "ونستون تشرشل"
-      },
-      "hint": {
-        "en": "British Prime Minister",
-        "ar": "رئيس وزراء بريطانيا"
-      }
-    },
-    {
-      "word": {
-        "en": "Napoleon Bonaparte",
-        "ar": "نابليون بونابرت"
-      },
-      "hint": {
-        "en": "French emperor",
-        "ar": "إمبراطور فرنسا"
-      }
-    },
-    {
-      "word": {
-        "en": "Julius Caesar",
-        "ar": "يوليوس قيصر"
-      },
-      "hint": {
-        "en": "Roman leader",
-        "ar": "قائد روماني"
-      }
-    },
-    {
-      "word": {
-        "en": "Cleopatra",
-        "ar": "كليوباترا"
-      },
-      "hint": {
-        "en": "Queen of Egypt",
-        "ar": "ملكة مصر"
-      }
-    },
-    {
-      "word": {
-        "en": "Queen Elizabeth II",
-        "ar": "الملكة إليزابيث الثانية"
-      },
-      "hint": {
-        "en": "Longest-serving British monarch",
-        "ar": "أطول ملوك بريطانيا حكمًا"
-      }
-    },
-    {
-      "word": {
-        "en": "Princess Diana",
-        "ar": "الأميرة ديانا"
-      },
-      "hint": {
-        "en": "Princess of Wales",
-        "ar": "أميرة ويلز"
-      }
-    },
-    {
-      "word": {
-        "en": "Steve Jobs",
-        "ar": "ستيف جوبز"
-      },
-      "hint": {
-        "en": "Co-founded Apple",
-        "ar": "شارك في تأسيس آبل"
-      }
-    },
-    {
-      "word": {
-        "en": "Bill Gates",
-        "ar": "بيل غيتس"
-      },
-      "hint": {
-        "en": "Founded Microsoft",
-        "ar": "أسس مايكروسوفت"
-      }
-    },
-    {
-      "word": {
-        "en": "Elon Musk",
-        "ar": "إيلون ماسك"
-      },
-      "hint": {
-        "en": "Founded SpaceX",
-        "ar": "مؤسس سبيس إكس"
-      }
-    },
-    {
-      "word": {
-        "en": "Mark Zuckerberg",
-        "ar": "مارك زوكربيرغ"
-      },
-      "hint": {
-        "en": "Founded Facebook",
-        "ar": "مؤسس فيسبوك"
-      }
-    },
-    {
-      "word": {
-        "en": "Jeff Bezos",
-        "ar": "جيف بيزوس"
-      },
-      "hint": {
-        "en": "Founded Amazon",
-        "ar": "مؤسس أمازون"
-      }
-    },
-    {
-      "word": {
-        "en": "Larry Page",
-        "ar": "لاري بايج"
-      },
-      "hint": {
-        "en": "Co-founded Google",
-        "ar": "شارك في تأسيس جوجل"
-      }
-    },
-    {
-      "word": {
-        "en": "Sergey Brin",
-        "ar": "سيرجي برين"
-      },
-      "hint": {
-        "en": "Co-founded Google",
-        "ar": "شارك في تأسيس جوجل"
-      }
-    },
-    {
-      "word": {
-        "en": "Tim Cook",
-        "ar": "تيم كوك"
-      },
-      "hint": {
-        "en": "Apple CEO",
-        "ar": "الرئيس التنفيذي لآبل"
-      }
-    },
-    {
-      "word": {
-        "en": "Sam Altman",
-        "ar": "سام ألتمان"
-      },
-      "hint": {
-        "en": "CEO of OpenAI",
-        "ar": "الرئيس التنفيذي لـ OpenAI"
-      }
-    },
-    {
-      "word": {
-        "en": "Jensen Huang",
-        "ar": "جنسن هوانغ"
-      },
-      "hint": {
-        "en": "CEO of NVIDIA",
-        "ar": "الرئيس التنفيذي لـ NVIDIA"
-      }
-    },
-    {
-      "word": {
-        "en": "Tom Hanks",
-        "ar": "توم هانكس"
-      },
-      "hint": {
-        "en": "Hollywood actor",
-        "ar": "ممثل هوليوودي"
-      }
-    },
-    {
-      "word": {
-        "en": "Leonardo DiCaprio",
-        "ar": "ليوناردو دي كابريو"
-      },
-      "hint": {
-        "en": "Oscar-winning actor",
-        "ar": "ممثل حائز على الأوسكار"
-      }
-    },
-    {
-      "word": {
-        "en": "Brad Pitt",
-        "ar": "براد بيت"
-      },
-      "hint": {
-        "en": "Hollywood actor",
-        "ar": "ممثل هوليوودي"
-      }
-    },
-    {
-      "word": {
-        "en": "Johnny Depp",
-        "ar": "جوني ديب"
-      },
-      "hint": {
-        "en": "Played Jack Sparrow",
-        "ar": "جسد شخصية جاك سبارو"
-      }
-    },
-    {
-      "word": {
-        "en": "Robert Downey Jr.",
-        "ar": "روبرت داوني جونيور"
-      },
-      "hint": {
-        "en": "Played Iron Man",
-        "ar": "جسد شخصية آيرون مان"
-      }
-    },
-    {
-      "word": {
-        "en": "Chris Evans",
-        "ar": "كريس إيفانز"
-      },
-      "hint": {
-        "en": "Played Captain America",
-        "ar": "جسد شخصية كابتن أمريكا"
-      }
-    },
-    {
-      "word": {
-        "en": "Scarlett Johansson",
-        "ar": "سكارليت جوهانسون"
-      },
-      "hint": {
-        "en": "Played Black Widow",
-        "ar": "جسدت الأرملة السوداء"
-      }
-    },
-    {
-      "word": {
-        "en": "Emma Watson",
-        "ar": "إيما واتسون"
-      },
-      "hint": {
-        "en": "Played Hermione",
-        "ar": "جسدت هيرمايني"
-      }
-    },
-    {
-      "word": {
-        "en": "Daniel Radcliffe",
-        "ar": "دانيال رادكليف"
-      },
-      "hint": {
-        "en": "Played Harry Potter",
-        "ar": "جسد هاري بوتر"
-      }
-    },
-    {
-      "word": {
-        "en": "Morgan Freeman",
-        "ar": "مورغان فريمان"
-      },
-      "hint": {
-        "en": "Famous narrator",
-        "ar": "صاحب صوت مميز"
-      }
-    },
-    {
-      "word": {
-        "en": "Jackie Chan",
-        "ar": "جاكي شان"
-      },
-      "hint": {
-        "en": "Martial arts actor",
-        "ar": "ممثل فنون قتالية"
-      }
-    },
-    {
-      "word": {
-        "en": "Bruce Lee",
-        "ar": "بروس لي"
-      },
-      "hint": {
-        "en": "Martial arts legend",
-        "ar": "أسطورة الفنون القتالية"
-      }
-    },
-    {
-      "word": {
-        "en": "Arnold Schwarzenegger",
-        "ar": "أرنولد شوارزنيغر"
-      },
-      "hint": {
-        "en": "The Terminator",
-        "ar": "بطل فيلم المدمر"
-      }
-    },
-    {
-      "word": {
-        "en": "Sylvester Stallone",
-        "ar": "سيلفستر ستالون"
-      },
-      "hint": {
-        "en": "Played Rocky",
-        "ar": "جسد روكي"
-      }
-    },
-    {
-      "word": {
-        "en": "Keanu Reeves",
-        "ar": "كيانو ريفز"
-      },
-      "hint": {
-        "en": "Played John Wick",
-        "ar": "جسد جون ويك"
-      }
-    },
-    {
-      "word": {
-        "en": "Dwayne Johnson",
-        "ar": "دواين جونسون"
-      },
-      "hint": {
-        "en": "The Rock",
-        "ar": "ذا روك"
-      }
-    },
-    {
-      "word": {
-        "en": "Will Smith",
-        "ar": "ويل سميث"
-      },
-      "hint": {
-        "en": "Hollywood actor",
-        "ar": "ممثل هوليوودي"
-      }
-    },
-    {
-      "word": {
-        "en": "Angelina Jolie",
-        "ar": "أنجلينا جولي"
-      },
-      "hint": {
-        "en": "Hollywood actress",
-        "ar": "ممثلة هوليوودية"
-      }
-    },
-    {
-      "word": {
-        "en": "Jennifer Lawrence",
-        "ar": "جينيفر لورنس"
-      },
-      "hint": {
-        "en": "Oscar-winning actress",
-        "ar": "ممثلة حائزة على الأوسكار"
-      }
-    },
-    {
-      "word": {
-        "en": "Julia Roberts",
-        "ar": "جوليا روبرتس"
-      },
-      "hint": {
-        "en": "Pretty Woman actress",
-        "ar": "بطلة فيلم Pretty Woman"
-      }
-    },
-    {
-      "word": {
-        "en": "Walt Disney",
-        "ar": "والت ديزني"
-      },
-      "hint": {
-        "en": "Created Mickey Mouse",
-        "ar": "مبتكر ميكي ماوس"
-      }
-    },
-    {
-      "word": {
-        "en": "Stan Lee",
-        "ar": "ستان لي"
-      },
-      "hint": {
-        "en": "Created Marvel heroes",
-        "ar": "مبتكر أبطال مارفل"
-      }
-    },
-    {
-      "word": {
-        "en": "Hayao Miyazaki",
-        "ar": "هاياو ميازاكي"
-      },
-      "hint": {
-        "en": "Anime director",
-        "ar": "مخرج أنمي"
-      }
-    },
-    {
-      "word": {
-        "en": "Cristopher Nolan",
-        "ar": "كريستوفر نولان"
-      },
-      "hint": {
-        "en": "Film director",
-        "ar": "مخرج أفلام"
-      }
-    },
-    {
-      "word": {
-        "en": "Steven Spielberg",
-        "ar": "ستيفن سبيلبرغ"
-      },
-      "hint": {
-        "en": "Directed Jurassic Park",
-        "ar": "أخرج Jurassic Park"
-      }
-    },
-    {
-      "word": {
-        "en": "James Cameron",
-        "ar": "جيمس كاميرون"
-      },
-      "hint": {
-        "en": "Directed Titanic",
-        "ar": "أخرج Titanic"
-      }
-    },
-    {
-      "word": {
-        "en": "Quentin Tarantino",
-        "ar": "كوينتن تارانتينو"
-      },
-      "hint": {
-        "en": "Film director",
-        "ar": "مخرج أفلام"
-      }
-    },
-    {
-      "word": {
-        "en": "Martin Scorsese",
-        "ar": "مارتن سكورسيزي"
-      },
-      "hint": {
-        "en": "Film director",
-        "ar": "مخرج أفلام"
-      }
-    },
-    {
-      "word": {
-        "en": "George Lucas",
-        "ar": "جورج لوكاس"
-      },
-      "hint": {
-        "en": "Created Star Wars",
-        "ar": "مبتكر Star Wars"
-      }
-    },
-    {
-      "word": {
-        "en": "Alfred Hitchcock",
-        "ar": "ألفريد هيتشكوك"
-      },
-      "hint": {
-        "en": "Master of suspense",
-        "ar": "سيد أفلام التشويق"
-      }
-    }
-  ],
   "food": [
     {
       "word": {
@@ -19254,6 +18252,1008 @@
       "hint": {
         "en": "Global football tournament",
         "ar": "بطولة كرة القدم العالمية"
+      }
+    }
+  ],
+  "stars": [
+    {
+      "word": {
+        "en": "Albert Einstein",
+        "ar": "ألبرت أينشتاين"
+      },
+      "hint": {
+        "en": "Theory of relativity",
+        "ar": "صاحب نظرية النسبية"
+      }
+    },
+    {
+      "word": {
+        "en": "Isaac Newton",
+        "ar": "إسحاق نيوتن"
+      },
+      "hint": {
+        "en": "Discovered gravity",
+        "ar": "اكتشف الجاذبية"
+      }
+    },
+    {
+      "word": {
+        "en": "Nikola Tesla",
+        "ar": "نيكولا تسلا"
+      },
+      "hint": {
+        "en": "Inventor and engineer",
+        "ar": "مخترع ومهندس"
+      }
+    },
+    {
+      "word": {
+        "en": "Thomas Edison",
+        "ar": "توماس إديسون"
+      },
+      "hint": {
+        "en": "Invented the light bulb",
+        "ar": "اخترع المصباح الكهربائي"
+      }
+    },
+    {
+      "word": {
+        "en": "Galileo Galilei",
+        "ar": "غاليليو غاليلي"
+      },
+      "hint": {
+        "en": "Astronomer",
+        "ar": "عالم فلك"
+      }
+    },
+    {
+      "word": {
+        "en": "Charles Darwin",
+        "ar": "تشارلز داروين"
+      },
+      "hint": {
+        "en": "Theory of evolution",
+        "ar": "صاحب نظرية التطور"
+      }
+    },
+    {
+      "word": {
+        "en": "Stephen Hawking",
+        "ar": "ستيفن هوكينغ"
+      },
+      "hint": {
+        "en": "Black holes scientist",
+        "ar": "عالم الثقوب السوداء"
+      }
+    },
+    {
+      "word": {
+        "en": "Marie Curie",
+        "ar": "ماري كوري"
+      },
+      "hint": {
+        "en": "Won two Nobel Prizes",
+        "ar": "حصلت على جائزتي نوبل"
+      }
+    },
+    {
+      "word": {
+        "en": "Leonardo da Vinci",
+        "ar": "ليوناردو دافنشي"
+      },
+      "hint": {
+        "en": "Painted Mona Lisa",
+        "ar": "رسم الموناليزا"
+      }
+    },
+    {
+      "word": {
+        "en": "Pablo Picasso",
+        "ar": "بابلو بيكاسو"
+      },
+      "hint": {
+        "en": "Spanish painter",
+        "ar": "رسام إسباني"
+      }
+    },
+    {
+      "word": {
+        "en": "William Shakespeare",
+        "ar": "ويليام شكسبير"
+      },
+      "hint": {
+        "en": "Famous playwright",
+        "ar": "كاتب مسرحي شهير"
+      }
+    },
+    {
+      "word": {
+        "en": "Jules Verne",
+        "ar": "جول فيرن"
+      },
+      "hint": {
+        "en": "Science fiction writer",
+        "ar": "كاتب خيال علمي"
+      }
+    },
+    {
+      "word": {
+        "en": "Victor Hugo",
+        "ar": "فيكتور هوغو"
+      },
+      "hint": {
+        "en": "Wrote Les Misérables",
+        "ar": "كتب البؤساء"
+      }
+    },
+    {
+      "word": {
+        "en": "Agatha Christie",
+        "ar": "أجاثا كريستي"
+      },
+      "hint": {
+        "en": "Mystery novelist",
+        "ar": "كاتبة روايات بوليسية"
+      }
+    },
+    {
+      "word": {
+        "en": "J.K. Rowling",
+        "ar": "ج. ك. رولينغ"
+      },
+      "hint": {
+        "en": "Created Harry Potter",
+        "ar": "مؤلفة هاري بوتر"
+      }
+    },
+    {
+      "word": {
+        "en": "George Orwell",
+        "ar": "جورج أورويل"
+      },
+      "hint": {
+        "en": "Wrote 1984",
+        "ar": "كتب رواية 1984"
+      }
+    },
+    {
+      "word": {
+        "en": "Mark Twain",
+        "ar": "مارك توين"
+      },
+      "hint": {
+        "en": "American writer",
+        "ar": "كاتب أمريكي"
+      }
+    },
+    {
+      "word": {
+        "en": "Ernest Hemingway",
+        "ar": "إرنست همنغواي"
+      },
+      "hint": {
+        "en": "Nobel Prize winner",
+        "ar": "حائز على نوبل"
+      }
+    },
+    {
+      "word": {
+        "en": "Oscar Wilde",
+        "ar": "أوسكار وايلد"
+      },
+      "hint": {
+        "en": "Irish writer",
+        "ar": "كاتب أيرلندي"
+      }
+    },
+    {
+      "word": {
+        "en": "Homer",
+        "ar": "هوميروس"
+      },
+      "hint": {
+        "en": "Ancient Greek poet",
+        "ar": "شاعر يوناني قديم"
+      }
+    },
+    {
+      "word": {
+        "en": "Michael Jackson",
+        "ar": "مايكل جاكسون"
+      },
+      "hint": {
+        "en": "King of Pop",
+        "ar": "ملك البوب"
+      }
+    },
+    {
+      "word": {
+        "en": "Elvis Presley",
+        "ar": "إلفيس بريسلي"
+      },
+      "hint": {
+        "en": "King of Rock",
+        "ar": "ملك الروك"
+      }
+    },
+    {
+      "word": {
+        "en": "Freddie Mercury",
+        "ar": "فريدي ميركوري"
+      },
+      "hint": {
+        "en": "Lead singer of Queen",
+        "ar": "مغني فرقة كوين"
+      }
+    },
+    {
+      "word": {
+        "en": "Madonna",
+        "ar": "مادونا"
+      },
+      "hint": {
+        "en": "Queen of Pop",
+        "ar": "ملكة البوب"
+      }
+    },
+    {
+      "word": {
+        "en": "Taylor Swift",
+        "ar": "تايلور سويفت"
+      },
+      "hint": {
+        "en": "Singer-songwriter",
+        "ar": "مغنية وكاتبة أغاني"
+      }
+    },
+    {
+      "word": {
+        "en": "Beyoncé",
+        "ar": "بيونسيه"
+      },
+      "hint": {
+        "en": "Global pop star",
+        "ar": "نجمة غناء عالمية"
+      }
+    },
+    {
+      "word": {
+        "en": "Adele",
+        "ar": "أديل"
+      },
+      "hint": {
+        "en": "British singer",
+        "ar": "مغنية بريطانية"
+      }
+    },
+    {
+      "word": {
+        "en": "Ed Sheeran",
+        "ar": "إد شيران"
+      },
+      "hint": {
+        "en": "Singer with guitar",
+        "ar": "مغنٍ يعزف الجيتار"
+      }
+    },
+    {
+      "word": {
+        "en": "Drake",
+        "ar": "دريك"
+      },
+      "hint": {
+        "en": "Canadian rapper",
+        "ar": "مغني راب كندي"
+      }
+    },
+    {
+      "word": {
+        "en": "Eminem",
+        "ar": "إيمينيم"
+      },
+      "hint": {
+        "en": "Famous rapper",
+        "ar": "مغني راب مشهور"
+      }
+    },
+    {
+      "word": {
+        "en": "Cristiano Ronaldo",
+        "ar": "كريستيانو رونالدو"
+      },
+      "hint": {
+        "en": "Portuguese football legend",
+        "ar": "أسطورة كرة قدم برتغالية"
+      }
+    },
+    {
+      "word": {
+        "en": "Lionel Messi",
+        "ar": "ليونيل ميسي"
+      },
+      "hint": {
+        "en": "Argentinian football legend",
+        "ar": "أسطورة كرة قدم أرجنتينية"
+      }
+    },
+    {
+      "word": {
+        "en": "Pelé",
+        "ar": "بيليه"
+      },
+      "hint": {
+        "en": "Brazilian football icon",
+        "ar": "أيقونة كرة القدم البرازيلية"
+      }
+    },
+    {
+      "word": {
+        "en": "Diego Maradona",
+        "ar": "دييغو مارادونا"
+      },
+      "hint": {
+        "en": "Argentine football legend",
+        "ar": "أسطورة كرة القدم الأرجنتينية"
+      }
+    },
+    {
+      "word": {
+        "en": "Zinedine Zidane",
+        "ar": "زين الدين زيدان"
+      },
+      "hint": {
+        "en": "French football star",
+        "ar": "نجم كرة قدم فرنسي"
+      }
+    },
+    {
+      "word": {
+        "en": "Kylian Mbappé",
+        "ar": "كيليان مبابي"
+      },
+      "hint": {
+        "en": "French footballer",
+        "ar": "لاعب كرة قدم فرنسي"
+      }
+    },
+    {
+      "word": {
+        "en": "Neymar",
+        "ar": "نيمار"
+      },
+      "hint": {
+        "en": "Brazilian footballer",
+        "ar": "لاعب كرة قدم برازيلي"
+      }
+    },
+    {
+      "word": {
+        "en": "LeBron James",
+        "ar": "ليبرون جيمس"
+      },
+      "hint": {
+        "en": "Basketball superstar",
+        "ar": "نجم كرة سلة"
+      }
+    },
+    {
+      "word": {
+        "en": "Michael Jordan",
+        "ar": "مايكل جوردان"
+      },
+      "hint": {
+        "en": "Basketball legend",
+        "ar": "أسطورة كرة السلة"
+      }
+    },
+    {
+      "word": {
+        "en": "Roger Federer",
+        "ar": "روجر فيدرر"
+      },
+      "hint": {
+        "en": "Swiss tennis champion",
+        "ar": "بطل تنس سويسري"
+      }
+    },
+    {
+      "word": {
+        "en": "Usain Bolt",
+        "ar": "يوسين بولت"
+      },
+      "hint": {
+        "en": "Fastest man",
+        "ar": "أسرع رجل في العالم"
+      }
+    },
+    {
+      "word": {
+        "en": "Muhammad Ali",
+        "ar": "محمد علي"
+      },
+      "hint": {
+        "en": "Boxing legend",
+        "ar": "أسطورة الملاكمة"
+      }
+    },
+    {
+      "word": {
+        "en": "Mike Tyson",
+        "ar": "مايك تايسون"
+      },
+      "hint": {
+        "en": "Heavyweight boxer",
+        "ar": "ملاكم الوزن الثقيل"
+      }
+    },
+    {
+      "word": {
+        "en": "Serena Williams",
+        "ar": "سيرينا ويليامز"
+      },
+      "hint": {
+        "en": "Tennis champion",
+        "ar": "بطلة تنس"
+      }
+    },
+    {
+      "word": {
+        "en": "Novak Djokovic",
+        "ar": "نوفاك دجوكوفيتش"
+      },
+      "hint": {
+        "en": "Serbian tennis star",
+        "ar": "نجم تنس صربي"
+      }
+    },
+    {
+      "word": {
+        "en": "Rafael Nadal",
+        "ar": "رافاييل نادال"
+      },
+      "hint": {
+        "en": "Spanish tennis legend",
+        "ar": "أسطورة التنس الإسبانية"
+      }
+    },
+    {
+      "word": {
+        "en": "Lewis Hamilton",
+        "ar": "لويس هاميلتون"
+      },
+      "hint": {
+        "en": "Formula One champion",
+        "ar": "بطل فورمولا 1"
+      }
+    },
+    {
+      "word": {
+        "en": "Michael Schumacher",
+        "ar": "مايكل شوماخر"
+      },
+      "hint": {
+        "en": "Formula One legend",
+        "ar": "أسطورة فورمولا 1"
+      }
+    },
+    {
+      "word": {
+        "en": "Tiger Woods",
+        "ar": "تايغر وودز"
+      },
+      "hint": {
+        "en": "Golf champion",
+        "ar": "بطل غولف"
+      }
+    },
+    {
+      "word": {
+        "en": "Simone Biles",
+        "ar": "سيمون بايلز"
+      },
+      "hint": {
+        "en": "Gymnastics champion",
+        "ar": "بطلة جمباز"
+      }
+    },
+    {
+      "word": {
+        "en": "Barack Obama",
+        "ar": "باراك أوباما"
+      },
+      "hint": {
+        "en": "44th US President",
+        "ar": "الرئيس الأمريكي الرابع والأربعون"
+      }
+    },
+    {
+      "word": {
+        "en": "Abraham Lincoln",
+        "ar": "أبراهام لينكولن"
+      },
+      "hint": {
+        "en": "Ended slavery in the US",
+        "ar": "أنهى العبودية في أمريكا"
+      }
+    },
+    {
+      "word": {
+        "en": "Nelson Mandela",
+        "ar": "نيلسون مانديلا"
+      },
+      "hint": {
+        "en": "South African leader",
+        "ar": "زعيم جنوب إفريقيا"
+      }
+    },
+    {
+      "word": {
+        "en": "Mahatma Gandhi",
+        "ar": "المهاتما غاندي"
+      },
+      "hint": {
+        "en": "Leader of Indian independence",
+        "ar": "قائد استقلال الهند"
+      }
+    },
+    {
+      "word": {
+        "en": "Winston Churchill",
+        "ar": "ونستون تشرشل"
+      },
+      "hint": {
+        "en": "British Prime Minister",
+        "ar": "رئيس وزراء بريطانيا"
+      }
+    },
+    {
+      "word": {
+        "en": "Napoleon Bonaparte",
+        "ar": "نابليون بونابرت"
+      },
+      "hint": {
+        "en": "French emperor",
+        "ar": "إمبراطور فرنسا"
+      }
+    },
+    {
+      "word": {
+        "en": "Julius Caesar",
+        "ar": "يوليوس قيصر"
+      },
+      "hint": {
+        "en": "Roman leader",
+        "ar": "قائد روماني"
+      }
+    },
+    {
+      "word": {
+        "en": "Cleopatra",
+        "ar": "كليوباترا"
+      },
+      "hint": {
+        "en": "Queen of Egypt",
+        "ar": "ملكة مصر"
+      }
+    },
+    {
+      "word": {
+        "en": "Queen Elizabeth II",
+        "ar": "الملكة إليزابيث الثانية"
+      },
+      "hint": {
+        "en": "Longest-serving British monarch",
+        "ar": "أطول ملوك بريطانيا حكمًا"
+      }
+    },
+    {
+      "word": {
+        "en": "Princess Diana",
+        "ar": "الأميرة ديانا"
+      },
+      "hint": {
+        "en": "Princess of Wales",
+        "ar": "أميرة ويلز"
+      }
+    },
+    {
+      "word": {
+        "en": "Steve Jobs",
+        "ar": "ستيف جوبز"
+      },
+      "hint": {
+        "en": "Co-founded Apple",
+        "ar": "شارك في تأسيس آبل"
+      }
+    },
+    {
+      "word": {
+        "en": "Bill Gates",
+        "ar": "بيل غيتس"
+      },
+      "hint": {
+        "en": "Founded Microsoft",
+        "ar": "أسس مايكروسوفت"
+      }
+    },
+    {
+      "word": {
+        "en": "Elon Musk",
+        "ar": "إيلون ماسك"
+      },
+      "hint": {
+        "en": "Founded SpaceX",
+        "ar": "مؤسس سبيس إكس"
+      }
+    },
+    {
+      "word": {
+        "en": "Mark Zuckerberg",
+        "ar": "مارك زوكربيرغ"
+      },
+      "hint": {
+        "en": "Founded Facebook",
+        "ar": "مؤسس فيسبوك"
+      }
+    },
+    {
+      "word": {
+        "en": "Jeff Bezos",
+        "ar": "جيف بيزوس"
+      },
+      "hint": {
+        "en": "Founded Amazon",
+        "ar": "مؤسس أمازون"
+      }
+    },
+    {
+      "word": {
+        "en": "Larry Page",
+        "ar": "لاري بايج"
+      },
+      "hint": {
+        "en": "Co-founded Google",
+        "ar": "شارك في تأسيس جوجل"
+      }
+    },
+    {
+      "word": {
+        "en": "Sergey Brin",
+        "ar": "سيرجي برين"
+      },
+      "hint": {
+        "en": "Co-founded Google",
+        "ar": "شارك في تأسيس جوجل"
+      }
+    },
+    {
+      "word": {
+        "en": "Tim Cook",
+        "ar": "تيم كوك"
+      },
+      "hint": {
+        "en": "Apple CEO",
+        "ar": "الرئيس التنفيذي لآبل"
+      }
+    },
+    {
+      "word": {
+        "en": "Sam Altman",
+        "ar": "سام ألتمان"
+      },
+      "hint": {
+        "en": "CEO of OpenAI",
+        "ar": "الرئيس التنفيذي لـ OpenAI"
+      }
+    },
+    {
+      "word": {
+        "en": "Jensen Huang",
+        "ar": "جنسن هوانغ"
+      },
+      "hint": {
+        "en": "CEO of NVIDIA",
+        "ar": "الرئيس التنفيذي لـ NVIDIA"
+      }
+    },
+    {
+      "word": {
+        "en": "Tom Hanks",
+        "ar": "توم هانكس"
+      },
+      "hint": {
+        "en": "Hollywood actor",
+        "ar": "ممثل هوليوودي"
+      }
+    },
+    {
+      "word": {
+        "en": "Leonardo DiCaprio",
+        "ar": "ليوناردو دي كابريو"
+      },
+      "hint": {
+        "en": "Oscar-winning actor",
+        "ar": "ممثل حائز على الأوسكار"
+      }
+    },
+    {
+      "word": {
+        "en": "Brad Pitt",
+        "ar": "براد بيت"
+      },
+      "hint": {
+        "en": "Hollywood actor",
+        "ar": "ممثل هوليوودي"
+      }
+    },
+    {
+      "word": {
+        "en": "Johnny Depp",
+        "ar": "جوني ديب"
+      },
+      "hint": {
+        "en": "Played Jack Sparrow",
+        "ar": "جسد شخصية جاك سبارو"
+      }
+    },
+    {
+      "word": {
+        "en": "Robert Downey Jr.",
+        "ar": "روبرت داوني جونيور"
+      },
+      "hint": {
+        "en": "Played Iron Man",
+        "ar": "جسد شخصية آيرون مان"
+      }
+    },
+    {
+      "word": {
+        "en": "Chris Evans",
+        "ar": "كريس إيفانز"
+      },
+      "hint": {
+        "en": "Played Captain America",
+        "ar": "جسد شخصية كابتن أمريكا"
+      }
+    },
+    {
+      "word": {
+        "en": "Scarlett Johansson",
+        "ar": "سكارليت جوهانسون"
+      },
+      "hint": {
+        "en": "Played Black Widow",
+        "ar": "جسدت الأرملة السوداء"
+      }
+    },
+    {
+      "word": {
+        "en": "Emma Watson",
+        "ar": "إيما واتسون"
+      },
+      "hint": {
+        "en": "Played Hermione",
+        "ar": "جسدت هيرمايني"
+      }
+    },
+    {
+      "word": {
+        "en": "Daniel Radcliffe",
+        "ar": "دانيال رادكليف"
+      },
+      "hint": {
+        "en": "Played Harry Potter",
+        "ar": "جسد هاري بوتر"
+      }
+    },
+    {
+      "word": {
+        "en": "Morgan Freeman",
+        "ar": "مورغان فريمان"
+      },
+      "hint": {
+        "en": "Famous narrator",
+        "ar": "صاحب صوت مميز"
+      }
+    },
+    {
+      "word": {
+        "en": "Jackie Chan",
+        "ar": "جاكي شان"
+      },
+      "hint": {
+        "en": "Martial arts actor",
+        "ar": "ممثل فنون قتالية"
+      }
+    },
+    {
+      "word": {
+        "en": "Bruce Lee",
+        "ar": "بروس لي"
+      },
+      "hint": {
+        "en": "Martial arts legend",
+        "ar": "أسطورة الفنون القتالية"
+      }
+    },
+    {
+      "word": {
+        "en": "Arnold Schwarzenegger",
+        "ar": "أرنولد شوارزنيغر"
+      },
+      "hint": {
+        "en": "The Terminator",
+        "ar": "بطل فيلم المدمر"
+      }
+    },
+    {
+      "word": {
+        "en": "Sylvester Stallone",
+        "ar": "سيلفستر ستالون"
+      },
+      "hint": {
+        "en": "Played Rocky",
+        "ar": "جسد روكي"
+      }
+    },
+    {
+      "word": {
+        "en": "Keanu Reeves",
+        "ar": "كيانو ريفز"
+      },
+      "hint": {
+        "en": "Played John Wick",
+        "ar": "جسد جون ويك"
+      }
+    },
+    {
+      "word": {
+        "en": "Dwayne Johnson",
+        "ar": "دواين جونسون"
+      },
+      "hint": {
+        "en": "The Rock",
+        "ar": "ذا روك"
+      }
+    },
+    {
+      "word": {
+        "en": "Will Smith",
+        "ar": "ويل سميث"
+      },
+      "hint": {
+        "en": "Hollywood actor",
+        "ar": "ممثل هوليوودي"
+      }
+    },
+    {
+      "word": {
+        "en": "Angelina Jolie",
+        "ar": "أنجلينا جولي"
+      },
+      "hint": {
+        "en": "Hollywood actress",
+        "ar": "ممثلة هوليوودية"
+      }
+    },
+    {
+      "word": {
+        "en": "Jennifer Lawrence",
+        "ar": "جينيفر لورنس"
+      },
+      "hint": {
+        "en": "Oscar-winning actress",
+        "ar": "ممثلة حائزة على الأوسكار"
+      }
+    },
+    {
+      "word": {
+        "en": "Julia Roberts",
+        "ar": "جوليا روبرتس"
+      },
+      "hint": {
+        "en": "Pretty Woman actress",
+        "ar": "بطلة فيلم Pretty Woman"
+      }
+    },
+    {
+      "word": {
+        "en": "Walt Disney",
+        "ar": "والت ديزني"
+      },
+      "hint": {
+        "en": "Created Mickey Mouse",
+        "ar": "مبتكر ميكي ماوس"
+      }
+    },
+    {
+      "word": {
+        "en": "Stan Lee",
+        "ar": "ستان لي"
+      },
+      "hint": {
+        "en": "Created Marvel heroes",
+        "ar": "مبتكر أبطال مارفل"
+      }
+    },
+    {
+      "word": {
+        "en": "Hayao Miyazaki",
+        "ar": "هاياو ميازاكي"
+      },
+      "hint": {
+        "en": "Anime director",
+        "ar": "مخرج أنمي"
+      }
+    },
+    {
+      "word": {
+        "en": "Cristopher Nolan",
+        "ar": "كريستوفر نولان"
+      },
+      "hint": {
+        "en": "Film director",
+        "ar": "مخرج أفلام"
+      }
+    },
+    {
+      "word": {
+        "en": "Steven Spielberg",
+        "ar": "ستيفن سبيلبرغ"
+      },
+      "hint": {
+        "en": "Directed Jurassic Park",
+        "ar": "أخرج Jurassic Park"
+      }
+    },
+    {
+      "word": {
+        "en": "James Cameron",
+        "ar": "جيمس كاميرون"
+      },
+      "hint": {
+        "en": "Directed Titanic",
+        "ar": "أخرج Titanic"
+      }
+    },
+    {
+      "word": {
+        "en": "Quentin Tarantino",
+        "ar": "كوينتن تارانتينو"
+      },
+      "hint": {
+        "en": "Film director",
+        "ar": "مخرج أفلام"
+      }
+    },
+    {
+      "word": {
+        "en": "Martin Scorsese",
+        "ar": "مارتن سكورسيزي"
+      },
+      "hint": {
+        "en": "Film director",
+        "ar": "مخرج أفلام"
+      }
+    },
+    {
+      "word": {
+        "en": "George Lucas",
+        "ar": "جورج لوكاس"
+      },
+      "hint": {
+        "en": "Created Star Wars",
+        "ar": "مبتكر Star Wars"
+      }
+    },
+    {
+      "word": {
+        "en": "Alfred Hitchcock",
+        "ar": "ألفريد هيتشكوك"
+      },
+      "hint": {
+        "en": "Master of suspense",
+        "ar": "سيد أفلام التشويق"
       }
     }
   ],
