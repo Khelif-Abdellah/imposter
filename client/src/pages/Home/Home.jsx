@@ -27,17 +27,8 @@ function Home() {
   return (
     <section className="relative flex min-h-[calc(100vh-128px)] items-center justify-center overflow-hidden px-5 py-12 sm:px-8">
       {/* Huge background text */}
-      <motion.h1
+      <h1
         initial={{ opacity: 0 }}
-        animate={{
-          opacity: [0.02, 0.05, 0.02],
-          scale: [1, 1.03, 1],
-        }}
-        transition={{
-          duration: 8,
-          repeat: Infinity,
-          ease: "easeInOut",
-        }}
         className="
           pointer-events-none
           absolute
@@ -51,49 +42,26 @@ function Home() {
           tracking-[0.25em]
           text-white
           blur-[2px]
+          opacity-[0.05]
+         
         "
       >
         IMPOSTER
-      </motion.h1>
+      </h1>
 
       <div className="relative z-10 w-full max-w-3xl text-center">
         {/* Badge */}
         <FadeIn>
-          <motion.div
-            animate={{
-              boxShadow: [
-                "0 0 0px rgba(99,102,241,.2)",
-                "0 0 20px rgba(99,102,241,.45)",
-                "0 0 0px rgba(99,102,241,.2)",
-              ],
-            }}
-            transition={{
-              duration: 3,
-              repeat: Infinity,
-            }}
-            className="mx-auto inline-flex rounded-full border border-indigo-500/40 bg-indigo-500/10 px-5 py-2"
-          >
+          <div className="mx-auto inline-flex rounded-full border border-indigo-500/40 bg-indigo-500/10 px-5 py-2">
             <span className="text-xs font-bold uppercase tracking-[0.35em] text-indigo-300 sm:text-sm">
               🎭 Social Deduction Game
             </span>
-          </motion.div>
+          </div>
         </FadeIn>
 
         {/* Title */}
         <ScaleIn delay={0.2}>
-          <motion.h1
-            animate={{
-              scale: [1, 1.03, 1],
-              textShadow: [
-                "0 0 15px rgba(99,102,241,.3)",
-                "0 0 40px rgba(129,140,248,.9)",
-                "0 0 15px rgba(99,102,241,.3)",
-              ],
-            }}
-            transition={{
-              duration: 4,
-              repeat: Infinity,
-            }}
+          <h1
             className="
               mt-16
               text-5xl
@@ -107,24 +75,12 @@ function Home() {
             "
           >
             IMPOSTER
-          </motion.h1>
+          </h1>
         </ScaleIn>
 
         {/* Subtitle */}
         <SlideUp delay={0.4}>
-          <motion.p
-            initial={{
-              opacity: 0,
-              filter: "blur(8px)",
-            }}
-            animate={{
-              opacity: 1,
-              filter: "blur(0px)",
-            }}
-            transition={{
-              delay: 0.5,
-              duration: 0.7,
-            }}
+          <p
             className="
               mx-auto
               mt-12
@@ -142,63 +98,25 @@ function Home() {
             Everyone else knows the secret word.
             <br />
             Bluff. Observe. Discuss. Survive.
-          </motion.p>
+          </p>
         </SlideUp>
 
         {/* Buttons */}
         <div className="mt-14 flex flex-col items-center gap-5">
           <SlideUp delay={0.6}>
-            <motion.div
-              whileHover={{
-                scale: 1.05,
-                y: -3,
-              }}
-              whileTap={{
-                scale: 0.96,
-              }}
-              animate={{
-                boxShadow: [
-                  "0 0 10px rgba(99,102,241,.25)",
-                  "0 0 35px rgba(99,102,241,.7)",
-                  "0 0 10px rgba(99,102,241,.25)",
-                ],
-              }}
-              transition={{
-                duration: 2,
-                repeat: Infinity,
-              }}
-              className="rounded-xl"
-            >
+            <div className="rounded-xl">
               <Button
                 onClick={handlePlay}
                 className="w-full max-w-xs px-10 py-4 text-lg font-bold sm:text-xl"
               >
-                <motion.span
-                  animate={{
-                    x: [0, 6, 0],
-                  }}
-                  transition={{
-                    duration: 0.8,
-                    repeat: Infinity,
-                  }}
-                  className="mr-2 inline-block"
-                >
-                  ▶
-                </motion.span>
+                <span className="mr-2 inline-block">▶</span>
                 Start Game
               </Button>
-            </motion.div>
+            </div>
           </SlideUp>
 
           <SlideUp delay={0.75}>
-            <motion.div
-              whileHover={{
-                scale: 1.04,
-              }}
-              whileTap={{
-                scale: 0.97,
-              }}
-            >
+            <div>
               <Button
                 variant="secondary"
                 className="w-full max-w-xs py-4 text-lg"
@@ -206,7 +124,7 @@ function Home() {
               >
                 📖 How To Play
               </Button>
-            </motion.div>
+            </div>
           </SlideUp>
         </div>
 

@@ -37,11 +37,7 @@ function DiscussionInfo() {
   return (
     <div className="mx-auto flex w-full max-w-3xl flex-col gap-8">
       {/* Hero */}
-      <motion.div
-        initial={{ opacity: 0, y: 25 }}
-        animate={{ opacity: 1, y: 0 }}
-        className="relative overflow-hidden rounded-4xl border border-white/10 bg-linear-to-br from-slate-900 via-slate-900 to-slate-800 p-10 shadow-[0_30px_80px_rgba(0,0,0,.45)]"
-      >
+      <div className="relative overflow-hidden rounded-4xl border border-white/10 bg-linear-to-br from-slate-900 via-slate-900 to-slate-800 p-10 shadow-[0_30px_80px_rgba(0,0,0,.45)]">
         {/* Background Glow */}
         <div className="absolute left-1/2 top-0 h-72 w-72 -translate-x-1/2 rounded-full bg-indigo-500/20 blur-[120px]" />
 
@@ -73,25 +69,15 @@ function DiscussionInfo() {
             carefully, and uncover the imposter before it's too late.
           </p>
         </div>
-      </motion.div>
+      </div>
 
       {/* Direction */}
-      <motion.div
-        initial={{ opacity: 0, y: 30 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1 }}
-        className="rounded-[28px] border border-white/10 bg-slate-900 p-8 shadow-xl"
-      >
+      <div className="rounded-[28px] border border-white/10 bg-slate-900 p-8 shadow-xl">
         <DirectionPicker starter={game.starter} direction={game.direction} />
-      </motion.div>
+      </div>
 
       {/* Rules */}
-      <motion.div
-        initial={{ opacity: 0, y: 30 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.2 }}
-        className="rounded-[28px] border border-white/10 bg-slate-900 p-8 shadow-xl"
-      >
+      <div className="rounded-[28px] border border-white/10 bg-slate-900 p-8 shadow-xl">
         <div className="mb-8 flex items-center gap-3">
           <div className="flex h-12 w-12 items-center justify-center rounded-full bg-indigo-500/10 text-2xl">
             📋
@@ -106,11 +92,8 @@ function DiscussionInfo() {
 
         <div className="space-y-4">
           {rules.map((rule, index) => (
-            <motion.div
+            <div
               key={rule}
-              initial={{ opacity: 0, x: -15 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: index * 0.08 }}
               className="flex items-start gap-5 rounded-2xl border border-slate-700 bg-slate-800/60 p-5 transition hover:border-indigo-500/30 hover:bg-slate-800"
             >
               <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-indigo-500 text-sm font-black text-white">
@@ -118,18 +101,13 @@ function DiscussionInfo() {
               </div>
 
               <p className="pt-1 text-slate-300">{rule}</p>
-            </motion.div>
+            </div>
           ))}
         </div>
-      </motion.div>
+      </div>
 
       {/* Tip */}
-      <motion.div
-        initial={{ opacity: 0, y: 25 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.35 }}
-        className="rounded-[28px] border border-amber-500/20 bg-amber-500/10 p-7"
-      >
+      <div className="rounded-[28px] border border-amber-500/20 bg-amber-500/10 p-7">
         <div className="flex items-start gap-4">
           <div className="text-4xl">💡</div>
 
@@ -143,15 +121,10 @@ function DiscussionInfo() {
             </p>
           </div>
         </div>
-      </motion.div>
+      </div>
 
       {/* Buttons */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.45 }}
-        className="flex flex-col gap-4"
-      >
+      <div className="flex flex-col gap-4">
         <Button
           fullWidth
           onClick={handleRevealResults}
@@ -164,7 +137,7 @@ function DiscussionInfo() {
           Only reveal the results after everyone has finished discussing and
           voted for the suspected imposter.
         </p>
-      </motion.div>
+      </div>
     </div>
   );
 }

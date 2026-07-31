@@ -50,86 +50,25 @@ function ResultCard() {
       </div>
 
       {/* Main Card */}
-      <motion.div
-        initial={{ opacity: 0, y: 40, scale: 0.95 }}
-        animate={{ opacity: 1, y: 0, scale: 1 }}
-        transition={{
-          duration: 0.6,
-          type: "spring",
-        }}
+      <div
         className="
-          relative mx-auto w-full max-w-3xl
-          rounded-3xl
-          border border-white/10
-          bg-white/5
-          p-6
-          shadow-2xl
-          backdrop-blur-xl
-          sm:p-10
-        "
+          relative mx-auto w-full max-w-3xl rounded-3xl  border border-white/10 bg-white/5 p-6  shadow-2xl backdrop-blur-xl sm:p-10"
       >
         {/* Header */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.3 }}
-          className="text-center"
-        >
+        <div className="text-center">
           <div className="mb-4 text-7xl">🎭</div>
-
-          <h1
-            className="
-            bg-linear-to-r
-            from-white
-            via-indigo-200
-            to-white
-            bg-clip-text
-            text-5xl
-            font-black
-            text-transparent
-            sm:text-6xl
-            "
-          >
+          <h1 className="  bg-linear-to-r  from-white via-indigo-200to-white  bg-clip-text   text-5xl  font-black  text-transparent  sm:text-6xl">
             Game Over
           </h1>
 
           <p className="mt-3 text-lg text-slate-400">
             The truth has finally been revealed...
           </p>
-        </motion.div>
+        </div>
 
         {/* Secret Word */}
-        <motion.div
-          initial={{
-            opacity: 0,
-            scale: 0.8,
-          }}
-          animate={{
-            opacity: 1,
-            scale: 1,
-          }}
-          transition={{
-            delay: 0.5,
-          }}
-          className="
-          mt-10
-          rounded-3xl
-          border
-          border-indigo-400/40
-          bg-indigo-500/10
-          p-8
-          text-center
-          shadow-lg
-          "
-        >
-          <p
-            className="
-            text-xs
-            uppercase
-            tracking-[0.3em]
-            text-indigo-300
-          "
-          >
+        <div className="mt-10 rounded-3xl border border-indigo-400/40 bg-indigo-500/10 p-8 text-center shadow-lg">
+          <p className="text-xs uppercase tracking-[0.3em]  text-indigo-300  ">
             Secret Word
           </p>
 
@@ -181,25 +120,11 @@ function ResultCard() {
               {game.word.ar}
             </p>
           </motion.div>
-        </motion.div>
+        </div>
 
         {/* Hint */}
         {game.useHint && (
-          <motion.div
-            initial={{
-              opacity: 0,
-              y: 20,
-              scale: 0.95,
-            }}
-            animate={{
-              opacity: 1,
-              y: 0,
-              scale: 1,
-            }}
-            transition={{
-              delay: 1,
-              duration: 0.4,
-            }}
+          <div
             className="
       mt-6
       rounded-3xl
@@ -269,22 +194,11 @@ function ResultCard() {
             >
               {game.hint.ar}
             </p>
-          </motion.div>
+          </div>
         )}
 
         {/* Imposters */}
-        <motion.div
-          initial={{
-            opacity: 0,
-            y: 30,
-          }}
-          animate={{
-            opacity: 1,
-            y: 0,
-          }}
-          transition={{
-            delay: 1.1,
-          }}
+        <div
           className="
           mt-8
           rounded-3xl
@@ -359,22 +273,11 @@ function ResultCard() {
               </motion.div>
             ))}
           </div>
-        </motion.div>
+        </div>
 
         {/* Buttons */}
 
-        <motion.div
-          initial={{
-            opacity: 0,
-            y: 20,
-          }}
-          animate={{
-            opacity: 1,
-            y: 0,
-          }}
-          transition={{
-            delay: 1.5,
-          }}
+        <div
           className="
           mt-10
           flex
@@ -383,35 +286,19 @@ function ResultCard() {
           sm:flex-row
           "
         >
-          <motion.div
-            whileHover={{
-              scale: 1.03,
-            }}
-            whileTap={{
-              scale: 0.95,
-            }}
-            className="flex-1"
-          >
+          <div className="flex-1">
             <Button fullWidth onClick={handlePlayAgain}>
               🔄 Play Again
             </Button>
-          </motion.div>
+          </div>
 
-          <motion.div
-            whileHover={{
-              scale: 1.03,
-            }}
-            whileTap={{
-              scale: 0.95,
-            }}
-            className="flex-1"
-          >
+          <div className="flex-1">
             <Button variant="secondary" fullWidth onClick={handleHome}>
               🏠 Home
             </Button>
-          </motion.div>
-        </motion.div>
-      </motion.div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

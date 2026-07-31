@@ -1,32 +1,34 @@
+import { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 
 import Layout from "../components/layout/Layout";
-import Home from "../pages/Home/Home";
-import Settings from "../pages/Settings/Settings";
-import Players from "../pages/Players/Players";
-import Reveal from "../pages/Reveal/Reveal";
-import Discussion from "../pages/Discussion/Discussion";
-import Result from "../pages/Result/Result";
-import HowToPlay from "../pages/HowToPlay/HowToPlay";
-import NotFound from "../pages/NotFound/NotFound";
+import Loading from "../components/ui/Loading";
+
+const Home = lazy(() => import("../pages/Home/Home"));
+const Settings = lazy(() => import("../pages/Settings/Settings"));
+const Players = lazy(() => import("../pages/Players/Players"));
+const Reveal = lazy(() => import("../pages/Reveal/Reveal"));
+const Discussion = lazy(() => import("../pages/Discussion/Discussion"));
+const Result = lazy(() => import("../pages/Result/Result"));
+const HowToPlay = lazy(() => import("../pages/HowToPlay/HowToPlay"));
+const NotFound = lazy(() => import("../pages/NotFound/NotFound"));
 
 function AppRoutes() {
   return (
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        {/* Main Pages */}
-        <Route index element={<Home />} />
-        <Route path="settings" element={<Settings />} />
-        <Route path="players" element={<Players />} />
-        <Route path="reveal" element={<Reveal />} />
-        <Route path="discussion" element={<Discussion />} />
-        <Route path="result" element={<Result />} />
-        <Route path="/how-to-play" element={<HowToPlay />} />
-
-        {/* 404 */}
-        <Route path="*" element={<NotFound />} />
-      </Route>
-    </Routes>
+    <Suspense fallback={<Loading />}>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="settings" element={<Settings />} />
+          <Route path="players" element={<Players />} />
+          <Route path="reveal" element={<Reveal />} />
+          <Route path="discussion" element={<Discussion />} />
+          <Route path="result" element={<Result />} />
+          <Route path="how-to-play" element={<HowToPlay />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
+    </Suspense>
   );
 }
 

@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
 import { Button } from "../../components/ui";
@@ -47,11 +46,7 @@ function HowToPlay() {
 
   return (
     <div className="min-h-screen bg-linear-to-br from-slate-950 via-indigo-950 to-slate-950 px-4 py-10">
-      <motion.div
-        initial={{ opacity: 0, y: 25 }}
-        animate={{ opacity: 1, y: 0 }}
-        className="mx-auto max-w-4xl"
-      >
+      <div className="mx-auto max-w-4xl">
         <div className="text-center">
           <div className="text-7xl">📖</div>
 
@@ -66,11 +61,8 @@ function HowToPlay() {
 
         <div className="mt-10 grid gap-6">
           {sections.map((section, index) => (
-            <motion.div
+            <div
               key={section.title}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.08 }}
               className="
                 rounded-3xl
                 border
@@ -112,7 +104,7 @@ function HowToPlay() {
                   </p>
                 </div>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
 
@@ -125,7 +117,7 @@ function HowToPlay() {
             ← Back
           </Button>
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 }

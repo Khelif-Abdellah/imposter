@@ -7,6 +7,8 @@ import App from "./App";
 import { GameProvider } from "./context/GameContext";
 import { AudioProvider } from "./context/AudioContext";
 
+import PerformanceMonitor from "./components/PerformanceMonitor";
+
 import "./styles/globals.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -14,6 +16,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <AudioProvider>
         <GameProvider>
+          <PerformanceMonitor />
           <App />
         </GameProvider>
       </AudioProvider>

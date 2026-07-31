@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import { motion } from "framer-motion";
-
 import { SettingsForm } from "../../components/forms";
 
 import FadeIn from "../../components/animations/FadeIn";
@@ -47,18 +45,7 @@ function Settings() {
       <section className="flex min-h-[calc(100vh-128px)] flex-col items-center justify-center gap-6">
         <Loading />
 
-        <motion.p
-          animate={{
-            opacity: [0.4, 1, 0.4],
-          }}
-          transition={{
-            duration: 1.5,
-            repeat: Infinity,
-          }}
-          className="text-slate-400"
-        >
-          Preparing your game...
-        </motion.p>
+        <p className="text-slate-400">Preparing your game...</p>
       </section>
     );
   }

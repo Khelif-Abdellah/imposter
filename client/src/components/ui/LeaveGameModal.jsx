@@ -7,36 +7,13 @@ function LeaveGameModal({ isOpen, onStay, onLeave }) {
       {isOpen && (
         <>
           {/* Backdrop */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
+          <div
             onClick={onStay}
             className="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm"
           />
 
           {/* Modal */}
-          <motion.div
-            initial={{
-              opacity: 0,
-              scale: 0.9,
-              y: 30,
-            }}
-            animate={{
-              opacity: 1,
-              scale: 1,
-              y: 0,
-            }}
-            exit={{
-              opacity: 0,
-              scale: 0.9,
-              y: 20,
-            }}
-            transition={{
-              type: "spring",
-              stiffness: 260,
-              damping: 22,
-            }}
+          <div
             className="
               fixed
               left-1/2
@@ -65,13 +42,7 @@ function LeaveGameModal({ isOpen, onStay, onLeave }) {
 
               <div className="relative">
                 {/* Icon */}
-                <motion.div
-                  animate={{
-                    rotate: [0, -5, 5, -5, 0],
-                  }}
-                  transition={{
-                    duration: 0.8,
-                  }}
+                <div
                   className="
                     mx-auto
                     flex
@@ -85,7 +56,7 @@ function LeaveGameModal({ isOpen, onStay, onLeave }) {
                   "
                 >
                   ⚠️
-                </motion.div>
+                </div>
 
                 {/* Title */}
                 <h2 className="mt-6 text-center text-3xl font-black text-white">
@@ -131,7 +102,7 @@ function LeaveGameModal({ isOpen, onStay, onLeave }) {
                 </div>
               </div>
             </div>
-          </motion.div>
+          </div>
         </>
       )}
     </AnimatePresence>
