@@ -1,294 +1,93 @@
 [
-  ["Weather", "الطقس", "The condition of the atmosphere", "حالة الجو"],
-  [
-    "Climate",
-    "المناخ",
-    "The usual weather of a place",
-    "الطقس المعتاد لمنطقة معينة"
-  ],
-  [
-    "Temperature",
-    "درجة الحرارة",
-    "How hot or cold the air is",
-    "مقدار سخونة أو برودة الهواء"
-  ],
-  [
-    "Heat",
-    "حرارة",
-    "High temperature or warmth",
-    "ارتفاع درجة الحرارة أو الدفء"
-  ],
-  ["Cold", "برد", "Low temperature condition", "حالة انخفاض درجة الحرارة"],
-  ["Hot", "حار", "Having a high temperature", "ذو درجة حرارة مرتفعة"],
-  [
-    "Warm",
-    "دافئ",
-    "Slightly hot temperature",
-    "درجة حرارة معتدلة تميل للحرارة"
-  ],
-  [
-    "Cool",
-    "بارد قليلاً",
-    "Slightly cold temperature",
-    "درجة حرارة منخفضة قليلاً"
-  ],
-  [
-    "Freezing",
-    "متجمد",
-    "Extremely cold temperature",
-    "درجة حرارة شديدة البرودة"
-  ],
-  [
-    "Forecast",
-    "توقعات الطقس",
-    "Prediction of future weather",
-    "توقع حالة الطقس القادمة"
-  ],
-  ["Sunny", "مشمس", "Weather with bright sunlight", "طقس مع ضوء شمس قوي"],
-  ["Cloudy", "غائم", "Weather with many clouds", "طقس مليء بالغيوم"],
-  [
-    "Overcast",
-    "مغطى بالغيوم",
-    "Sky completely covered with clouds",
-    "سماء مغطاة بالكامل بالغيوم"
-  ],
-  [
-    "Partly Cloudy",
-    "غائم جزئياً",
-    "Some clouds with sunlight",
-    "وجود بعض الغيوم مع الشمس"
-  ],
-  ["Rain", "مطر", "Water falling from clouds", "سقوط الماء من السحب"],
-  ["Rainy", "ممطر", "Weather with rain", "طقس يحتوي على أمطار"],
-  ["Drizzle", "رذاذ", "Light rain with small drops", "مطر خفيف بقطرات صغيرة"],
-  [
-    "Storm",
-    "عاصفة",
-    "Severe weather with strong winds",
-    "طقس شديد مع رياح قوية"
-  ],
-  [
-    "Thunderstorm",
-    "عاصفة رعدية",
-    "Storm with thunder and lightning",
-    "عاصفة تحتوي على رعد وبرق"
-  ],
-  ["Thunder", "رعد", "Loud sound from storms", "صوت قوي أثناء العواصف"],
-  ["Lightning", "برق", "Bright flash in the sky", "وميض ضوئي في السماء"],
-  [
-    "Snow",
-    "ثلج",
-    "Frozen water falling from clouds",
-    "ماء متجمد يسقط من السحب"
-  ],
-  ["Snowy", "مثلج", "Weather with snow", "طقس يحتوي على الثلوج"],
-  ["Ice", "جليد", "Frozen water", "ماء متجمد"],
-  [
-    "Hail",
-    "برد",
-    "Small balls of ice falling from clouds",
-    "كرات صغيرة من الجليد تسقط من السحب"
-  ],
-  ["Wind", "رياح", "Moving air", "هواء يتحرك"],
-  ["Breeze", "نسيم", "Light gentle wind", "رياح خفيفة ولطيفة"],
-  ["Strong Wind", "رياح قوية", "Fast moving air", "هواء يتحرك بسرعة كبيرة"],
-  [
-    "Hurricane",
-    "إعصار",
-    "Very powerful tropical storm",
-    "عاصفة استوائية قوية جداً"
-  ],
-  [
-    "Tornado",
-    "إعصار قمعي",
-    "Rotating column of air",
-    "عمود هواء دوار شديد القوة"
-  ],
-  ["Fog", "ضباب", "Cloud near the ground", "سحب قريبة من سطح الأرض"],
-  [
-    "Mist",
-    "ضباب خفيف",
-    "Thin fog with low visibility",
-    "ضباب خفيف يقلل الرؤية"
-  ],
-  [
-    "Humidity",
-    "رطوبة",
-    "Amount of water vapor in air",
-    "كمية بخار الماء في الهواء"
-  ],
-  ["Dry", "جاف", "Having little moisture", "يحتوي على القليل من الرطوبة"],
-  ["Wet", "رطب", "Containing water or moisture", "يحتوي على الماء أو الرطوبة"],
-  [
-    "Pressure",
-    "ضغط جوي",
-    "Force of air on the surface",
-    "قوة الهواء على سطح الأرض"
-  ],
-  [
-    "Atmosphere",
-    "الغلاف الجوي",
-    "Layer of gases around Earth",
-    "طبقة الغازات المحيطة بالأرض"
-  ],
-  ["Sky", "سماء", "Space above the Earth", "الفضاء فوق الأرض"],
-  ["Cloud", "سحابة", "Visible mass of water vapor", "كتلة مرئية من بخار الماء"],
-  [
-    "Sun",
-    "الشمس",
-    "Star that provides light and heat",
-    "النجم الذي يوفر الضوء والحرارة"
-  ],
-  ["Moon", "القمر", "Natural satellite of Earth", "القمر الطبيعي للأرض"],
-  ["Star", "نجم", "Bright object in space", "جسم مضيء في الفضاء"],
-  ["Rainbow", "قوس قزح", "Colorful arc after rain", "قوس ملون يظهر بعد المطر"],
-  [
-    "Season",
-    "فصل",
-    "Division of the year by weather",
-    "جزء من السنة حسب الطقس"
-  ],
-  [
-    "Spring",
-    "الربيع",
-    "Season with mild weather and flowers",
-    "فصل معتدل تكثر فيه الأزهار"
-  ],
-  ["Summer", "الصيف", "Warmest season of the year", "أكثر فصول السنة حرارة"],
-  ["Autumn", "الخريف", "Season when leaves fall", "فصل تسقط فيه أوراق الأشجار"],
-  ["Winter", "الشتاء", "Coldest season of the year", "أبرد فصول السنة"],
-  ["Morning", "الصباح", "Early part of the day", "بداية اليوم"],
-  ["Afternoon", "بعد الظهر", "Time after midday", "الوقت بعد منتصف النهار"],
-  ["Evening", "المساء", "Time before night", "الوقت قبل الليل"],
-  ["Night", "الليل", "Dark period of the day", "الفترة المظلمة من اليوم"],
-  ["Sunrise", "شروق الشمس", "Time when the sun appears", "وقت ظهور الشمس"],
-  ["Sunset", "غروب الشمس", "Time when the sun disappears", "وقت اختفاء الشمس"],
-  [
-    "Shade",
-    "ظل",
-    "Dark area protected from sunlight",
-    "منطقة مظللة بعيداً عن الشمس"
-  ],
-  [
-    "UV Rays",
-    "الأشعة فوق البنفسجية",
-    "Radiation from the sun",
-    "إشعاع صادر من الشمس"
-  ],
-  [
-    "Weather Station",
-    "محطة الطقس",
-    "Place that measures weather",
-    "مكان قياس حالة الطقس"
-  ],
-  [
-    "Thermometer",
-    "مقياس الحرارة",
-    "Tool for measuring temperature",
-    "أداة قياس درجة الحرارة"
-  ],
-  [
-    "Barometer",
-    "مقياس الضغط الجوي",
-    "Tool for measuring air pressure",
-    "أداة قياس ضغط الهواء"
-  ],
-  [
-    "Anemometer",
-    "مقياس سرعة الرياح",
-    "Tool for measuring wind speed",
-    "أداة قياس سرعة الرياح"
-  ],
-  [
-    "Rain Gauge",
-    "مقياس المطر",
-    "Tool measuring rainfall",
-    "أداة قياس كمية الأمطار"
-  ],
-  [
-    "Weather App",
-    "تطبيق الطقس",
-    "Application showing weather information",
-    "تطبيق يعرض معلومات الطقس"
-  ],
-  [
-    "Climate Change",
-    "تغير المناخ",
-    "Long-term changes in weather patterns",
-    "تغيرات طويلة المدى في أنماط الطقس"
-  ],
-  [
-    "Global Warming",
-    "الاحتباس الحراري",
-    "Increase in Earth's temperature",
-    "ارتفاع درجة حرارة الأرض"
-  ],
-  [
-    "Pollution",
-    "تلوث",
-    "Harmful substances in environment",
-    "مواد ضارة في البيئة"
-  ],
-  [
-    "Environment",
-    "البيئة",
-    "Natural world around us",
-    "العالم الطبيعي من حولنا"
-  ],
-  [
-    "Temperature Degree",
-    "درجة مئوية",
-    "Unit for measuring temperature",
-    "وحدة قياس درجة الحرارة"
-  ],
-  [
-    "Celsius",
-    "سيلسيوس",
-    "Temperature measurement scale",
-    "مقياس لقياس الحرارة"
-  ],
-  [
-    "Fahrenheit",
-    "فهرنهايت",
-    "Temperature measurement system",
-    "نظام قياس درجة الحرارة"
-  ],
-  [
-    "Weather Warning",
-    "تحذير جوي",
-    "Alert about dangerous weather",
-    "تنبيه حول طقس خطير"
-  ],
-  ["Flood", "فيضان", "Overflow of water on land", "تجمع مياه يغطي الأرض"],
-  ["Drought", "جفاف", "Long period without rain", "فترة طويلة بدون أمطار"],
-  [
-    "Dust Storm",
-    "عاصفة ترابية",
-    "Storm with dust and sand",
-    "عاصفة تحتوي على الغبار والرمال"
-  ],
-  [
-    "Sandstorm",
-    "عاصفة رملية",
-    "Strong wind carrying sand",
-    "رياح قوية تحمل الرمال"
-  ],
-  [
-    "Visibility",
-    "الرؤية",
-    "How far you can see clearly",
-    "مدى القدرة على الرؤية بوضوح"
-  ],
-  [
-    "Weather Pattern",
-    "نمط الطقس",
-    "Repeated weather conditions",
-    "تغيرات الطقس المتكررة"
-  ],
-  [
-    "Extreme Weather",
-    "طقس شديد",
-    "Very unusual weather conditions",
-    "ظروف جوية غير عادية وشديدة"
-  ]
+  ["Weather", "الطقس", "Atmosphere", "الغلاف"],
+  ["Climate", "المناخ", "Long-term", "طويل الأمد"],
+  ["Temperature", "درجة الحرارة", "Degrees", "درجات"],
+  ["Heat", "حرارة", "Warmth", "دفء"],
+  ["Cold", "برد", "Chill", "برودة"],
+  ["Hot", "حار", "Scorching", "حارق"],
+  ["Warm", "دافئ", "Mild", "معتدل"],
+  ["Cool", "بارد قليلاً", "Fresh", "منعش"],
+  ["Freezing", "متجمد", "Below zero", "تحت الصفر"],
+  ["Forecast", "توقعات الطقس", "Prediction", "تنبؤ"],
+
+  ["Sunny", "مشمس", "Clear sky", "سماء صافية"],
+  ["Cloudy", "غائم", "Gray sky", "سماء رمادية"],
+  ["Overcast", "مغطى بالغيوم", "Covered", "مغطى"],
+  ["Partly Cloudy", "غائم جزئياً", "Mixed sky", "غيوم متفرقة"],
+  ["Rain", "مطر", "Droplets", "قطرات"],
+  ["Rainy", "ممطر", "Wet sky", "سماء ممطرة"],
+  ["Drizzle", "رذاذ", "Light drops", "قطرات خفيفة"],
+  ["Storm", "عاصفة", "Violent", "عنيف"],
+  ["Thunderstorm", "عاصفة رعدية", "Thunder", "رعد"],
+  ["Thunder", "رعد", "Boom", "دوي"],
+  ["Lightning", "برق", "Flash", "وميض"],
+
+  ["Snow", "ثلج", "White flakes", "رقاقات"],
+  ["Snowy", "مثلج", "White ground", "أرض بيضاء"],
+  ["Ice", "جليد", "Frozen", "متجمد"],
+  ["Hail", "برد", "Ice balls", "كرات جليد"],
+
+  ["Wind", "رياح", "Air", "هواء"],
+  ["Breeze", "نسيم", "Gentle", "لطيف"],
+  ["Strong Wind", "رياح قوية", "Gust", "هبة"],
+  ["Hurricane", "إعصار", "Category", "كارثي"],
+  ["Tornado", "إعصار قمعي", "Funnel", "قمع"],
+
+  ["Fog", "ضباب", "Low visibility", "رؤية ضعيفة"],
+  ["Mist", "ضباب خفيف", "Thin fog", "خفيف"],
+  ["Humidity", "رطوبة", "Moisture", "بخار"],
+  ["Dry", "جاف", "No moisture", "بلا رطوبة"],
+  ["Wet", "رطب", "Moist", "مبلل"],
+
+  ["Pressure", "ضغط جوي", "Barometer", "بارومتر"],
+  ["Atmosphere", "الغلاف الجوي", "Earth layer", "طبقة الأرض"],
+  ["Sky", "سماء", "Above", "فوق"],
+  ["Cloud", "سحابة", "Vapor", "بخار"],
+
+  ["Sun", "الشمس", "Daylight", "نهار"],
+  ["Moon", "القمر", "Night", "ليل"],
+  ["Star", "نجم", "Space", "فضاء"],
+  ["Rainbow", "قوس قزح", "Colors", "ألوان"],
+
+  ["Season", "فصل", "Year", "سنة"],
+  ["Spring", "الربيع", "Flowers", "زهور"],
+  ["Summer", "الصيف", "Vacation", "عطلة"],
+  ["Autumn", "الخريف", "Leaves", "أوراق"],
+  ["Winter", "الشتاء", "Snow", "ثلوج"],
+
+  ["Morning", "الصباح", "Dawn", "فجر"],
+  ["Afternoon", "بعد الظهر", "Noon", "ظهيرة"],
+  ["Evening", "المساء", "Dusk", "غسق"],
+  ["Night", "الليل", "Dark", "ظلام"],
+  ["Sunrise", "شروق الشمس", "Dawn", "فجر"],
+  ["Sunset", "غروب الشمس", "Twilight", "شفق"],
+
+  ["Shade", "ظل", "Shadow", "ظل"],
+  ["UV Rays", "الأشعة فوق البنفسجية", "Ultraviolet", "بنفسجية"],
+
+  ["Weather Station", "محطة الطقس", "Sensors", "مستشعرات"],
+  ["Thermometer", "مقياس الحرارة", "Mercury", "زئبق"],
+  ["Barometer", "مقياس الضغط الجوي", "Pressure", "ضغط"],
+  ["Anemometer", "مقياس سرعة الرياح", "Wind speed", "سرعة الرياح"],
+  ["Rain Gauge", "مقياس المطر", "Rainfall", "هطول"],
+
+  ["Weather App", "تطبيق الطقس", "Forecast", "توقع"],
+  ["Climate Change", "تغير المناخ", "Global", "عالمي"],
+  ["Global Warming", "الاحتباس الحراري", "Greenhouse", "احتباس"],
+  ["Pollution", "تلوث", "Emissions", "انبعاثات"],
+  ["Environment", "البيئة", "Nature", "طبيعة"],
+
+  ["Temperature Degree", "درجة مئوية", "Unit", "وحدة"],
+  ["Celsius", "سيلسيوس", "°C", "°م"],
+  ["Fahrenheit", "فهرنهايت", "°F", "°ف"],
+
+  ["Weather Warning", "تحذير جوي", "Alert", "تنبيه"],
+  ["Flood", "فيضان", "Overflow", "فيض"],
+  ["Drought", "جفاف", "No rain", "بلا مطر"],
+  ["Dust Storm", "عاصفة ترابية", "Dust", "غبار"],
+  ["Sandstorm", "عاصفة رملية", "Desert", "صحراء"],
+
+  ["Visibility", "الرؤية", "Distance", "مدى"],
+  ["Weather Pattern", "نمط الطقس", "Cycle", "دورة"],
+  ["Extreme Weather", "طقس شديد", "Severe", "قاسٍ"]
 ]

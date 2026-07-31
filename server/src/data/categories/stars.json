@@ -1,261 +1,126 @@
 [
+  ["Albert Einstein", "ألبرت أينشتاين", "Relativity scientist", "عالم النسبية"],
+  ["Isaac Newton", "إسحاق نيوتن", "Gravity pioneer", "رائد الجاذبية"],
+  ["Nikola Tesla", "نيكولا تسلا", "Electricity inventor", "مخترع الكهرباء"],
+  ["Thomas Edison", "توماس إديسون", "Light bulb inventor", "مخترع المصباح"],
+  ["Galileo Galilei", "غاليليو غاليلي", "Famous astronomer", "عالم فلك"],
+  ["Charles Darwin", "تشارلز داروين", "Evolution scientist", "عالم التطور"],
+  ["Stephen Hawking", "ستيفن هوكينغ", "Black holes", "الثقوب السوداء"],
   [
-    "Albert Einstein",
-    "ألبرت أينشتاين",
-    "Theory of relativity",
-    "صاحب نظرية النسبية"
+    "Marie Curie",
+    "ماري كوري",
+    "Radioactivity pioneer",
+    "رائدة النشاط الإشعاعي"
   ],
-  ["Isaac Newton", "إسحاق نيوتن", "Discovered gravity", "اكتشف الجاذبية"],
-  ["Nikola Tesla", "نيكولا تسلا", "Inventor and engineer", "مخترع ومهندس"],
-  [
-    "Thomas Edison",
-    "توماس إديسون",
-    "Invented the light bulb",
-    "اخترع المصباح الكهربائي"
-  ],
-  ["Galileo Galilei", "غاليليو غاليلي", "Astronomer", "عالم فلك"],
-  [
-    "Charles Darwin",
-    "تشارلز داروين",
-    "Theory of evolution",
-    "صاحب نظرية التطور"
-  ],
-  [
-    "Stephen Hawking",
-    "ستيفن هوكينغ",
-    "Black holes scientist",
-    "عالم الثقوب السوداء"
-  ],
-  ["Marie Curie", "ماري كوري", "Won two Nobel Prizes", "حصلت على جائزتي نوبل"],
-  [
-    "Leonardo da Vinci",
-    "ليوناردو دافنشي",
-    "Painted Mona Lisa",
-    "رسم الموناليزا"
-  ],
-  ["Pablo Picasso", "بابلو بيكاسو", "Spanish painter", "رسام إسباني"],
+  ["Leonardo da Vinci", "ليوناردو دافنشي", "Mona Lisa", "الموناليزا"],
+  ["Pablo Picasso", "بابلو بيكاسو", "Cubist painter", "رسام تكعيبي"],
 
-  [
-    "William Shakespeare",
-    "ويليام شكسبير",
-    "Famous playwright",
-    "كاتب مسرحي شهير"
-  ],
-  ["Jules Verne", "جول فيرن", "Science fiction writer", "كاتب خيال علمي"],
-  ["Victor Hugo", "فيكتور هوغو", "Wrote Les Misérables", "كتب البؤساء"],
-  [
-    "Agatha Christie",
-    "أجاثا كريستي",
-    "Mystery novelist",
-    "كاتبة روايات بوليسية"
-  ],
-  ["J.K. Rowling", "ج. ك. رولينغ", "Created Harry Potter", "مؤلفة هاري بوتر"],
-  ["George Orwell", "جورج أورويل", "Wrote 1984", "كتب رواية 1984"],
-  ["Mark Twain", "مارك توين", "American writer", "كاتب أمريكي"],
-  ["Ernest Hemingway", "إرنست همنغواي", "Nobel Prize winner", "حائز على نوبل"],
-  ["Oscar Wilde", "أوسكار وايلد", "Irish writer", "كاتب أيرلندي"],
-  ["Homer", "هوميروس", "Ancient Greek poet", "شاعر يوناني قديم"],
+  ["William Shakespeare", "ويليام شكسبير", "English playwright", "كاتب مسرحي"],
+  ["Jules Verne", "جول فيرن", "Science fiction", "الخيال العلمي"],
+  ["Victor Hugo", "فيكتور هوغو", "Les Misérables", "البؤساء"],
+  ["Agatha Christie", "أجاثا كريستي", "Mystery novels", "روايات بوليسية"],
+  ["J.K. Rowling", "ج. ك. رولينغ", "Harry Potter", "هاري بوتر"],
+  ["George Orwell", "جورج أورويل", "1984 novel", "رواية 1984"],
+  ["Mark Twain", "مارك توين", "American author", "كاتب أمريكي"],
+  ["Ernest Hemingway", "إرنست همنغواي", "Nobel writer", "كاتب نوبل"],
+  ["Oscar Wilde", "أوسكار وايلد", "Irish author", "كاتب أيرلندي"],
+  ["Homer", "هوميروس", "Ancient poet", "شاعر قديم"],
 
   ["Michael Jackson", "مايكل جاكسون", "King of Pop", "ملك البوب"],
   ["Elvis Presley", "إلفيس بريسلي", "King of Rock", "ملك الروك"],
-  [
-    "Freddie Mercury",
-    "فريدي ميركوري",
-    "Lead singer of Queen",
-    "مغني فرقة كوين"
-  ],
+  ["Freddie Mercury", "فريدي ميركوري", "Queen singer", "مغني كوين"],
   ["Madonna", "مادونا", "Queen of Pop", "ملكة البوب"],
-  ["Taylor Swift", "تايلور سويفت", "Singer-songwriter", "مغنية وكاتبة أغاني"],
-  ["Beyoncé", "بيونسيه", "Global pop star", "نجمة غناء عالمية"],
+  ["Taylor Swift", "تايلور سويفت", "Pop superstar", "نجمة بوب"],
+  ["Beyoncé", "بيونسيه", "Global singer", "مغنية عالمية"],
   ["Adele", "أديل", "British singer", "مغنية بريطانية"],
-  ["Ed Sheeran", "إد شيران", "Singer with guitar", "مغنٍ يعزف الجيتار"],
+  ["Ed Sheeran", "إد شيران", "Singer-songwriter", "مغنٍ وكاتب أغاني"],
   ["Drake", "دريك", "Canadian rapper", "مغني راب كندي"],
-  ["Eminem", "إيمينيم", "Famous rapper", "مغني راب مشهور"],
+  ["Eminem", "إيمينيم", "Rap legend", "أسطورة الراب"],
 
   [
     "Cristiano Ronaldo",
     "كريستيانو رونالدو",
-    "Portuguese football legend",
-    "أسطورة كرة قدم برتغالية"
+    "Portuguese football",
+    "كرة قدم برتغالية"
   ],
-  [
-    "Lionel Messi",
-    "ليونيل ميسي",
-    "Argentinian football legend",
-    "أسطورة كرة قدم أرجنتينية"
-  ],
-  ["Pelé", "بيليه", "Brazilian football icon", "أيقونة كرة القدم البرازيلية"],
-  [
-    "Diego Maradona",
-    "دييغو مارادونا",
-    "Argentine football legend",
-    "أسطورة كرة القدم الأرجنتينية"
-  ],
-  [
-    "Zinedine Zidane",
-    "زين الدين زيدان",
-    "French football star",
-    "نجم كرة قدم فرنسي"
-  ],
-  ["Kylian Mbappé", "كيليان مبابي", "French footballer", "لاعب كرة قدم فرنسي"],
-  ["Neymar", "نيمار", "Brazilian footballer", "لاعب كرة قدم برازيلي"],
-  ["LeBron James", "ليبرون جيمس", "Basketball superstar", "نجم كرة سلة"],
-  ["Michael Jordan", "مايكل جوردان", "Basketball legend", "أسطورة كرة السلة"],
-  ["Roger Federer", "روجر فيدرر", "Swiss tennis champion", "بطل تنس سويسري"],
+  ["Lionel Messi", "ليونيل ميسي", "Argentine football", "كرة قدم أرجنتينية"],
+  ["Pelé", "بيليه", "Brazilian legend", "أسطورة برازيلية"],
+  ["Diego Maradona", "دييغو مارادونا", "Argentina legend", "أسطورة الأرجنتين"],
+  ["Zinedine Zidane", "زين الدين زيدان", "French football", "كرة قدم فرنسية"],
+  ["Kylian Mbappé", "كيليان مبابي", "French striker", "مهاجم فرنسي"],
+  ["Neymar", "نيمار", "Brazilian football", "كرة قدم برازيلية"],
+  ["LeBron James", "ليبرون جيمس", "Basketball star", "نجم كرة سلة"],
+  ["Michael Jordan", "مايكل جوردان", "Basketball legend", "أسطورة السلة"],
+  ["Roger Federer", "روجر فيدرر", "Tennis champion", "بطل تنس"],
 
-  ["Usain Bolt", "يوسين بولت", "Fastest man", "أسرع رجل في العالم"],
+  ["Usain Bolt", "يوسين بولت", "Fastest runner", "أسرع عداء"],
   ["Muhammad Ali", "محمد علي", "Boxing legend", "أسطورة الملاكمة"],
-  ["Mike Tyson", "مايك تايسون", "Heavyweight boxer", "ملاكم الوزن الثقيل"],
+  ["Mike Tyson", "مايك تايسون", "Heavyweight boxer", "ملاكم ثقيل"],
   ["Serena Williams", "سيرينا ويليامز", "Tennis champion", "بطلة تنس"],
-  ["Novak Djokovic", "نوفاك دجوكوفيتش", "Serbian tennis star", "نجم تنس صربي"],
-  [
-    "Rafael Nadal",
-    "رافاييل نادال",
-    "Spanish tennis legend",
-    "أسطورة التنس الإسبانية"
-  ],
-  ["Lewis Hamilton", "لويس هاميلتون", "Formula One champion", "بطل فورمولا 1"],
-  [
-    "Michael Schumacher",
-    "مايكل شوماخر",
-    "Formula One legend",
-    "أسطورة فورمولا 1"
-  ],
+  ["Novak Djokovic", "نوفاك دجوكوفيتش", "Serbian tennis", "تنس صربي"],
+  ["Rafael Nadal", "رافاييل نادال", "Spanish tennis", "تنس إسباني"],
+  ["Lewis Hamilton", "لويس هاميلتون", "Formula One", "فورمولا 1"],
+  ["Michael Schumacher", "مايكل شوماخر", "F1 legend", "أسطورة فورمولا"],
   ["Tiger Woods", "تايغر وودز", "Golf champion", "بطل غولف"],
-  ["Simone Biles", "سيمون بايلز", "Gymnastics champion", "بطلة جمباز"],
+  ["Simone Biles", "سيمون بايلز", "Gymnastics star", "نجمة الجمباز"],
 
-  [
-    "Barack Obama",
-    "باراك أوباما",
-    "44th US President",
-    "الرئيس الأمريكي الرابع والأربعون"
-  ],
-  [
-    "Abraham Lincoln",
-    "أبراهام لينكولن",
-    "Ended slavery in the US",
-    "أنهى العبودية في أمريكا"
-  ],
-  [
-    "Nelson Mandela",
-    "نيلسون مانديلا",
-    "South African leader",
-    "زعيم جنوب إفريقيا"
-  ],
-  [
-    "Mahatma Gandhi",
-    "المهاتما غاندي",
-    "Leader of Indian independence",
-    "قائد استقلال الهند"
-  ],
-  [
-    "Winston Churchill",
-    "ونستون تشرشل",
-    "British Prime Minister",
-    "رئيس وزراء بريطانيا"
-  ],
-  ["Napoleon Bonaparte", "نابليون بونابرت", "French emperor", "إمبراطور فرنسا"],
-  ["Julius Caesar", "يوليوس قيصر", "Roman leader", "قائد روماني"],
-  ["Cleopatra", "كليوباترا", "Queen of Egypt", "ملكة مصر"],
+  ["Barack Obama", "باراك أوباما", "US President", "رئيس أمريكي"],
+  ["Abraham Lincoln", "أبراهام لينكولن", "US president", "رئيس أمريكي"],
+  ["Nelson Mandela", "نيلسون مانديلا", "South Africa", "جنوب إفريقيا"],
+  ["Mahatma Gandhi", "المهاتما غاندي", "Indian leader", "زعيم هندي"],
+  ["Winston Churchill", "ونستون تشرشل", "British leader", "زعيم بريطاني"],
+  ["Napoleon Bonaparte", "نابليون بونابرت", "French emperor", "إمبراطور فرنسي"],
+  ["Julius Caesar", "يوليوس قيصر", "Roman ruler", "حاكم روماني"],
+  ["Cleopatra", "كليوباترا", "Egyptian queen", "ملكة مصر"],
   [
     "Queen Elizabeth II",
     "الملكة إليزابيث الثانية",
-    "Longest-serving British monarch",
-    "أطول ملوك بريطانيا حكمًا"
+    "British queen",
+    "ملكة بريطانيا"
   ],
   ["Princess Diana", "الأميرة ديانا", "Princess of Wales", "أميرة ويلز"],
 
-  ["Steve Jobs", "ستيف جوبز", "Co-founded Apple", "شارك في تأسيس آبل"],
-  ["Bill Gates", "بيل غيتس", "Founded Microsoft", "أسس مايكروسوفت"],
-  ["Elon Musk", "إيلون ماسك", "Founded SpaceX", "مؤسس سبيس إكس"],
-  ["Mark Zuckerberg", "مارك زوكربيرغ", "Founded Facebook", "مؤسس فيسبوك"],
-  ["Jeff Bezos", "جيف بيزوس", "Founded Amazon", "مؤسس أمازون"],
-  ["Larry Page", "لاري بايج", "Co-founded Google", "شارك في تأسيس جوجل"],
-  ["Sergey Brin", "سيرجي برين", "Co-founded Google", "شارك في تأسيس جوجل"],
-  ["Tim Cook", "تيم كوك", "Apple CEO", "الرئيس التنفيذي لآبل"],
-  ["Sam Altman", "سام ألتمان", "CEO of OpenAI", "الرئيس التنفيذي لـ OpenAI"],
-  ["Jensen Huang", "جنسن هوانغ", "CEO of NVIDIA", "الرئيس التنفيذي لـ NVIDIA"],
+  ["Steve Jobs", "ستيف جوبز", "Apple founder", "مؤسس آبل"],
+  ["Bill Gates", "بيل غيتس", "Microsoft founder", "مؤسس مايكروسوفت"],
+  ["Elon Musk", "إيلون ماسك", "SpaceX founder", "مؤسس سبيس إكس"],
+  ["Mark Zuckerberg", "مارك زوكربيرغ", "Facebook founder", "مؤسس فيسبوك"],
+  ["Jeff Bezos", "جيف بيزوس", "Amazon founder", "مؤسس أمازون"],
+  ["Larry Page", "لاري بايج", "Google founder", "مؤسس جوجل"],
+  ["Sergey Brin", "سيرجي برين", "Google founder", "مؤسس جوجل"],
+  ["Tim Cook", "تيم كوك", "Apple CEO", "رئيس آبل"],
+  ["Sam Altman", "سام ألتمان", "OpenAI CEO", "رئيس OpenAI"],
+  ["Jensen Huang", "جنسن هوانغ", "NVIDIA CEO", "رئيس NVIDIA"],
 
   ["Tom Hanks", "توم هانكس", "Hollywood actor", "ممثل هوليوودي"],
-  [
-    "Leonardo DiCaprio",
-    "ليوناردو دي كابريو",
-    "Oscar-winning actor",
-    "ممثل حائز على الأوسكار"
-  ],
+  ["Leonardo DiCaprio", "ليوناردو دي كابريو", "Oscar actor", "ممثل أوسكار"],
   ["Brad Pitt", "براد بيت", "Hollywood actor", "ممثل هوليوودي"],
-  ["Johnny Depp", "جوني ديب", "Played Jack Sparrow", "جسد شخصية جاك سبارو"],
-  [
-    "Robert Downey Jr.",
-    "روبرت داوني جونيور",
-    "Played Iron Man",
-    "جسد شخصية آيرون مان"
-  ],
-  [
-    "Chris Evans",
-    "كريس إيفانز",
-    "Played Captain America",
-    "جسد شخصية كابتن أمريكا"
-  ],
-  [
-    "Scarlett Johansson",
-    "سكارليت جوهانسون",
-    "Played Black Widow",
-    "جسدت الأرملة السوداء"
-  ],
-  ["Emma Watson", "إيما واتسون", "Played Hermione", "جسدت هيرمايني"],
-  [
-    "Daniel Radcliffe",
-    "دانيال رادكليف",
-    "Played Harry Potter",
-    "جسد هاري بوتر"
-  ],
-  ["Morgan Freeman", "مورغان فريمان", "Famous narrator", "صاحب صوت مميز"],
+  ["Johnny Depp", "جوني ديب", "Jack Sparrow", "جاك سبارو"],
+  ["Robert Downey Jr.", "روبرت داوني جونيور", "Iron Man", "آيرون مان"],
+  ["Chris Evans", "كريس إيفانز", "Captain America", "كابتن أمريكا"],
+  ["Scarlett Johansson", "سكارليت جوهانسون", "Black Widow", "الأرملة السوداء"],
+  ["Emma Watson", "إيما واتسون", "Hermione", "هيرمايني"],
+  ["Daniel Radcliffe", "دانيال رادكليف", "Harry Potter", "هاري بوتر"],
+  ["Morgan Freeman", "مورغان فريمان", "Famous narrator", "صوت مميز"],
 
-  ["Jackie Chan", "جاكي شان", "Martial arts actor", "ممثل فنون قتالية"],
-  ["Bruce Lee", "بروس لي", "Martial arts legend", "أسطورة الفنون القتالية"],
-  [
-    "Arnold Schwarzenegger",
-    "أرنولد شوارزنيغر",
-    "The Terminator",
-    "بطل فيلم المدمر"
-  ],
-  ["Sylvester Stallone", "سيلفستر ستالون", "Played Rocky", "جسد روكي"],
-  ["Keanu Reeves", "كيانو ريفز", "Played John Wick", "جسد جون ويك"],
+  ["Jackie Chan", "جاكي شان", "Action actor", "ممثل أكشن"],
+  ["Bruce Lee", "بروس لي", "Martial arts", "فنون قتالية"],
+  ["Arnold Schwarzenegger", "أرنولد شوارزنيغر", "Terminator", "المدمر"],
+  ["Sylvester Stallone", "سيلفستر ستالون", "Rocky", "روكي"],
+  ["Keanu Reeves", "كيانو ريفز", "John Wick", "جون ويك"],
   ["Dwayne Johnson", "دواين جونسون", "The Rock", "ذا روك"],
   ["Will Smith", "ويل سميث", "Hollywood actor", "ممثل هوليوودي"],
   ["Angelina Jolie", "أنجلينا جولي", "Hollywood actress", "ممثلة هوليوودية"],
-  [
-    "Jennifer Lawrence",
-    "جينيفر لورنس",
-    "Oscar-winning actress",
-    "ممثلة حائزة على الأوسكار"
-  ],
-  [
-    "Julia Roberts",
-    "جوليا روبرتس",
-    "Pretty Woman actress",
-    "بطلة فيلم Pretty Woman"
-  ],
+  ["Jennifer Lawrence", "جينيفر لورنس", "Oscar actress", "ممثلة أوسكار"],
+  ["Julia Roberts", "جوليا روبرتس", "Pretty Woman", "Pretty Woman"],
 
-  ["Walt Disney", "والت ديزني", "Created Mickey Mouse", "مبتكر ميكي ماوس"],
-  ["Stan Lee", "ستان لي", "Created Marvel heroes", "مبتكر أبطال مارفل"],
+  ["Walt Disney", "والت ديزني", "Mickey Mouse", "ميكي ماوس"],
+  ["Stan Lee", "ستان لي", "Marvel creator", "مبتكر مارفل"],
   ["Hayao Miyazaki", "هاياو ميازاكي", "Anime director", "مخرج أنمي"],
   ["Cristopher Nolan", "كريستوفر نولان", "Film director", "مخرج أفلام"],
-  [
-    "Steven Spielberg",
-    "ستيفن سبيلبرغ",
-    "Directed Jurassic Park",
-    "أخرج Jurassic Park"
-  ],
-  ["James Cameron", "جيمس كاميرون", "Directed Titanic", "أخرج Titanic"],
+  ["Steven Spielberg", "ستيفن سبيلبرغ", "Jurassic Park", "Jurassic Park"],
+  ["James Cameron", "جيمس كاميرون", "Titanic director", "مخرج Titanic"],
   ["Quentin Tarantino", "كوينتن تارانتينو", "Film director", "مخرج أفلام"],
   ["Martin Scorsese", "مارتن سكورسيزي", "Film director", "مخرج أفلام"],
-  ["George Lucas", "جورج لوكاس", "Created Star Wars", "مبتكر Star Wars"],
-  [
-    "Alfred Hitchcock",
-    "ألفريد هيتشكوك",
-    "Master of suspense",
-    "سيد أفلام التشويق"
-  ]
+  ["George Lucas", "جورج لوكاس", "Star Wars", "Star Wars"],
+  ["Alfred Hitchcock", "ألفريد هيتشكوك", "Suspense films", "أفلام التشويق"]
 ]

@@ -147,5 +147,147 @@
   ["Workbook", "كراس التمارين", "Book with exercises", "كتاب يحتوي على تمارين"],
   ["Flashcard", "بطاقة تعليمية", "Used for memorization", "تستخدم للحفظ"],
   ["School Gate", "بوابة المدرسة", "Main entrance", "المدخل الرئيسي"],
-  ["Notice", "إعلان", "Important school message", "رسالة مدرسية مهمة"]
+  ["Notice", "إعلان", "Important school message", "رسالة مدرسية مهمة"],
+
+  [
+    "School Uniform",
+    "الزي المدرسي",
+    "Clothes worn at school",
+    "ملابس المدرسة الرسمية"
+  ],
+  [
+    "School Bell",
+    "جرس الحصة",
+    "Signals lesson changes",
+    "يشير إلى بداية ونهاية الحصص"
+  ],
+  [
+    "Attendance Register",
+    "سجل الغياب",
+    "Tracks attendance",
+    "يسجل الحضور والغياب"
+  ],
+  ["ID Card", "بطاقة مدرسية", "Student identification", "بطاقة تعريف الطالب"],
+  [
+    "School Nurse",
+    "ممرضة المدرسة",
+    "Helps sick students",
+    "تعتني بالطلاب المرضى"
+  ],
+  ["Counselor", "المرشد التربوي", "Supports students", "يساعد الطلاب"],
+  [
+    "Vice Principal",
+    "نائب المدير",
+    "Assists the principal",
+    "يساعد مدير المدرسة"
+  ],
+  [
+    "Janitor",
+    "عامل النظافة",
+    "Keeps the school clean",
+    "يحافظ على نظافة المدرسة"
+  ],
+  ["School Office", "الإدارة", "Administrative office", "مكتب الإدارة"],
+  [
+    "Science Fair",
+    "معرض العلوم",
+    "Student science projects",
+    "معرض للمشاريع العلمية"
+  ],
+  [
+    "Graduation Photo",
+    "صورة التخرج",
+    "Taken at graduation",
+    "تلتقط في حفل التخرج"
+  ],
+  ["School Trip", "رحلة مدرسية", "Educational excursion", "رحلة تعليمية"],
+  [
+    "Field Trip",
+    "زيارة ميدانية",
+    "Learning outside school",
+    "تعلم خارج المدرسة"
+  ],
+  ["Assembly Hall", "قاعة الاجتماعات", "Large meeting room", "قاعة للتجمعات"],
+  [
+    "Auditorium",
+    "قاعة المحاضرات",
+    "Large presentation room",
+    "قاعة كبيرة للمحاضرات"
+  ],
+  ["Stage", "منصة", "Used for performances", "للعروض والاحتفالات"],
+  ["Flag", "علم", "National school flag", "العلم الوطني"],
+  ["Flagpole", "سارية العلم", "Holds the flag", "تحمل العلم"],
+  ["Microscope", "مجهر", "Magnifies tiny objects", "يكبر الأجسام الصغيرة"],
+  ["Test Tube", "أنبوب اختبار", "Used in science labs", "يستخدم في المختبر"],
+  ["Beaker", "كأس مخبري", "Holds liquids", "لحفظ السوائل"],
+  ["Experiment", "تجربة", "Scientific activity", "نشاط علمي"],
+  ["Research", "بحث", "Careful study", "دراسة متعمقة"],
+  ["Reference Book", "كتاب مرجعي", "Provides information", "يوفر المعلومات"],
+  ["Encyclopedia", "موسوعة", "Collection of knowledge", "مجموعة من المعارف"],
+  ["Highlighter", "قلم تمييز", "Marks important text", "يحدد النصوص المهمة"],
+  ["Sticky Notes", "ملاحظات لاصقة", "Small reminder notes", "ملاحظات صغيرة"],
+  ["Binder", "ملف", "Organizes papers", "ينظم الأوراق"],
+  ["Folder", "حافظة", "Stores documents", "تحفظ المستندات"],
+  ["Paper Clip", "مشبك ورق", "Holds papers together", "يجمع الأوراق"],
+  ["Stapler", "دباسة", "Staples papers", "يدبس الأوراق"],
+  ["Staple", "دبوس تدبيس", "Used with stapler", "يستخدم مع الدباسة"],
+  ["Hole Punch", "مثقاب ورق", "Makes holes in paper", "يثقب الأوراق"],
+  ["Crayon", "قلم شمع", "Colored wax stick", "قلم تلوين شمعي"],
+  ["Colored Pencil", "قلم تلوين", "Used for coloring", "للتلوين"],
+  ["Paintbrush", "فرشاة رسم", "Applies paint", "لوضع الطلاء"],
+  ["Paint", "ألوان", "Used for painting", "تستخدم للرسم"],
+  ["Sketchbook", "دفتر رسم", "Book for drawing", "دفتر للرسم"],
+  ["Music Sheet", "نوتة موسيقية", "Written music", "تدوين موسيقي"],
+  ["Choir", "الجوقة", "School singing group", "فرقة الغناء"],
+  ["Debate", "مناظرة", "Formal discussion", "نقاش منظم"],
+  ["Speech", "خطاب", "Public speaking", "كلام أمام الجمهور"],
+  ["Competition", "مسابقة", "Contest between students", "تنافس بين الطلاب"],
+  ["Award", "جائزة", "Prize for achievement", "تكريم للإنجاز"],
+  ["Medal", "ميدالية", "Award for success", "وسام للنجاح"],
+  [
+    "Honor Roll",
+    "قائمة المتفوقين",
+    "Top students list",
+    "قائمة الطلاب المتفوقين"
+  ],
+  ["Club", "نادٍ مدرسي", "Student activity group", "مجموعة أنشطة مدرسية"],
+  [
+    "Chess Club",
+    "نادي الشطرنج",
+    "Club for chess players",
+    "نادي لاعبي الشطرنج"
+  ],
+  ["Science Club", "نادي العلوم", "Science activities", "أنشطة علمية"],
+  ["Drama Club", "نادي المسرح", "Acting activities", "أنشطة التمثيل"],
+  ["Art Club", "نادي الرسم", "Drawing activities", "أنشطة الرسم"],
+  ["School Newspaper", "صحيفة المدرسة", "Student newspaper", "جريدة المدرسة"],
+  ["Yearbook", "الكتاب السنوي", "School memories book", "كتاب ذكريات المدرسة"],
+  [
+    "Parent Meeting",
+    "اجتماع أولياء الأمور",
+    "Parents meet teachers",
+    "اجتماع مع المعلمين"
+  ],
+  ["Parent", "ولي أمر", "Student's guardian", "المسؤول عن الطالب"],
+  ["Tuition", "رسوم الدراسة", "Cost of education", "تكلفة الدراسة"],
+  ["Admission", "القبول", "Entering a school", "الالتحاق بالمدرسة"],
+  ["Enrollment", "التسجيل", "Joining the school", "تسجيل الطالب"],
+  ["Roll Call", "النداء", "Teacher calls names", "ينادي المعلم أسماء الطلاب"],
+  ["Absence", "غياب", "Not attending school", "عدم الحضور"],
+  ["Late", "تأخر", "Arriving after time", "الوصول بعد الموعد"],
+  ["Discipline", "انضباط", "Following school rules", "الالتزام بالقوانين"],
+  ["Detention", "احتجاز", "Punishment after school", "عقوبة بعد الدوام"],
+  ["Rule", "قاعدة", "School regulation", "قانون مدرسي"],
+  ["Question", "سؤال", "Asked to learn", "يطرح للتعلم"],
+  ["Answer", "إجابة", "Response to a question", "رد على سؤال"],
+  ["Knowledge", "معرفة", "What you learn", "ما تتعلمه"],
+  ["Education", "تعليم", "Process of learning", "عملية التعلم"],
+  ["Skill", "مهارة", "Learned ability", "قدرة مكتسبة"],
+  ["Creativity", "إبداع", "Original thinking", "التفكير المبتكر"],
+  ["Teamwork", "العمل الجماعي", "Working together", "العمل مع الآخرين"],
+  ["Study", "مذاكرة", "Learning lessons", "دراسة الدروس"],
+  ["Revision", "مراجعة", "Review before exams", "مراجعة قبل الامتحان"],
+  ["Knowledge Test", "اختبار المعرفة", "Measures understanding", "يقيس الفهم"],
+  ["Pass", "نجاح", "Meeting requirements", "تحقيق النجاح"],
+  ["Fail", "رسوب", "Not passing", "عدم النجاح"]
 ]

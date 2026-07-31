@@ -1,388 +1,83 @@
 [
-  ["Vehicle", "مركبة", "A machine used for transportation", "آلة تستخدم للنقل"],
-  [
-    "Car",
-    "سيارة",
-    "A road vehicle for passengers",
-    "مركبة تسير على الطرق لنقل الأشخاص"
-  ],
-  [
-    "Truck",
-    "شاحنة",
-    "A large vehicle for transporting goods",
-    "مركبة كبيرة لنقل البضائع"
-  ],
-  [
-    "Bus",
-    "حافلة",
-    "A vehicle that carries many passengers",
-    "مركبة تنقل عدداً كبيراً من الركاب"
-  ],
-  [
-    "Taxi",
-    "سيارة أجرة",
-    "A vehicle that transports passengers for payment",
-    "مركبة تنقل الركاب مقابل المال"
-  ],
-  [
-    "Motorcycle",
-    "دراجة نارية",
-    "A two-wheeled motor vehicle",
-    "مركبة بمحرك ذات عجلتين"
-  ],
-  [
-    "Bicycle",
-    "دراجة هوائية",
-    "A human-powered two-wheel vehicle",
-    "مركبة بعجلتين تعمل بقوة الإنسان"
-  ],
-  ["Scooter", "سكوتر", "A small two-wheel vehicle", "مركبة صغيرة بعجلتين"],
-  [
-    "Van",
-    "شاحنة صغيرة",
-    "A vehicle for passengers or cargo",
-    "مركبة لنقل الركاب أو البضائع"
-  ],
-  [
-    "SUV",
-    "سيارة دفع رباعي",
-    "A vehicle designed for different terrains",
-    "سيارة مصممة للطرق المختلفة"
-  ],
-  [
-    "Pickup Truck",
-    "شاحنة بيك أب",
-    "A truck with an open cargo area",
-    "شاحنة تحتوي على مساحة تحميل مفتوحة"
-  ],
-  [
-    "Minivan",
-    "حافلة صغيرة",
-    "A small passenger van",
-    "مركبة صغيرة لنقل الركاب"
-  ],
-  ["Limousine", "سيارة ليموزين", "A luxury passenger car", "سيارة ركاب فاخرة"],
-  [
-    "Sports Car",
-    "سيارة رياضية",
-    "A high-performance car",
-    "سيارة ذات أداء عالٍ"
-  ],
-  [
-    "Electric Car",
-    "سيارة كهربائية",
-    "A car powered by electricity",
-    "سيارة تعمل بالطاقة الكهربائية"
-  ],
-  [
-    "Hybrid Car",
-    "سيارة هجينة",
-    "A car using fuel and electricity",
-    "سيارة تستخدم الوقود والكهرباء"
-  ],
-  [
-    "Autonomous Car",
-    "سيارة ذاتية القيادة",
-    "A car that drives itself",
-    "سيارة تقود نفسها تلقائياً"
-  ],
-  [
-    "Police Car",
-    "سيارة شرطة",
-    "Vehicle used by police officers",
-    "مركبة تستخدمها الشرطة"
-  ],
-  [
-    "Ambulance",
-    "سيارة إسعاف",
-    "Vehicle for medical emergencies",
-    "مركبة للحالات الطبية الطارئة"
-  ],
-  [
-    "Fire Truck",
-    "شاحنة إطفاء",
-    "Vehicle used to fight fires",
-    "مركبة تستخدم لإطفاء الحرائق"
-  ],
-  [
-    "Construction Vehicle",
-    "مركبة بناء",
-    "Vehicle used in construction work",
-    "مركبة تستخدم في أعمال البناء"
-  ],
-  [
-    "Bulldozer",
-    "جرافة",
-    "Heavy machine for moving earth",
-    "آلة ثقيلة لتحريك التربة"
-  ],
-  ["Excavator", "حفارة", "Machine used for digging", "آلة تستخدم للحفر"],
-  [
-    "Crane",
-    "رافعة",
-    "Machine used for lifting heavy objects",
-    "آلة تستخدم لرفع الأشياء الثقيلة"
-  ],
-  ["Tractor", "جرار", "Vehicle used in agriculture", "مركبة تستخدم في الزراعة"],
-  [
-    "Combine Harvester",
-    "حصادة",
-    "Machine used for harvesting crops",
-    "آلة تستخدم لحصاد المحاصيل"
-  ],
-  [
-    "Train",
-    "قطار",
-    "A vehicle that runs on railway tracks",
-    "مركبة تسير على السكك الحديدية"
-  ],
-  [
-    "Subway",
-    "مترو الأنفاق",
-    "Urban underground train system",
-    "نظام قطارات تحت الأرض"
-  ],
-  [
-    "Tram",
-    "ترام",
-    "A vehicle running on city rails",
-    "مركبة تسير على سكك داخل المدن"
-  ],
-  [
-    "Monorail",
-    "قطار أحادي السكة",
-    "Train running on one rail",
-    "قطار يسير على سكة واحدة"
-  ],
-  [
-    "Airplane",
-    "طائرة",
-    "A flying vehicle with wings",
-    "مركبة تطير في الجو ولها أجنحة"
-  ],
-  [
-    "Helicopter",
-    "مروحية",
-    "Aircraft with rotating blades",
-    "طائرة لها شفرات دوارة"
-  ],
-  [
-    "Jet",
-    "طائرة نفاثة",
-    "Fast aircraft powered by jet engines",
-    "طائرة سريعة بمحركات نفاثة"
-  ],
-  [
-    "Drone",
-    "طائرة بدون طيار",
-    "Remote-controlled flying vehicle",
-    "مركبة جوية يتم التحكم بها عن بعد"
-  ],
-  ["Glider", "طائرة شراعية", "Aircraft without an engine", "طائرة بدون محرك"],
-  [
-    "Rocket",
-    "صاروخ",
-    "Vehicle used for space travel",
-    "مركبة تستخدم للسفر إلى الفضاء"
-  ],
-  [
-    "Spacecraft",
-    "مركبة فضائية",
-    "Vehicle designed for space",
-    "مركبة مصممة للفضاء"
-  ],
-  [
-    "Boat",
-    "قارب",
-    "Small water transportation vehicle",
-    "وسيلة نقل مائية صغيرة"
-  ],
-  ["Ship", "سفينة", "Large water transport vehicle", "مركبة مائية كبيرة"],
-  ["Yacht", "يخت", "Luxury private boat", "قارب خاص فاخر"],
-  [
-    "Ferry",
-    "عبّارة",
-    "Boat carrying passengers and vehicles",
-    "سفينة تنقل الركاب والمركبات"
-  ],
-  [
-    "Submarine",
-    "غواصة",
-    "Vehicle that travels underwater",
-    "مركبة تتحرك تحت الماء"
-  ],
-  [
-    "Jet Ski",
-    "دراجة مائية",
-    "Small watercraft for recreation",
-    "مركبة مائية صغيرة للترفيه"
-  ],
-  [
-    "Sailboat",
-    "قارب شراعي",
-    "Boat powered by wind",
-    "قارب يعمل بالطاقة الهوائية"
-  ],
-  ["Canoe", "زورق", "Small narrow boat", "قارب صغير وضيق"],
-  ["Kayak", "كاياك", "Small boat moved by paddles", "قارب صغير يحرك بالمجاديف"],
-  [
-    "Horse Carriage",
-    "عربة حصان",
-    "Vehicle pulled by horses",
-    "مركبة تجرها الخيول"
-  ],
-  [
-    "Cart",
-    "عربة",
-    "Simple vehicle for carrying goods",
-    "مركبة بسيطة لنقل الأشياء"
-  ],
-  [
-    "Rickshaw",
-    "عربة ركاب",
-    "Small passenger vehicle pulled manually",
-    "مركبة صغيرة لنقل الركاب"
-  ],
-  [
-    "Wheelchair",
-    "كرسي متحرك",
-    "Vehicle for people with mobility issues",
-    "وسيلة نقل للأشخاص ذوي صعوبة الحركة"
-  ],
-  [
-    "Skateboard",
-    "لوح تزلج",
-    "Board with wheels for riding",
-    "لوح بعجلات للتنقل"
-  ],
-  [
-    "Roller Skates",
-    "زلاجات بعجلات",
-    "Shoes with wheels for movement",
-    "أحذية بعجلات للحركة"
-  ],
-  [
-    "ATV",
-    "مركبة رباعية الدفع",
-    "Off-road four-wheel vehicle",
-    "مركبة بأربع عجلات للطرق الوعرة"
-  ],
-  [
-    "Golf Cart",
-    "عربة غولف",
-    "Small vehicle for golf courses",
-    "مركبة صغيرة لملاعب الغولف"
-  ],
-  [
-    "Camper",
-    "سيارة تخييم",
-    "Vehicle for travel and camping",
-    "مركبة للسفر والتخييم"
-  ],
-  ["Caravan", "قافلة متنقلة", "Mobile home vehicle", "منزل متنقل"],
-  [
-    "Trailer",
-    "مقطورة",
-    "Vehicle pulled by another vehicle",
-    "مركبة تُسحب بواسطة مركبة أخرى"
-  ],
-  [
-    "Engine",
-    "محرك",
-    "Machine that powers a vehicle",
-    "آلة تولد الطاقة للمركبة"
-  ],
-  [
-    "Wheel",
-    "عجلة",
-    "Circular part that allows movement",
-    "جزء دائري يسمح بالحركة"
-  ],
-  ["Tire", "إطار", "Rubber covering around a wheel", "غطاء مطاطي حول العجلة"],
-  ["Brake", "مكابح", "System that slows a vehicle", "نظام يبطئ المركبة"],
-  [
-    "Steering Wheel",
-    "مقود",
-    "Used to control vehicle direction",
-    "يستخدم للتحكم في اتجاه المركبة"
-  ],
-  [
-    "Seat Belt",
-    "حزام الأمان",
-    "Safety belt inside vehicles",
-    "حزام للحماية داخل المركبات"
-  ],
-  ["Fuel", "وقود", "Energy source for vehicles", "مصدر طاقة للمركبات"],
-  [
-    "Gasoline",
-    "بنزين",
-    "Fuel used by many cars",
-    "وقود يستخدم في العديد من السيارات"
-  ],
-  ["Diesel", "ديزل", "Fuel for some engines", "وقود لبعض المحركات"],
-  ["Battery", "بطارية", "Stores electrical energy", "تخزن الطاقة الكهربائية"],
-  [
-    "Charging Station",
-    "محطة شحن",
-    "Place for charging electric vehicles",
-    "مكان لشحن المركبات الكهربائية"
-  ],
-  ["Garage", "مرآب", "Place where vehicles are stored", "مكان تخزين المركبات"],
-  ["Parking", "موقف سيارات", "Place to leave vehicles", "مكان ركن المركبات"],
-  [
-    "Traffic",
-    "حركة المرور",
-    "Movement of vehicles on roads",
-    "حركة المركبات على الطرق"
-  ],
-  ["Road", "طريق", "Surface used by vehicles", "سطح تستخدمه المركبات"],
-  [
-    "Highway",
-    "طريق سريع",
-    "Large road for fast travel",
-    "طريق كبير للسفر السريع"
-  ],
-  [
-    "Bridge",
-    "جسر",
-    "Structure allowing vehicles to cross",
-    "منشأة تسمح للمركبات بالعبور"
-  ],
-  [
-    "Traffic Light",
-    "إشارة مرور",
-    "Signal controlling road traffic",
-    "إشارة تتحكم في حركة المرور"
-  ],
-  [
-    "License Plate",
-    "لوحة ترقيم",
-    "Vehicle identification plate",
-    "لوحة تعريف المركبة"
-  ],
-  [
-    "Driver",
-    "سائق",
-    "Person who controls a vehicle",
-    "الشخص الذي يقود المركبة"
-  ],
-  [
-    "Passenger",
-    "راكب",
-    "Person traveling in a vehicle",
-    "شخص يسافر داخل المركبة"
-  ],
-  ["Mechanic", "ميكانيكي", "Person who repairs vehicles", "شخص يصلح المركبات"],
-  [
-    "Speedometer",
-    "عداد السرعة",
-    "Device showing vehicle speed",
-    "جهاز يعرض سرعة المركبة"
-  ],
-  [
-    "GPS",
-    "نظام تحديد المواقع",
-    "System for navigation",
-    "نظام للملاحة وتحديد الموقع"
-  ]
+  ["Vehicle", "مركبة", "Transport", "تنقل"],
+  ["Car", "سيارة", "Sedan", "أربع عجلات"],
+  ["Truck", "شاحنة", "Cargo", "حمولة"],
+  ["Bus", "حافلة", "Transit", "ركاب"],
+  ["Taxi", "سيارة أجرة", "Fare", "أجرة"],
+  ["Motorcycle", "دراجة نارية", "Two-wheel", "عجلتان"],
+  ["Bicycle", "دراجة هوائية", "Pedals", "دواسات"],
+  ["Scooter", "سكوتر", "Kick", "خفيف"],
+  ["Van", "شاحنة صغيرة", "Cargo", "نقل"],
+  ["SUV", "سيارة دفع رباعي", "Off-road", "وعرة"],
+  ["Pickup Truck", "شاحنة بيك أب", "Open bed", "صندوق"],
+  ["Minivan", "حافلة صغيرة", "Family", "عائلية"],
+  ["Limousine", "سيارة ليموزين", "Luxury", "فاخرة"],
+  ["Sports Car", "سيارة رياضية", "Performance", "سرعة"],
+  ["Electric Car", "سيارة كهربائية", "Battery", "بطارية"],
+  ["Hybrid Car", "سيارة هجينة", "Dual power", "هجين"],
+  ["Autonomous Car", "سيارة ذاتية القيادة", "Self-drive", "ذاتي"],
+  ["Police Car", "سيارة شرطة", "Patrol", "دورية"],
+  ["Ambulance", "سيارة إسعاف", "Emergency", "طوارئ"],
+  ["Fire Truck", "شاحنة إطفاء", "Fire", "إطفاء"],
+  ["Construction Vehicle", "مركبة بناء", "Worksite", "ورشة"],
+  ["Bulldozer", "جرافة", "Blade", "شفرة"],
+  ["Excavator", "حفارة", "Digging", "حفر"],
+  ["Crane", "رافعة", "Lifting", "رفع"],
+  ["Tractor", "جرار", "Farm", "مزرعة"],
+  ["Combine Harvester", "حصادة", "Harvest", "حصاد"],
+  ["Train", "قطار", "Rails", "سكك"],
+  ["Subway", "مترو الأنفاق", "Underground", "أنفاق"],
+  ["Tram", "ترام", "Street rail", "سكة"],
+  ["Monorail", "قطار أحادي السكة", "Single rail", "سكة واحدة"],
+  ["Airplane", "طائرة", "Wings", "أجنحة"],
+  ["Helicopter", "مروحية", "Rotor", "مروحة"],
+  ["Jet", "طائرة نفاثة", "Jet engine", "نفاث"],
+  ["Drone", "طائرة بدون طيار", "Remote", "تحكم"],
+  ["Glider", "طائرة شراعية", "Soaring", "انزلاق"],
+  ["Rocket", "صاروخ", "Launch", "إطلاق"],
+  ["Spacecraft", "مركبة فضائية", "Orbit", "مدار"],
+  ["Boat", "قارب", "Paddle", "تجديف"],
+  ["Ship", "سفينة", "Voyage", "إبحار"],
+  ["Yacht", "يخت", "Luxury", "فاخر"],
+  ["Ferry", "عبّارة", "Crossing", "عبور"],
+  ["Submarine", "غواصة", "Depth", "أعماق"],
+  ["Jet Ski", "دراجة مائية", "Water", "ماء"],
+  ["Sailboat", "قارب شراعي", "Sail", "شراع"],
+  ["Canoe", "زورق", "Paddle", "مجداف"],
+  ["Kayak", "كاياك", "River", "نهر"],
+  ["Horse Carriage", "عربة حصان", "Horse", "خيول"],
+  ["Cart", "عربة", "Wheels", "عجلات"],
+  ["Rickshaw", "عربة ركاب", "Pull", "سحب"],
+  ["Wheelchair", "كرسي متحرك", "Mobility", "حركة"],
+  ["Skateboard", "لوح تزلج", "Deck", "لوح"],
+  ["Roller Skates", "زلاجات بعجلات", "Roll", "عجلات"],
+  ["ATV", "مركبة رباعية الدفع", "Terrain", "وعرة"],
+  ["Golf Cart", "عربة غولف", "Course", "ملعب"],
+  ["Camper", "سيارة تخييم", "Camping", "تخييم"],
+  ["Caravan", "قافلة متنقلة", "Mobile", "متنقل"],
+  ["Trailer", "مقطورة", "Tow", "سحب"],
+  ["Engine", "محرك", "Power", "طاقة"],
+  ["Wheel", "عجلة", "Rotation", "دوران"],
+  ["Tire", "إطار", "Rubber", "مطاط"],
+  ["Brake", "مكابح", "Stop", "توقف"],
+  ["Steering Wheel", "مقود", "Direction", "اتجاه"],
+  ["Seat Belt", "حزام الأمان", "Safety", "سلامة"],
+  ["Fuel", "وقود", "Energy", "طاقة"],
+  ["Gasoline", "بنزين", "Petrol", "محطة"],
+  ["Diesel", "ديزل", "Engine", "محرك"],
+  ["Battery", "بطارية", "Charge", "شحن"],
+  ["Charging Station", "محطة شحن", "Plug", "شاحن"],
+  ["Garage", "مرآب", "Storage", "تخزين"],
+  ["Parking", "موقف سيارات", "Park", "ركن"],
+  ["Traffic", "حركة المرور", "Congestion", "ازدحام"],
+  ["Road", "طريق", "Pavement", "مسار"],
+  ["Highway", "طريق سريع", "Express", "سريع"],
+  ["Bridge", "جسر", "Crossing", "عبور"],
+  ["Traffic Light", "إشارة مرور", "Signal", "إشارة"],
+  ["License Plate", "لوحة ترقيم", "Number", "ترقيم"],
+  ["Driver", "سائق", "Control", "قيادة"],
+  ["Passenger", "راكب", "Ride", "ركوب"],
+  ["Mechanic", "ميكانيكي", "Repair", "إصلاح"],
+  ["Speedometer", "عداد السرعة", "Speed", "سرعة"],
+  ["GPS", "نظام تحديد المواقع", "Navigation", "ملاحة"]
 ]

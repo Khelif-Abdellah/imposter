@@ -1,290 +1,95 @@
 [
-  [
-    "Travel",
-    "سفر",
-    "Going from one place to another",
-    "الانتقال من مكان إلى آخر"
-  ],
-  ["Trip", "رحلة", "A journey to a destination", "رحلة إلى مكان معين"],
-  [
-    "Vacation",
-    "عطلة",
-    "A period of relaxation away from home",
-    "فترة راحة بعيداً عن المنزل"
-  ],
-  [
-    "Tourism",
-    "سياحة",
-    "Traveling for pleasure and exploration",
-    "السفر بهدف المتعة والاستكشاف"
-  ],
-  ["Destination", "وجهة", "The place you travel to", "المكان الذي تسافر إليه"],
-  [
-    "Country",
-    "دولة",
-    "A nation with its own government",
-    "أمة لها حكومتها الخاصة"
-  ],
-  ["City", "مدينة", "A large human settlement", "تجمع سكاني كبير"],
-  ["Capital", "عاصمة", "Main city of a country", "المدينة الرئيسية للدولة"],
-  ["Map", "خريطة", "Shows places and locations", "توضح الأماكن والمواقع"],
-  ["Route", "طريق", "A way to reach a place", "مسار للوصول إلى مكان"],
-  [
-    "Journey",
-    "رحلة طويلة",
-    "Travel from one place to another",
-    "السفر من مكان إلى آخر"
-  ],
-  [
-    "Adventure",
-    "مغامرة",
-    "An exciting travel experience",
-    "تجربة سفر ممتعة ومثيرة"
-  ],
-  [
-    "Explorer",
-    "مستكشف",
-    "A person who discovers new places",
-    "شخص يكتشف أماكن جديدة"
-  ],
-  ["Tourist", "سائح", "A person traveling for pleasure", "شخص يسافر للترفيه"],
-  [
-    "Guide",
-    "دليل سياحي",
-    "A person who shows travelers places",
-    "شخص يرشد المسافرين للأماكن"
-  ],
-  ["Hotel", "فندق", "A place where travelers stay", "مكان إقامة للمسافرين"],
-  ["Room", "غرفة", "A space for sleeping in a hotel", "مكان للنوم في الفندق"],
-  ["Reservation", "حجز", "Booking a service in advance", "حجز خدمة مسبقاً"],
-  [
-    "Reception",
-    "استقبال",
-    "Hotel area for guests",
-    "منطقة استقبال الضيوف في الفندق"
-  ],
-  ["Hostel", "نزل", "A budget place to stay", "مكان إقامة منخفض التكلفة"],
-  ["Apartment", "شقة", "A place to live or stay", "مكان للسكن أو الإقامة"],
-  [
-    "Camping",
-    "تخييم",
-    "Staying outdoors in tents",
-    "الإقامة في الخارج باستخدام الخيام"
-  ],
-  ["Tent", "خيمة", "Portable shelter for camping", "مأوى متنقل للتخييم"],
-  ["Beach", "شاطئ", "Sandy area beside the sea", "منطقة رملية بجانب البحر"],
-  ["Mountain", "جبل", "A high natural landform", "تضاريس طبيعية مرتفعة"],
-  ["Island", "جزيرة", "Land surrounded by water", "أرض محاطة بالماء"],
-  ["Forest", "غابة", "Area covered with trees", "منطقة مغطاة بالأشجار"],
-  ["Desert", "صحراء", "Dry area with little rain", "منطقة جافة قليلة الأمطار"],
-  [
-    "Lake",
-    "بحيرة",
-    "Large area of water surrounded by land",
-    "مساحة كبيرة من الماء محاطة باليابسة"
-  ],
-  ["River", "نهر", "Natural flowing water", "مجرى مائي طبيعي"],
-  ["Ocean", "محيط", "Large body of salt water", "مسطح مائي مالح كبير"],
-  [
-    "Airport",
-    "مطار",
-    "Place where planes arrive and depart",
-    "مكان إقلاع وهبوط الطائرات"
-  ],
-  [
-    "Airplane",
-    "طائرة",
-    "Vehicle that flies in the sky",
-    "مركبة تطير في السماء"
-  ],
-  ["Flight", "رحلة جوية", "A journey by airplane", "رحلة باستخدام الطائرة"],
-  ["Pilot", "طيار", "Person who flies an airplane", "الشخص الذي يقود الطائرة"],
-  [
-    "Passenger",
-    "مسافر",
-    "Person traveling in a vehicle",
-    "شخص يسافر في وسيلة نقل"
-  ],
-  ["Ticket", "تذكرة", "Document allowing travel", "وثيقة تسمح بالسفر"],
-  ["Passport", "جواز سفر", "Official travel document", "وثيقة رسمية للسفر"],
-  ["Visa", "تأشيرة", "Permission to enter a country", "إذن لدخول دولة"],
-  [
-    "Luggage",
-    "أمتعة",
-    "Bags carried during travel",
-    "الحقائب التي تحمل أثناء السفر"
-  ],
-  ["Suitcase", "حقيبة سفر", "Large bag for traveling", "حقيبة كبيرة للسفر"],
-  ["Backpack", "حقيبة ظهر", "Bag carried on the back", "حقيبة تحمل على الظهر"],
-  ["Camera", "كاميرا", "Device for taking photos", "جهاز لالتقاط الصور"],
-  [
-    "Photo",
-    "صورة",
-    "An image captured by a camera",
-    "صورة يتم التقاطها بالكاميرا"
-  ],
-  [
-    "Souvenir",
-    "تذكار",
-    "Object kept to remember a trip",
-    "شيء يحتفظ به لتذكر الرحلة"
-  ],
-  ["Restaurant", "مطعم", "Place where people eat meals", "مكان لتناول الطعام"],
-  ["Food", "طعام", "Things people eat", "الأشياء التي يأكلها الناس"],
-  [
-    "Culture",
-    "ثقافة",
-    "Customs and traditions of people",
-    "عادات وتقاليد الشعوب"
-  ],
-  ["Language", "لغة", "System of communication", "نظام للتواصل"],
-  ["Currency", "عملة", "Money used in a country", "النقود المستخدمة في الدولة"],
-  ["Shopping", "تسوق", "Buying products and items", "شراء المنتجات والأشياء"],
-  ["Market", "سوق", "Place where goods are sold", "مكان بيع السلع"],
-  [
-    "Museum",
-    "متحف",
-    "Place showing historical objects",
-    "مكان يعرض الأشياء التاريخية"
-  ],
-  [
-    "Monument",
-    "نصب تذكاري",
-    "Important historical structure",
-    "بناء تاريخي مهم"
-  ],
-  ["Castle", "قلعة", "Large fortified building", "مبنى كبير محصن"],
-  ["Temple", "معبد", "Religious or historical building", "مبنى ديني أو تاريخي"],
-  ["Park", "حديقة", "Public green area", "منطقة خضراء عامة"],
-  [
-    "Zoo",
-    "حديقة حيوانات",
-    "Place where animals are kept",
-    "مكان تعيش فيه الحيوانات"
-  ],
-  [
-    "Cruise",
-    "رحلة بحرية",
-    "Travel by ship for pleasure",
-    "السفر بالسفينة للمتعة"
-  ],
-  ["Ship", "سفينة", "Large boat for transportation", "قارب كبير للنقل"],
-  ["Boat", "قارب", "Small water vehicle", "وسيلة نقل مائية صغيرة"],
-  ["Train", "قطار", "Rail transport vehicle", "وسيلة نقل على السكك الحديدية"],
-  ["Station", "محطة", "Place where transport stops", "مكان توقف وسائل النقل"],
-  [
-    "Bus",
-    "حافلة",
-    "Vehicle for many passengers",
-    "مركبة لنقل عدد كبير من الركاب"
-  ],
-  [
-    "Taxi",
-    "سيارة أجرة",
-    "Car that transports passengers for payment",
-    "سيارة تنقل الركاب مقابل المال"
-  ],
-  [
-    "Car Rental",
-    "تأجير سيارة",
-    "Hiring a car for a period",
-    "استئجار سيارة لمدة معينة"
-  ],
-  ["Driver", "سائق", "Person who drives a vehicle", "شخص يقود مركبة"],
-  ["Road", "طريق", "Path used for transportation", "مسار يستخدم للنقل"],
-  ["Border", "حدود", "Line separating countries", "خط يفصل بين الدول"],
-  ["Customs", "الجمارك", "Control at country borders", "مراقبة حدود الدول"],
-  [
-    "Security Check",
-    "تفتيش أمني",
-    "Checking passengers and luggage",
-    "فحص المسافرين والأمتعة"
-  ],
-  [
-    "Travel Insurance",
-    "تأمين السفر",
-    "Protection during travel problems",
-    "حماية أثناء مشاكل السفر"
-  ],
-  ["Weather", "طقس", "Condition of the atmosphere", "حالة الجو"],
-  ["Climate", "مناخ", "Typical weather of a place", "الطقس المعتاد لمنطقة ما"],
-  ["Sunrise", "شروق الشمس", "Time when the sun appears", "وقت ظهور الشمس"],
-  ["Sunset", "غروب الشمس", "Time when the sun disappears", "وقت اختفاء الشمس"],
-  [
-    "Beach Resort",
-    "منتجع شاطئي",
-    "Holiday place near the sea",
-    "مكان عطلة بجانب البحر"
-  ],
-  [
-    "Luxury Hotel",
-    "فندق فاخر",
-    "High-quality accommodation",
-    "إقامة ذات جودة عالية"
-  ],
-  [
-    "Guidebook",
-    "دليل السفر",
-    "Book with travel information",
-    "كتاب يحتوي على معلومات السفر"
-  ],
-  [
-    "Backpacking",
-    "السفر بحقيبة ظهر",
-    "Low-cost travel style",
-    "أسلوب سفر منخفض التكلفة"
-  ],
-  [
-    "Hiking",
-    "المشي لمسافات طويلة",
-    "Walking in nature areas",
-    "المشي في المناطق الطبيعية"
-  ],
-  ["Diving", "الغوص", "Swimming underwater", "السباحة تحت الماء"],
-  ["Swimming", "سباحة", "Moving through water", "التحرك داخل الماء"],
-  ["Skiing", "التزلج", "Sport on snow", "رياضة على الثلج"],
-  [
-    "Photography",
-    "تصوير",
-    "Taking pictures during travel",
-    "التقاط الصور أثناء السفر"
-  ],
-  [
-    "Itinerary",
-    "برنامج الرحلة",
-    "Plan of travel activities",
-    "خطة أنشطة الرحلة"
-  ],
-  [
-    "Accommodation",
-    "إقامة",
-    "Place to stay during travel",
-    "مكان الإقامة أثناء السفر"
-  ],
-  [
-    "Check-in",
-    "تسجيل الدخول",
-    "Process of arriving and registering",
-    "عملية الوصول والتسجيل"
-  ],
-  [
-    "Check-out",
-    "تسجيل الخروج",
-    "Leaving a hotel officially",
-    "مغادرة الفندق رسمياً"
-  ],
-  ["Local", "محلي", "Related to a specific place", "مرتبط بمكان معين"],
-  ["International", "دولي", "Between different countries", "بين دول مختلفة"],
-  [
-    "Domestic Flight",
-    "رحلة داخلية",
-    "Flight within one country",
-    "رحلة جوية داخل دولة واحدة"
-  ],
-  [
-    "International Flight",
-    "رحلة دولية",
-    "Flight between countries",
-    "رحلة جوية بين الدول"
-  ]
+  ["Travel", "سفر", "Journey", "تنقل"],
+  ["Trip", "رحلة", "Getaway", "تنقل"],
+  ["Vacation", "عطلة", "Holiday", "استراحة"],
+  ["Tourism", "سياحة", "Sightseeing", "استكشاف"],
+  ["Destination", "وجهة", "Arrival", "مقصد"],
+  ["Country", "دولة", "Nation", "وطن"],
+  ["City", "مدينة", "Urban", "حضر"],
+  ["Capital", "عاصمة", "Government", "حكم"],
+  ["Map", "خريطة", "Navigation", "اتجاه"],
+  ["Route", "طريق", "Path", "مسار"],
+  ["Journey", "رحلة طويلة", "Expedition", "مسيرة"],
+  ["Adventure", "مغامرة", "Explore", "استكشاف"],
+  ["Explorer", "مستكشف", "Discovery", "اكتشاف"],
+  ["Tourist", "سائح", "Visitor", "زائر"],
+  ["Guide", "دليل سياحي", "Directions", "إرشاد"],
+  ["Hotel", "فندق", "Stay", "إقامة"],
+  ["Room", "غرفة", "Suite", "نوم"],
+  ["Reservation", "حجز", "Booking", "حجز"],
+  ["Reception", "استقبال", "Lobby", "ردهة"],
+  ["Hostel", "نزل", "Budget", "اقتصادي"],
+  ["Apartment", "شقة", "Rental", "سكن"],
+  ["Camping", "تخييم", "Tent", "خيمة"],
+  ["Tent", "خيمة", "Canvas", "قماش"],
+  ["Beach", "شاطئ", "Sand", "رمل"],
+  ["Mountain", "جبل", "Peak", "قمة"],
+  ["Island", "جزيرة", "Isolated", "معزولة"],
+  ["Forest", "غابة", "Trees", "أشجار"],
+  ["Desert", "صحراء", "Dunes", "كثبان"],
+  ["Lake", "بحيرة", "Freshwater", "مياه"],
+  ["River", "نهر", "Current", "مجرى"],
+  ["Ocean", "محيط", "Waves", "أمواج"],
+  ["Airport", "مطار", "Terminal", "محطة"],
+  ["Airplane", "طائرة", "Wings", "أجنحة"],
+  ["Flight", "رحلة جوية", "Takeoff", "إقلاع"],
+  ["Pilot", "طيار", "Cockpit", "قمرة"],
+  ["Passenger", "مسافر", "Traveler", "راكب"],
+  ["Ticket", "تذكرة", "Boarding", "عبور"],
+  ["Passport", "جواز سفر", "Identity", "هوية"],
+  ["Visa", "تأشيرة", "Entry", "دخول"],
+  ["Luggage", "أمتعة", "Baggage", "حقائب"],
+  ["Suitcase", "حقيبة سفر", "Baggage", "حقيبة"],
+  ["Backpack", "حقيبة ظهر", "Hiking", "ظهر"],
+  ["Camera", "كاميرا", "Lens", "عدسة"],
+  ["Photo", "صورة", "Snapshot", "لقطة"],
+  ["Souvenir", "تذكار", "Memory", "ذكرى"],
+  ["Restaurant", "مطعم", "Dining", "وجبة"],
+  ["Food", "طعام", "Cuisine", "مأكولات"],
+  ["Culture", "ثقافة", "Tradition", "تراث"],
+  ["Language", "لغة", "Speech", "لسان"],
+  ["Currency", "عملة", "Money", "نقد"],
+  ["Shopping", "تسوق", "Stores", "شراء"],
+  ["Market", "سوق", "Bazaar", "بازار"],
+  ["Museum", "متحف", "History", "تاريخ"],
+  ["Monument", "نصب تذكاري", "Landmark", "معلم"],
+  ["Castle", "قلعة", "Fortress", "حصن"],
+  ["Temple", "معبد", "Sacred", "مقدس"],
+  ["Park", "حديقة", "Nature", "خضرة"],
+  ["Zoo", "حديقة حيوانات", "Animals", "حيوانات"],
+  ["Cruise", "رحلة بحرية", "Ship", "سفينة"],
+  ["Ship", "سفينة", "Voyage", "إبحار"],
+  ["Boat", "قارب", "Sail", "إبحار"],
+  ["Train", "قطار", "Rails", "سكك"],
+  ["Station", "محطة", "Platform", "رصيف"],
+  ["Bus", "حافلة", "Transit", "نقل"],
+  ["Taxi", "سيارة أجرة", "Cab", "أجرة"],
+  ["Car Rental", "تأجير سيارة", "Hire", "استئجار"],
+  ["Driver", "سائق", "Wheel", "مقود"],
+  ["Road", "طريق", "Highway", "شارع"],
+  ["Border", "حدود", "Crossing", "معبر"],
+  ["Customs", "الجمارك", "Inspection", "تفتيش"],
+  ["Security Check", "تفتيش أمني", "Screening", "فحص"],
+  ["Travel Insurance", "تأمين السفر", "Protection", "حماية"],
+  ["Weather", "طقس", "Forecast", "توقع"],
+  ["Climate", "مناخ", "Seasons", "فصول"],
+  ["Sunrise", "شروق الشمس", "Dawn", "فجر"],
+  ["Sunset", "غروب الشمس", "Dusk", "غروب"],
+  ["Beach Resort", "منتجع شاطئي", "Resort", "منتجع"],
+  ["Luxury Hotel", "فندق فاخر", "Luxury", "فخامة"],
+  ["Guidebook", "دليل السفر", "Handbook", "مرجع"],
+  ["Backpacking", "السفر بحقيبة ظهر", "Budget", "ترحال"],
+  ["Hiking", "المشي لمسافات طويلة", "Trail", "مسار"],
+  ["Diving", "الغوص", "Underwater", "أعماق"],
+  ["Swimming", "سباحة", "Pool", "ماء"],
+  ["Skiing", "التزلج", "Snow", "ثلج"],
+  ["Photography", "تصوير", "Capture", "لقطة"],
+  ["Itinerary", "برنامج الرحلة", "Schedule", "خطة"],
+  ["Accommodation", "إقامة", "Lodging", "سكن"],
+  ["Check-in", "تسجيل الدخول", "Arrival", "وصول"],
+  ["Check-out", "تسجيل الخروج", "Departure", "مغادرة"],
+  ["Local", "محلي", "Native", "أهلي"],
+  ["International", "دولي", "Global", "عالمي"],
+  ["Domestic Flight", "رحلة داخلية", "Internal", "داخلي"],
+  ["International Flight", "رحلة دولية", "Overseas", "خارجي"]
 ]
