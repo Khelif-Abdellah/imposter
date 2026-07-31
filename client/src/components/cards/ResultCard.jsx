@@ -41,7 +41,7 @@ function ResultCard() {
   }
 
   return (
-    <div className="relative min-h-screen overflow-hidden bg-linear-to-br from-slate-950 via-indigo-950 to-slate-950 px-4 py-10">
+    <>
       {/* Background Glow */}
       <div className="absolute inset-0">
         <div className="absolute left-1/2 top-1/4 h-72 w-72 -translate-x-1/2 rounded-full bg-indigo-500/20 blur-3xl" />
@@ -412,7 +412,7 @@ function ResultCard() {
           </motion.div>
         </motion.div>
       </motion.div>
-    </div>
+    </>
   );
 }
 
